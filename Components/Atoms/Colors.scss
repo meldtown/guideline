@@ -16,15 +16,20 @@
 		(dark, $color_dark),
 		(black, $color_black),
 		// primary colors
+		(white, $color_white),
 		(main, $color_main),
 		(primary, $color_primary),
 		(secondary, $color_secondary),
 		// secondary colors
-		(red, $color_red),
-		(orange, $color_orange),
-		(green, $color_green),
 		(blue, $color_blue),
-		(pink, $color_pink)) {
-	.bg_#{$name} {background-color: $color}
-	.text_#{name} {color: $color}
+		(green, $color_green),
+		(yellow, $color_yellow),
+		(pink, $color_pink),
+		(lilak, $color_lilak)) {
+	.fd-bg-#{$name}, .ft-bg-#{$name}, .fm-bg-#{$name} {
+		background-color: $color
+	}
+	.fd-text-#{name}, .ft-text-#{name}, .fm-text-#{name} {
+		color: $color
+	}
 }

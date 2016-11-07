@@ -3,9 +3,10 @@ import Colors from './Atoms/Colors'
 import Typo from './Atoms/Typo'
 import Buttons from './Atoms/Buttons'
 import InputIcon from './Molecules/InputIcon'
+import Grid from './Utils/Grid'
 
 export default () => <div>
-	<h1>Привет мир</h1>
+	<Grid />
 	<Colors />
 	<Typo />
 	<Buttons />

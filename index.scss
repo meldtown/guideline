@@ -1,35 +1,38 @@
 @import "Components/Utils/Fonts";
 
-// Greyscale
-$color_light: rgba(0, 0, 0, .3);
-$color_muted: rgba(0, 0, 0, .45);
-$color_medium: rgba(0, 0, 0, .6);
-$color_dark: rgba(0, 0, 0, .75);
-$color_black: rgba(0, 0, 0, .9);
-
 // Primary
-$color_main: rgba(0, 0, 0, .9);
+$color_white: white;
+$color_main: rgba(0, 0, 0, .87);
 $color_primary: red;
 $color_secondary: green;
 
 // Secondary
-$color_red: rgba(204, 0, 0, .05);
-$color_orange: rgba(255, 116, 0, .05);
-$color_green: rgba(0, 140, 0, .05);
-$color_blue: rgba(64, 150, 238, .05);
-$color_pink: rgba(255, 0, 132, .05);
+$color_blue: #EBF3FA;
+$color_green: #EDF5F0;
+$color_yellow: #F9FAEB;
+$color_pink: #F6EDEB;
+$color_lilak: #F6F3FB;
+
+// Greyscale
+$color_light: rgba(0, 0, 0, .05);
+$color_muted: rgba(0, 0, 0, .12);
+$color_medium: rgba(0, 0, 0, .3);
+$color_dark: rgba(0, 0, 0, .54);
+$color_black: $color_main;
 
 // Layout
-$width_desktop: 1360px;
 $width_tablet: 960px;
 $width_mobile: 600px;
 
 @import "Components/Utils/Normalize";
+@import "Components/Utils/Grid";
 @import "Components/Atoms/Colors";
 @import "Components/Atoms/Typo";
 @import "Components/Atoms/Buttons";
 @import "Components/Molecules/InputIcon";
 
-html, body {
-	background: #999;
+
+.temp-padding {
+	padding: 20px
 }
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
-export default () => <DemoWrapper>
+export default () => <DemoWrapper title="Colors">
 	<h1 className="h1 text-center">Main colors</h1>
 
 	<ul className="sg_row t_cols center">

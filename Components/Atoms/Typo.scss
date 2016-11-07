@@ -7,18 +7,44 @@ html, body {
 
 }
 
+p {
+	margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font: inherit;
 	color: inherit;
 }
 
-.h1 {
+.fd-text-hero {font-size:40px}
+.fd-text-huge {font-size:36px}
+.fd-text-big {font-size: 32px}
+.fd-text-large {font-size:24px}
+.fd-text-loud {font-size: 18px}
+.fd-text-default {font-size:16px}
+.fd-text-small {font-size:14px}
+.fd-text-micro {font-size:12px}
+
+
+.fd-h1 {
 	font-size:24px;
 	font-family:"Graphik Semibold", sans-serif;
 }
 
 
 
-.text-left {text-align:left}
-.text-right {text-align:right}
-.text-center {text-align:center}
+.fd-text-left {text-align:left}
+.fd-text-right {text-align:right}
+.fd-text-center {text-align:center}
+
+@media only screen and (max-width: $width_tablet){
+	.ft-text-left {text-align:left}
+	.ft-text-right {text-align:right}
+	.ft-text-center {text-align:center}
+}
+
+@media only screen and (max-width: $width_mobile){
+	.fm-text-left {text-align:left}
+	.fm-text-right {text-align:right}
+	.fm-text-center {text-align:center}
+}
