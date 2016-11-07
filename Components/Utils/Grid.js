@@ -6,42 +6,35 @@ export default () => <DemoWrapper title="Grids">
 	<h2 className="fd-text-center">Two cols</h2>
 
 	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-left">
+		<ul className="fd-f-left fm-c-stretch">
 			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted fd-f1 temp-padding">right</li>
 		</ul>
 	</div>
 
 	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-left-middle">
+		<ul className="fd-f-left-middle fm-c-stretch">
 			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted fd-f1 temp-padding">right</li>
 		</ul>
 	</div>
 
 	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-left-middle">
-			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
-			<li className="fd-bg-muted fd-f1 temp-padding">right</li>
-		</ul>
-	</div>
-
-	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-center">
+		<ul className="fd-f-center fm-c-center">
 			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted temp-padding">right</li>
 		</ul>
 	</div>
 
 	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-center-middle">
+		<ul className="fd-f-center-middle fm-c-center">
 			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted temp-padding">right</li>
 		</ul>
 	</div>
 
 	<div className="fd-bg-green temp-padding">
-		<ul className="fd-f-around">
+		<ul className="fd-f-around fm-c-stretch">
 			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted temp-padding">right</li>
 		</ul>
@@ -54,15 +47,38 @@ export default () => <DemoWrapper title="Grids">
 		</ul>
 	</div>
 
-	{/*
 
-.fd-f-around {display:flex;justify-content:space-around;align-items:stretch;}
-.fd-f-around-middle {display:flex;justify-content:space-around;align-items:center;}
+	<div className="fd-bg-green temp-padding fd-hidden fm-hidden">
+		<ul className="fd-f-center">
+			<li>
+				<ul className="fd-f-left-middle fm-c-center">
+					<li className="fd-bg-light temp-padding">icon</li>
+					<li className="fd-bg-muted temp-padding">hello world</li>
+				</ul>
+				<ul className="fd-f-left-middle fm-c-center">
+					<li className="fd-bg-light temp-padding">icon</li>
+					<li className="fd-bg-muted temp-padding">mac was here</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
 
-.fd-f-between {display:flex;justify-content:space-between;align-items:stretch;}
-.fd-f-between-middle {display:flex;justify-content:space-between;align-items:center;}
-	*/}
-
+	<div className="fd-bg-green temp-padding ft-text-center ft-hidden">
+		<ul className="fd-f-center-middle ft-c-center ft-text-left">
+			<li>
+				<ul className="fd-f-left-middle fm-c-center">
+					<li className="fd-bg-light temp-padding">icon</li>
+					<li className="fd-bg-muted temp-padding">hello world</li>
+				</ul>
+			</li>
+			<li>
+				<ul className="fd-f-left-middle fm-c-center">
+					<li className="fd-bg-light temp-padding">icon</li>
+					<li className="fd-bg-muted temp-padding">mac was here</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
 
 
 	<div className="fd-bg-green fd-text-white temp-padding">

@@ -28,6 +28,7 @@ ul {
 	margin: 0;
 }
 
+
 .fd-f-left {display:flex;justify-content:flex-start;align-items: stretch;}
 .fd-f-left-middle {display:flex;justify-content:flex-start;align-items:center;}
 
@@ -56,21 +57,22 @@ justify-content: flex-start, center, space-between, space-around
 .fd-f2 {flex:2}
 .fd-f3 {flex:3}
 
+
+
+@media only screen and (min-width: $width_tablet){
+	.fd-hidden {display: none}
+}
+
 @media only screen and (max-width: $width_tablet){
 	.ft-f0 {flex:auto}
 	.ft-f1 {flex:1}
 	.ft-f2 {flex:2}
 	.ft-f3 {flex:3}
 
-	.ft-c {flex-direction: column}
+	.ft-c-center {flex-direction: column;align-items:center}
+	.ft-c-stretch {flex-direction: column;align-items: stretch}
 
-	.ft-c-stretch {
-		flex-direction: column;
-		align-items: stretch;
-	}
-
-	.ft-ai-center {align-items: center}
-	.ft-ai-stretch {align-items: stretch}
+	.ft-hidden {display: none}
 }
 
 @media only screen and (max-width: $width_mobile){
@@ -86,6 +88,8 @@ justify-content: flex-start, center, space-between, space-around
 		align-items: stretch;
 	}
 
-	.fm-ai-center {align-items: center}
-	.fm-ai-stretch {align-items: stretch}
+	.fm-c-center {flex-direction: column;align-items:center}
+	.fm-c-stretch {flex-direction: column;align-items: stretch}
+
+	.fm-hidden {display: none}
 }
