@@ -1,0 +1,30 @@
+/*
+.bg_main {background-color: $color_main}
+.bg_primary {background-color: $color_primary}
+.bg_secondary {background-color: $color_secondary}
+
+.text_main {color: $color_main}
+.text_primary {color: $color_primary}
+.text_secondary {color: $color_secondary}
+*/
+
+@each $name, $color in (
+	// grayscale
+		(light, $color_light),
+		(muted, $color_muted),
+		(medium, $color_medium),
+		(dark, $color_dark),
+		(black, $color_black),
+		// primary colors
+		(main, $color_main),
+		(primary, $color_primary),
+		(secondary, $color_secondary),
+		// secondary colors
+		(red, $color_red),
+		(orange, $color_orange),
+		(green, $color_green),
+		(blue, $color_blue),
+		(pink, $color_pink)) {
+	.bg_#{$name} {background-color: $color}
+	.text_#{name} {color: $color}
+}

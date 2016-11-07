@@ -1,0 +1,24 @@
+html, body {
+	font-family: "Graphik Regular", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height:1.35;
+	color:$color_dark;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: inherit;
+	color: inherit;
+}
+
+.h1 {
+	font-size:24px;
+	font-family:"Graphik Semibold", sans-serif;
+}
+
+
+
+.text-left {text-align:left}
+.text-right {text-align:right}
+.text-center {text-align:center}

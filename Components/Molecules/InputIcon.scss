@@ -1,0 +1,19 @@
+.input {
+	input {
+		background: none;
+		border: none;
+	}
+
+	border: 2px solid $color_main;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 50px;
+		background: $color_main;
+	}
+}
