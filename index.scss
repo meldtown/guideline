@@ -24,6 +24,17 @@ $color_black: $color_main;
 $width_tablet: 960px;
 $width_mobile: 600px;
 
+// Text size
+
+$text_h1: 40px;
+$text_h2: 36px;
+$text_h3: 32px;
+$text_h4: 24px;
+$text_h5: 18px;
+$text_default: 16px;
+$text_small: 14px;
+$text_micro: 12px;
+
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Grid";
 @import "Components/Atoms/Colors";
