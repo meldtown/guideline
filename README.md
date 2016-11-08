@@ -24,6 +24,8 @@ Alignment (with tablet/mobile overrides)
 
 Transforms (e.g. .fd-text-lowercase, .fd-text-uppercase, .fd-text-capitalize)
 
+Links 
+
 ### Colors
 
 Grayscale color samples
