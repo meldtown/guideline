@@ -80,7 +80,6 @@ export default () => <DemoWrapper title="Grids">
 		</ul>
 	</div>
 
-
 	<div className="fd-bg-green fd-text-white temp-padding">
 		<ul className="fd-f fm-c">
 			<li className="fd-bg-light fd-f1 temp-padding">left</li>

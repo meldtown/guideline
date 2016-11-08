@@ -4,15 +4,15 @@ import DemoWrapper from '../DemoWrapper'
 export default () => <DemoWrapper title="Typo">
 	<h2 className="fd-text-center">Size</h2>
 
-	<div className="fd-cols fd-va-stretch">
-		<span className="fd-text-hero fd-cell-wide fd-cols fd-va-middle fd-bg-blue fd-text-center">Hero</span>
-		<span className="fd-text-huge fd-cell-wide fd-cols fd-va-middle fd-bg-green fd-text-center">Huge</span>
-		<span className="fd-text-big fd-cell-wide fd-cols fd-va-middle fd-bg-yellow fd-text-center">Big</span>
-		<span className="fd-text-large fd-cell-wide fd-cols fd-va-middle fd-bg-pink fd-text-center">Large</span>
-		<span className="fd-text-loud fd-cell-wide fd-cols fd-va-middle fd-bg-lilak fd-text-center">Loud</span>
-		<span className="fd-text-default fd-cell-wide fd-cols fd-va-middle fd-bg-blue fd-text-center">Default</span>
-		<span className="fd-text-small fd-cell-wide fd-cols fd-va-middle fd-bg-green fd-text-center">Small</span>
-		<span className="fd-text-micro fd-cell-wide fd-cols fd-va-middle fd-bg-yellow fd-text-center">Micro</span>
+	<div className="fd-f-left fm-c-stretch">
+		<span className="fd-text-micro fd-bg-yellow fd-f1 fd-f-center-middle">Micro</span>
+		<span className="fd-text-default fd-bg-blue fd-f1 fd-f-center-middle">Default</span>
+		<span className="fd-text-large fd-bg-pink fd-f1 fd-f-center-middle">Large</span>
+		<span className="fd-text-huge fd-bg-green fd-f1 fd-f-center-middle">Huge</span>
+		<span className="fd-text-hero fd-bg-blue fd-f1 fd-f-center-middle">Hero</span>
+		<span className="fd-text-big fd-bg-yellow fd-f1 fd-f-center-middle">Big</span>
+		<span className="fd-text-loud fd-bg-lilak fd-f1 fd-f-center-middle">Loud</span>
+		<span className="fd-text-small fd-bg-green fd-f1 fd-f-center-middle">Small</span>
 	</div>
 
 	<div className="fd-text-hero temp-padding"><b>Hero</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dignissimos enim ex ratione similique voluptatem voluptatum. Aperiam culpa explicabo hic magni nam numquam optio placeat quod rerum unde! Repellendus, unde?</div>

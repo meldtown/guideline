@@ -3,7 +3,7 @@
 // Primary
 $color_white: white;
 $color_main: rgba(0, 0, 0, .87);
-$color_primary: red;
+$color_primary: #F06464;
 $color_secondary: green;
 
 // Secondary
@@ -32,7 +32,5 @@ $width_mobile: 600px;
 @import "Components/Molecules/InputIcon";
 
 
-.temp-padding {
-	padding: 20px
-}
+.temp-padding {padding: 20px}
 
