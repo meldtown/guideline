@@ -7,6 +7,10 @@ html, body {
 
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
 	margin: 0;
 }
@@ -28,6 +32,22 @@ h1, h2, h3, h4, h5, h6 {
 .fd-text-left {text-align:left}
 .fd-text-right {text-align:right}
 .fd-text-center {text-align:center}
+
+.fd-text-lowercase {
+	text-transform: lowercase;
+}
+
+.fd-text-uppercase {
+	text-transform: uppercase;
+}
+
+.fd-text-capitalize {
+	text-transform: capitalize;
+}
+
+a.f-link-dashed, a .f-link-dashed {
+	border-bottom: 1px dashed;
+}
 
 @media only screen and (max-width: $width_tablet){
 	.ft-text-left {text-align:left}
