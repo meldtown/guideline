@@ -101,3 +101,11 @@ justify-content: flex-start, center, space-between, space-around
 @media only screen and (max-width: $width_mobile){
 	.fm-hidden {display: none}
 }
+
+.main-wrapper {
+	max-width: 1345px;
+	margin: auto;
+}
+
+.main-content {
+}
