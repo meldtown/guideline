@@ -7,7 +7,7 @@ export default () => <DemoWrapper title="Grids">
 
 	<div className="fd-bg-green temp-padding">
 		<ul className="fd-f-left fm-c-stretch">
-			<li className="fd-bg-light temp-padding">left<br/>very<br/>tall<br/>cell</li>
+			<li className="fd-bg-light" style={{padding:'20px'}}>left<br/>very<br/>tall<br/>cell</li>
 			<li className="fd-bg-muted fd-f1 temp-padding">right</li>
 		</ul>
 	</div>
