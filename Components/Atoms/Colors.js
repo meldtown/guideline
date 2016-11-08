@@ -4,7 +4,7 @@ import DemoWrapper from '../DemoWrapper'
 export default () => <DemoWrapper title="Colors">
 	<h1 className="h1 text-center">Main colors</h1>
 
-	<ul className="sg_row t_cols center">
+	<ul className=" temp-padding sg_row t_cols center">
 		<li>
 			<ul className="sg_row middle sg_color">
 				<li className="circle"><span className="bg_primary"/></li>
@@ -28,7 +28,30 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<h1 className="h1 text-center">Grayscale</h1>
+	<h1 className="fd-text-h1 temp-padding text-center">Grayscale</h1>
+
+	<ul className="temp-padding fd-c">
+		<li style={{height: 100}} className="fd-bg-light">light</li>
+		<li style={{height: 100}} className="fd-bg-muted">muted</li>
+		<li style={{height: 100}} className="fd-bg-medium">medium</li>
+		<li style={{height: 100}} className="fd-bg-dark">dark</li>
+		<li style={{height: 100}} className="fd-bg-black fd-text-white">black</li>
+
+		<h1 className="fd-text-h1 temp-padding text-center">Primary</h1>
+
+		<li style={{height: 100}} className="fd-bg-white">white</li>
+		<li style={{height: 100}} className="fd-bg-main fd-text-white">main</li>
+		<li style={{height: 100}} className="fd-bg-primary">primary</li>
+		<li style={{height: 100}} className="fd-bg-secondary">secondary</li>
+		<li style={{height: 100}} className="fd-bg-blue">blue</li>
+
+		<h1 className="fd-text-h1 temp-padding text-center">Secondary</h1>
+
+		<li style={{height: 100}} className="fd-bg-green">green</li>
+		<li style={{height: 100}} className="fd-bg-yellow">yellow</li>
+		<li style={{height: 100}} className="fd-bg-pink">pink</li>
+		<li style={{height: 100}} className="fd-bg-lilak">lilak</li>
+	</ul>
 
 	<div>
 		<ul className="sg_row m_cols sg_grayscale center">
