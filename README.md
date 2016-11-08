@@ -24,7 +24,7 @@ Alignment (with tablet/mobile overrides)
 
 Transforms (e.g. .fd-text-lowercase, .fd-text-uppercase, .fd-text-capitalize)
 
-Links 
+Links (normal, hover, dotted, none, text)
 
 ### Colors
 
