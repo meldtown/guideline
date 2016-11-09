@@ -24,6 +24,11 @@ $color_black: $color_main;
 $width_tablet: 960px;
 $width_mobile: 600px;
 
+// Input
+
+$focus_color: #66ebff;
+$input_border_width: 1px;
+
 // Text size
 
 $text_h1: 40px;
@@ -40,6 +45,7 @@ $text_micro: 12px;
 @import "Components/Atoms/Colors";
 @import "Components/Atoms/Typo";
 @import "Components/Atoms/Buttons";
+@import "Components/Atoms/Input";
 @import "Components/Molecules/InputIcon";
 
 

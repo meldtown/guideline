@@ -1,0 +1,84 @@
+input, select {
+	&:focus {
+		outline: none;
+	}
+}
+
+.f-input {
+	display: inline-block;
+	position: relative;
+	margin: 5px 0;
+	border-radius: 3px;
+	input {
+		padding: 4px 0 2px 5px;
+		line-height: 1;
+		border: $input_border_width solid #ccc;
+		border-radius: 3px;
+		&:focus {
+			border-color: $focus_color;
+			box-shadow: 0 0 1px 1px $focus_color;
+		}
+	}
+}
+
+.f-input-block {
+	@extend .f-input;
+	display: block;
+	input {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+.fd-input-block, .ft-input-block, .fm-input-block {
+	@extend .f-input-block
+}
+
+@media only screen and (min-width: $width_tablet) {
+	.ft-input-block, .fm-input-block {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: $width_tablet) and (min-width: $width_mobile) {
+	.fd-input-block, .fm-input-block {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: $width_mobile) {
+	.fd-input-block, .ft-input-block {
+		display: inline-block;
+	}
+}
+
+.icon-left {
+	input {
+		padding-left: 1.35em;
+	}
+	i:first-of-type {
+		@extend .fd-f-center-middle;
+		position: absolute;
+		width: 1.3em;
+		height: 100%;
+		top: 0;
+	}
+}
+
+.icon-right {
+	input {
+		padding-left: 1.35em;
+	}
+	i:last-of-type {
+		@extend .fd-f-center-middle;
+		position: absolute;
+		right: $input_border_width;
+		top: $input_border_width;
+		bottom: $input_border_width;
+		width: 1.3em;
+		background-color: $color_white;
+	}
+}
+
+
