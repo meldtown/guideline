@@ -25,6 +25,11 @@ export default () => <DemoWrapper title="Colors">
 		<li style={{height: 100}} className="f-bg-black f-text-white fd-f-center-middle fd-f1">black</li>
 	</ul>
 
+	{['black', 'dark', 'medium', 'muted', 'light', 'blue', 'green', 'yellow', 'pink', 'lilak'].map(color => <ul className={`fd-f-around-middle ft-c-center f-bg-${color}`}>
+		{['light', 'muted', 'medium', 'dark', 'black'].map(color => <ColorItemDemo key={color} color={color} />)}
+	</ul>)}
+
+
 	<h1 className="fd-h1 temp-padding text-center">Primary</h1>
 	<ul className="temp-padding fd-c">
 		<li style={{height: 100}} className="f-bg-white">white</li>
