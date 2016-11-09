@@ -6,3 +6,8 @@ pipelines:
         script:
           - npm install
           - npm run dist -s
+  branches:
+    master:
+      - step:
+          script:
+            - node deploy.js
