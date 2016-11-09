@@ -6,9 +6,9 @@ import InputIcon from './Molecules/InputIcon'
 import Grid from './Utils/Grid'
 
 export default () => <div>
-	<Grid />
 	<Colors />
 	<Typo />
+	<Grid />
 	<Buttons />
 	<InputIcon />
 </div>

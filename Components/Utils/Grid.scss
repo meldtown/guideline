@@ -1,3 +1,9 @@
+.f-main-wrapper {
+	max-width: $width_desktop;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 ul.fd-f {
 	list-style: none;
 	padding: 0;
@@ -5,29 +11,7 @@ ul.fd-f {
 }
 
 .fd-f {display: flex}
-
-.fd-f-middle {
-	@extend .fd-f;
-	align-items: center;
-}
-
 .fd-c {flex-direction: column}
-
-.fd-aic {align-items: center}
-.fd-ais {align-items: stretch}
-
-.fd-jcs {justify-content: flex-start}
-.fd-jcc {justify-content: center}
-.fd-jcb {justify-content: space-between}
-.fd-jca {justify-content: space-around}
-
-
-ul {
-	list-style:none;
-	padding: 0;
-	margin: 0;
-}
-
 
 .fd-f-left {display:flex;justify-content:flex-start;align-items: stretch;}
 .fd-f-left-middle {display:flex;justify-content:flex-start;align-items:center;}
@@ -45,20 +29,10 @@ ul {
 .fd-f-between-middle {display:flex;justify-content:space-between;align-items:center;}
 
 
-
-/*
-align-items: flex-start, center, stretch
-justify-content: flex-start, center, space-between, space-around
-*/
-
-
 .fd-f0 {flex:auto}
 .fd-f1 {flex:1}
 .fd-f2 {flex:2}
 .fd-f3 {flex:3}
-
-
-
 
 @media only screen and (max-width: $width_tablet){
 	.ft-f0 {flex:auto}
@@ -68,7 +42,6 @@ justify-content: flex-start, center, space-between, space-around
 
 	.ft-c-center {flex-direction: column;align-items:center}
 	.ft-c-stretch {flex-direction: column;align-items: stretch}
-
 }
 
 @media only screen and (max-width: $width_mobile){
@@ -100,12 +73,4 @@ justify-content: flex-start, center, space-between, space-around
 
 @media only screen and (max-width: $width_mobile){
 	.fm-hidden {display: none}
-}
-
-.main-wrapper {
-	max-width: 1345px;
-	margin: auto;
-}
-
-.main-content {
 }

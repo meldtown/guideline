@@ -1,133 +1,98 @@
-/*
-.bg_main {background-color: $color_main}
-.bg_primary {background-color: $color_primary}
-.bg_secondary {background-color: $color_secondary}
-
-.text_main {color: $color_main}
-.text_primary {color: $color_primary}
-.text_secondary {color: $color_secondary}
-*/
-
-@each $name, $color in (
-	// grayscale
-		(light, $color_light),
-		(muted, $color_muted),
-		(medium, $color_medium),
-		(dark, $color_dark),
-		(black, $color_black),
-		// primary colors
-		(white, $color_white),
-		(main, $color_main),
-		(primary, $color_primary),
-		(secondary, $color_secondary),
-		// secondary colors
-		(blue, $color_blue),
-		(green, $color_green),
-		(yellow, $color_yellow),
-		(pink, $color_pink),
-		(lilak, $color_lilak)) {
-	.fd-bg-#{$name}, .ft-bg-#{$name}, .fm-bg-#{$name} {
-		background-color: $color
-	}
-	.fd-text-#{name}, .ft-text-#{name}, .fm-text-#{name} {
-		color: $color
-	}
-}
-
 //Text colors
 
-.fd-text-light {
+.f-text-light {
 	color: $color_light;
 }
 
-.fd-text-dark {
+.f-text-dark {
 	color: $color_dark;
 }
 
-.fd-text-black {
+.f-text-black {
 	color: $color_black;
 }
 
-.fd-text-white {
+.f-text-white {
 	color: $color_white;
 }
 
-.fd-text-main {
+.f-text-main {
 	color: $color_main;
 }
 
-.fd-text-primary {
+.f-text-primary {
 	color: $color_primary;
 }
 
-.fd-text-secondary {
+.f-text-secondary {
 	color: $color_secondary;
 }
 
-.fd-text-blue {
+.f-text-blue {
 	color: $color_blue;
 }
 
-.fd-text-green {
+.f-text-green {
 	color: $color_green;
 }
 
-.fd-text-yellow {
+.f-text-yellow {
 	color: $color_yellow;
 }
 
-.fd-text-pink {
+.f-text-pink {
 	color: $color_pink;
 }
-.fd-text-lilak {
+.f-text-lilak {
 	color: $color_lilak;
 }
 
 //Background colors
 
-.fd-bg-light {
+.f-bg-light {
 	background-color: $color_light;
 }
 
-.fd-bg-dark {
+.f-bg-dark {
 	background-color: $color_dark;
 }
 
-.fd-bg-black {
+.f-bg-black {
 	background-color: $color_black;
 }
 
-.fd-bg-white {
+.f-bg-white {
 	background-color: $color_white;
 }
 
-.fd-bg-main {
+.f-bg-main {
 	background-color: $color_main;
 }
 
-.fd-bg-primary {
+.f-bg-primary {
 	background-color: $color_primary;
 }
 
-.fd-bg-secondary {
+.f-bg-secondary {
 	background-color: $color_secondary;
 }
 
-.fd-bg-blue {
+.f-bg-blue {
 	background-color: $color_blue;
 }
 
-.fd-bg-green {
+.f-bg-green {
 	background-color: $color_green;
 }
 
-.fd-bg-yellow {
+.f-bg-yellow {
 	background-color: $color_yellow;
 }
 
-.fd-bg-pink {
+.f-bg-pink {
 	background-color: $color_pink;
 }
-.fd-bg-lilak {
+
+.f-bg-lilak {
 	background-color: $color_lilak;
 }
