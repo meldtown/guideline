@@ -10,4 +10,6 @@ pipelines:
     master:
       - step:
           script:
+            - npm install
+            - npm run dist -s
             - node deploy.js
