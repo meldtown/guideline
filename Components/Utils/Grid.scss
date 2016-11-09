@@ -4,7 +4,19 @@
 	margin-right: auto;
 }
 
-ul.fd-f {
+ul.fd-f,
+ul.fd-c,
+ul.fd-f-left,
+ul.fd-f-left-middle,
+ul.fd-f-right,
+ul.fd-f-right-middle,
+ul.fd-f-center,
+ul.fd-f-center-middle,
+ul.fd-f-around,
+ul.fd-f-around-middle,
+ul.fd-f-between,
+ul.fd-f-between-middle
+{
 	list-style: none;
 	padding: 0;
 	margin: 0;

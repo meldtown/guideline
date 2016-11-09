@@ -1,12 +1,26 @@
 import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
+const ColorItemDemo = ({color}) => {
+	let circleClassName = `f-bg-${color}`
+	let letterClassName = `f-text-${color} fd-h2`
+	return <li style={{height:100}} className="fd-f-center-middle">
+		<span className={circleClassName} style={{width:50,height:50,borderRadius:50}} />
+		<span className={letterClassName} style={{marginLeft:20}}>Aa</span>
+	</li>
+}
+
 export default () => <DemoWrapper title="Colors">
-	<h1 className="fd-h1 temp-padding text-center">Grayscale</h1>
+	<h2 className="fd-h2 temp-padding fd-text-center">Greyscale</h2>
+
+	<ul className="fd-f-around-middle ft-c-center">
+		{['light', 'muted', 'medium', 'dark', 'black'].map(color => <ColorItemDemo key={color} color={color} />)}
+	</ul>
+
 	<ul className="temp-padding fd-f">
 		<li style={{height: 100}} className="f-bg-light fd-f-center-middle fd-f1">light</li>
-		<li style={{height: 100}} className="fd-bg-muted fd-f-center-middle fd-f1">muted</li>
-		<li style={{height: 100}} className="fd-bg-medium fd-f-center-middle fd-f1">medium</li>
+		<li style={{height: 100}} className="f-bg-muted fd-f-center-middle fd-f1">muted</li>
+		<li style={{height: 100}} className="f-bg-medium fd-f-center-middle fd-f1">medium</li>
 		<li style={{height: 100}} className="f-bg-dark fd-f-center-middle fd-f1">dark</li>
 		<li style={{height: 100}} className="f-bg-black f-text-white fd-f-center-middle fd-f1">black</li>
 	</ul>
@@ -26,25 +40,24 @@ export default () => <DemoWrapper title="Colors">
 		<li style={{height: 100}} className="f-bg-lilak">lilak</li>
 	</ul>
 
-	<div>
-		<ul className="sg_row m_cols sg_grayscale center">
-			<li className="wide"><span className="bg_light"/></li>
-			<li className="wide"><span className="bg_muted"/></li>
-			<li className="wide"><span className="bg_medium"/></li>
-			<li className="wide"><span className="bg_dark"/></li>
-			<li className="wide"><span className="bg_black"/></li>
-		</ul>
-	</div>
-
-	<p className="fd-h3 f-dark fd-text-center">Colors are semi transparent</p>
+	<p className="fd-h3 f-dark fd-text-center">Greyscale colors are semi transparent</p>
 
 	<div className="temp-padding f-bg-pink">
 		<ul className="temp-padding fd-f">
 			<li style={{height: 100}} className="f-bg-light fd-f-center-middle fd-f1">light</li>
-			<li style={{height: 100}} className="fd-bg-muted fd-f-center-middle fd-f1">muted</li>
-			<li style={{height: 100}} className="fd-bg-medium fd-f-center-middle fd-f1">medium</li>
+			<li style={{height: 100}} className="f-bg-muted fd-f-center-middle fd-f1">muted</li>
+			<li style={{height: 100}} className="f-bg-medium fd-f-center-middle fd-f1">medium</li>
 			<li style={{height: 100}} className="f-bg-dark fd-f-center-middle fd-f1">dark</li>
 			<li style={{height: 100}} className="f-bg-black f-text-white fd-f-center-middle fd-f1">black</li>
+		</ul>
+	</div>
+	<div className="temp-padding f-bg-green">
+		<ul className="temp-padding fd-f">
+			<li style={{height: 100}} className="f-bg-black f-text-white fd-f-center-middle fd-f1">black</li>
+			<li style={{height: 100}} className="f-bg-dark fd-f-center-middle fd-f1">dark</li>
+			<li style={{height: 100}} className="f-bg-medium fd-f-center-middle fd-f1">medium</li>
+			<li style={{height: 100}} className="f-bg-muted fd-f-center-middle fd-f1">muted</li>
+			<li style={{height: 100}} className="f-bg-light fd-f-center-middle fd-f1">light</li>
 		</ul>
 	</div>
 </DemoWrapper>

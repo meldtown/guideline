@@ -1,98 +1,44 @@
 //Text colors
 
-.f-text-light {
-	color: $color_light;
-}
+// Primary
+.f-text-white {color:$color_white}
+.f-text-main {color:$color_main}
+.f-text-primary {color:$color_primary}
+.f-text-secondary {color:$color_secondary}
 
-.f-text-dark {
-	color: $color_dark;
-}
+// Secondary
+.f-text-blue {color:$color_blue}
+.f-text-green {color:$color_green}
+.f-text-yellow {color:$color_yellow}
+.f-text-pink {color:$color_pink}
+.f-text-lilak {color:$color_lilak}
 
-.f-text-black {
-	color: $color_black;
-}
+// Greyscale
+.f-text-light {color:$color_light}
+.f-text-muted {color:$color_muted}
+.f-text-medium {color:$color_medium}
+.f-text-dark {color:$color_dark}
+.f-text-black {color:$color_black}
 
-.f-text-white {
-	color: $color_white;
-}
-
-.f-text-main {
-	color: $color_main;
-}
-
-.f-text-primary {
-	color: $color_primary;
-}
-
-.f-text-secondary {
-	color: $color_secondary;
-}
-
-.f-text-blue {
-	color: $color_blue;
-}
-
-.f-text-green {
-	color: $color_green;
-}
-
-.f-text-yellow {
-	color: $color_yellow;
-}
-
-.f-text-pink {
-	color: $color_pink;
-}
-.f-text-lilak {
-	color: $color_lilak;
-}
 
 //Background colors
 
-.f-bg-light {
-	background-color: $color_light;
-}
+// Primary
+.f-bg-white {background-color:$color_white}
+.f-bg-main {background-color:$color_main}
+.f-bg-primary {background-color:$color_primary}
+.f-bg-secondary {background-color:$color_secondary}
 
-.f-bg-dark {
-	background-color: $color_dark;
-}
+// Secondary
+.f-bg-blue {background-color:$color_blue}
+.f-bg-green {background-color:$color_green}
+.f-bg-yellow {background-color:$color_yellow}
+.f-bg-pink {background-color:$color_pink}
+.f-bg-lilak {background-color:$color_lilak}
 
-.f-bg-black {
-	background-color: $color_black;
-}
-
-.f-bg-white {
-	background-color: $color_white;
-}
-
-.f-bg-main {
-	background-color: $color_main;
-}
-
-.f-bg-primary {
-	background-color: $color_primary;
-}
-
-.f-bg-secondary {
-	background-color: $color_secondary;
-}
-
-.f-bg-blue {
-	background-color: $color_blue;
-}
-
-.f-bg-green {
-	background-color: $color_green;
-}
-
-.f-bg-yellow {
-	background-color: $color_yellow;
-}
-
-.f-bg-pink {
-	background-color: $color_pink;
-}
-
-.f-bg-lilak {
-	background-color: $color_lilak;
-}
+// Greyscale
+.f-bg-light {background-color:$color_light}
+.f-bg-muted {background-color:$color_muted}
+.f-bg-medium {background-color:$color_medium}
+.f-bg-dark {background-color:$color_dark}
+.f-bg-black {background-color:$color_black}
