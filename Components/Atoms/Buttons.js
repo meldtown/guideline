@@ -2,7 +2,7 @@ import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
 export default () => <DemoWrapper title="Buttons">
-	<h1 className="h1 text-center">Buttons</h1>
+	<h1 className="fd-text-h1 text-center">Buttons</h1>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dignissimos nam saepe voluptas. Culpa deserunt doloremque eius, illo itaque minus modi molestiae officiis pariatur placeat qui quisquam suscipit voluptates.
 	</p>
