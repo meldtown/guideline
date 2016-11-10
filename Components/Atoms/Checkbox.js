@@ -44,5 +44,34 @@ export default () => <DemoWrapper title="Checkbox">
 				<span>Option 3</span>
 			</label>
 		</div>
+
+		<h3 className="fd-text-default">Radio buttons (block level)</h3>
+		<div className="checkbox-block fd-text-default">
+			<label>
+				<input type="radio" name="radio" value="1"/>
+				<div className="checkbox-control">
+					<i className="fa fa-check"></i>
+				</div>
+				<span>Option 1</span>
+			</label>
+		</div>
+		<div className="checkbox-block fd-text-default">
+			<label>
+				<input type="radio" name="radio" value="2"/>
+				<div className="checkbox-control">
+					<i className="fa fa-check"></i>
+				</div>
+				<span>Option 2</span>
+			</label>
+		</div>
+		<div className="checkbox-block fd-text-default">
+			<label>
+				<input type="radio" name="radio" value="3"/>
+				<div className="checkbox-control">
+					<i className="fa fa-check"></i>
+				</div>
+				<span>Option 3</span>
+			</label>
+		</div>
 	</div>
 </DemoWrapper>

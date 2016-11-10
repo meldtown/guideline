@@ -37,3 +37,9 @@
 		user-select: none;
 	}
 }
+
+.checkbox-block {
+	@extend .checkbox;
+	display: block;
+	margin: 10px auto;
+}
