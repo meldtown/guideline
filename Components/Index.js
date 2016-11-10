@@ -7,9 +7,9 @@ import Grid from './Utils/Grid'
 import Controls from './Atoms/Controls'
 
 export default () => <div>
-	<Grid />
 	<Colors />
 	<Typo />
+	<Grid />
 	<Buttons />
 	<InputIcon />
 	<Controls />

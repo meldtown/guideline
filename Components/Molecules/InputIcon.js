@@ -2,16 +2,22 @@ import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
 export default () => <DemoWrapper>
-	<h1 className="h1 text-center">Input icon</h1>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dignissimos nam saepe voluptas. Culpa deserunt doloremque eius, illo itaque minus modi molestiae officiis pariatur placeat qui quisquam suscipit voluptates.
-	</p>
-	<div>
-		<div className="input">
-			<input type="text"/>
-		</div>
+	<div className="f-main-wrapper">
+		<h1 className="fd-h1 fd-text-center">Input icon</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dignissimos nam saepe voluptas. Culpa deserunt doloremque eius, illo itaque minus modi molestiae officiis pariatur placeat qui quisquam suscipit voluptates.
+		</p>
+		<p>
+			<span className="f-text-primary fd-input fd-input-icon-left fd-h5"><i /><input type="text"/></span>
+		</p>
+		<p>
+			<span className="f-text-main fd-input fd-input-icon-left"><i /><input type="text"/></span>
+		</p>
+		<p>
+			<span className="f-text-primary fd-input fd-input-icon-left fd-h1"><i /><input type="text"/></span>
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dignissimos nam saepe voluptas. Culpa deserunt doloremque eius, illo itaque minus modi molestiae officiis pariatur placeat qui quisquam suscipit voluptates.
+		</p>
 	</div>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dignissimos nam saepe voluptas. Culpa deserunt doloremque eius, illo itaque minus modi molestiae officiis pariatur placeat qui quisquam suscipit voluptates.
-	</p>
 </DemoWrapper>
