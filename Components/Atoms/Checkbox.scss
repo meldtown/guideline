@@ -1,0 +1,39 @@
+.checkbox {
+	line-height: 1;
+	label {
+		display: inline-block;
+		line-height: normal;
+		padding-right: .5em;
+		cursor: pointer;
+		& > * {
+			vertical-align: middle;
+		}
+	}
+	&, .checkbox-control {
+		display: inline-flex;
+	}
+	input {
+		display: none;
+		&:not(:checked) {
+			& ~ .checkbox-control i {
+				display: none;
+			}
+		}
+	}
+
+	.checkbox-control {
+		@extend .fd-f-center-middle;
+		width: 1.2em;
+		height: 1.2em;
+		border-radius: .25em;
+		background-color: #0fb9ff;
+		margin-right: .25em;
+		i {
+			color: #fff;
+		}
+	}
+
+	span, i {
+		user-select: none;
+	}
+}
