@@ -4,16 +4,35 @@ input, select {
 	}
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input::-webkit-calendar-picker-indicator {
+	-webkit-appearance: none !important;
+	display: none !important;
+	visibility: hidden !important;
+	margin: 0;
+}
+
+
+input::-ms-clear {
+	display: none;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
 .f-input {
 	display: inline-block;
 	position: relative;
 	margin: 5px 0;
-	border-radius: 3px;
 	input {
-		padding: 4px 0 2px 5px;
+		padding: 4px 5px 2px 5px;
 		line-height: 1;
 		border: $input_border_width solid #ccc;
-		border-radius: 3px;
+		border-radius: $input_border_radius;
+		vertical-align: bottom;
 		&:focus {
 			border-color: $focus_color;
 			box-shadow: 0 0 1px 1px $focus_color;
@@ -55,20 +74,24 @@ input, select {
 
 .icon-left {
 	input {
-		padding-left: 1.35em;
+		padding-left: $input_padding;
+		padding-right: .5em;
 	}
 	i:first-of-type {
 		@extend .fd-f-center-middle;
 		position: absolute;
-		width: 1.3em;
+		width: $input_icon_width;
 		height: 100%;
 		top: 0;
+		border-top-left-radius: $input_border_radius;
+		border-bottom-left-radius: $input_border_radius;
 	}
 }
 
 .icon-right {
 	input {
-		padding-left: 1.35em;
+		padding-right: $input_padding;
+		padding-left: .5em;
 	}
 	i:last-of-type {
 		@extend .fd-f-center-middle;
@@ -76,8 +99,17 @@ input, select {
 		right: $input_border_width;
 		top: $input_border_width;
 		bottom: $input_border_width;
-		width: 1.3em;
+		width: $input_icon_width;
 		background-color: $color_white;
+		border-top-right-radius: $input_border_radius;
+		border-bottom-right-radius: $input_border_radius;
+	}
+}
+
+.icon-left.icon-right {
+	input {
+		padding-left: $input_padding;
+		padding-right: $input_padding;
 	}
 }
 

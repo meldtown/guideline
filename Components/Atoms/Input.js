@@ -30,7 +30,7 @@ export default () => <DemoWrapper title="Input">
 			<input type="text" value="Very very very very very very very very very very very very very long input text"/>
 		</div>
 
-		<h1 className="fd-text-h3 text-center">Standard input with icons from both sides</h1>
+		<h1 className="fd-text-h3 text-center">Standard block input with icons from both sides</h1>
 
 		<div className="f-input-block icon-left icon-right fd-text-h1">
 			<input type="text" value="Very very very very very very very very very very very very very long input text"/>
@@ -84,6 +84,29 @@ export default () => <DemoWrapper title="Input">
 			<input type="text" value="Very very very very very very very very very very very very very long input text"/>
 			<i className="fa fa-map-marker"></i>
 			<i className="fa fa-map-marker"></i>
+		</div>
+
+		<h1 className="fd-text-h3 text-center">Standard inline input with icons from both sides</h1>
+		<div className="f-input icon-left icon-right fd-text-h5">
+			<input type="text" value="Very very very very very very very very very very very very very long input text"/>
+			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"></i>
+		</div>
+	</div>
+
+	<div className="temp-padding">
+		<h1 className="fd-text-h4 text-center">Input types with special controls</h1>
+
+		<h3 className="fd-text-h5">Type <strong>number</strong></h3>
+		<div className="f-input-block icon-right fd-text-h3">
+			<input type="number"/>
+			<i className="fa fa-money"></i>
+		</div>
+
+		<h3 className="fd-text-h5">Type <strong>date</strong></h3>
+		<div className="f-input-block icon-right fd-text-h3">
+			<input type="date"/>
+			<i className="fa fa-calendar"></i>
 		</div>
 	</div>
 </DemoWrapper>
