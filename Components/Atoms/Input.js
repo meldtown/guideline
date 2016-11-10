@@ -108,5 +108,11 @@ export default () => <DemoWrapper title="Input">
 			<input type="date"/>
 			<i className="fa fa-calendar"></i>
 		</div>
+
+		<h3 className="fd-text-h5">Type <strong>email</strong></h3>
+		<div className="f-input-block icon-right fd-text-h3">
+			<input type="email"/>
+			<i className="fa fa-envelope-o"></i>
+		</div>
 	</div>
 </DemoWrapper>

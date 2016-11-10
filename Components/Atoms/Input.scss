@@ -14,7 +14,6 @@ input::-webkit-calendar-picker-indicator {
 	margin: 0;
 }
 
-
 input::-ms-clear {
 	display: none;
 }
@@ -27,10 +26,11 @@ input[type=number] {
 	display: inline-block;
 	position: relative;
 	margin: 5px 0;
-	input {
-		padding: 4px 5px 2px 5px;
+	input, select {
+		display: block;
+		padding: 4px 5px 3px 5px;
 		line-height: 1;
-		border: $input_border_width solid #ccc;
+		border: $input_border_width solid $input_border_color;
 		border-radius: $input_border_radius;
 		vertical-align: bottom;
 		&:focus {
@@ -43,7 +43,7 @@ input[type=number] {
 .f-input-block {
 	@extend .f-input;
 	display: block;
-	input {
+	input, select {
 		display: block;
 		width: 100%;
 		box-sizing: border-box;
@@ -88,22 +88,23 @@ input[type=number] {
 	}
 }
 
-.icon-right {
+.icon-right, select.f-input, select.f-input-block {
 	input {
 		padding-right: $input_padding;
 		padding-left: .5em;
 	}
-	i:last-of-type {
-		@extend .fd-f-center-middle;
-		position: absolute;
-		right: $input_border_width;
-		top: $input_border_width;
-		bottom: $input_border_width;
-		width: $input_icon_width;
-		background-color: $color_white;
-		border-top-right-radius: $input_border_radius;
-		border-bottom-right-radius: $input_border_radius;
-	}
+}
+
+.icon-right i:last-of-type, .f-input select + i {
+	@extend .fd-f-center-middle;
+	position: absolute;
+	right: $input_border_width;
+	top: $input_border_width;
+	bottom: $input_border_width;
+	width: $input_icon_width;
+	background-color: $color_white;
+	border-top-right-radius: $input_border_radius;
+	border-bottom-right-radius: $input_border_radius;
 }
 
 .icon-left.icon-right {
