@@ -5,7 +5,7 @@ import LoaderOptionsPlugin from 'webpack/lib/LoaderOptionsPlugin'
 import HotModuleReplacementPlugin from 'webpack/lib/HotModuleReplacementPlugin'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 
-const isProduction = process.env.NODE_ENV === 'production'
+const isProduction = 'production' === (process.env.NODE_ENV = process.argv.indexOf('-p') === -1 ? 'development' : 'production')
 const styles = 'css?sourceMap!postcss!sass?sourceMap'
 
 export default () => ({
