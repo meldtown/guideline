@@ -26,7 +26,7 @@ input[type=number] {
 	display: inline-block;
 	position: relative;
 	margin: 5px 0;
-	input, select {
+	input, select, span {
 		display: block;
 		padding: 4px 5px 3px 5px;
 		line-height: 1;
@@ -95,7 +95,7 @@ input[type=number] {
 	}
 }
 
-.icon-right i:last-of-type, .f-input select + i {
+.icon-right i:last-of-type, .f-input select + i, .f-input span + i {
 	@extend .fd-f-center-middle;
 	position: absolute;
 	right: $input_border_width;

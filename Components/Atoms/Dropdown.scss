@@ -8,7 +8,7 @@ select::-ms-expand {
 }
 
 .f-input{
-	select {
+	select, span {
 		border-radius: 0;
 		padding-left: 10px;
 		padding-right: $input_padding;
