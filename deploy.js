@@ -5,18 +5,22 @@ var s3 = new AWS.S3({
     region: 'eu-central-1'
 });
 
-fs.readFile('./dist/index.css', function (err, data) {
-	if (err) console.log(err)
-	else {
-		var params = {
-			Bucket: 'pornushka',
-			Key: 'index.css',
-			Body: data
-		};
-
-		s3.putObject(params, function (err, data) {
+fs.readdir('./dist', (err, files) => {
+	files.forEach(file => {
+		fs.readFile('./dist/' + file, function (err, data) {
 			if (err) console.log(err)
-			else console.log('Success');
+			else {
+				var params = {
+					Bucket: 'pornushka',
+					Key: 'fedor/' + file,
+					Body: data
+				};
+
+				s3.putObject(params, function (err) {
+					if (err) console.log(err)
+					else console.log(file + ' uploaded');
+				});
+			}
 		});
-	}
+	});
 });
