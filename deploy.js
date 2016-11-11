@@ -1,4 +1,5 @@
 var fs = require('fs');
+var mime = require('mime-types');
 var AWS = require('aws-sdk');
 var s3 = new AWS.S3({
     signatureVersion: 'v4',
@@ -13,7 +14,8 @@ fs.readdir('./dist', (err, files) => {
 				var params = {
 					Bucket: 'pornushka',
 					Key: 'fedor/' + file,
-					Body: data
+					Body: data,
+					ContentType: mime.lookup(file)
 				};
 
 				s3.putObject(params, function (err) {
