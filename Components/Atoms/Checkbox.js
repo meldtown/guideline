@@ -19,7 +19,7 @@ export default () => <DemoWrapper title="Checkbox">
 		<h3 className="fd-text-default">Radio button</h3>
 		<div className="checkbox fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="1"/>
+				<input type="radio" name="radio" defaultChecked/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
@@ -28,7 +28,7 @@ export default () => <DemoWrapper title="Checkbox">
 		</div>
 		<div className="checkbox fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="2"/>
+				<input type="radio" name="radio"/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
@@ -37,7 +37,7 @@ export default () => <DemoWrapper title="Checkbox">
 		</div>
 		<div className="checkbox fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="3"/>
+				<input type="radio" name="radio"/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
@@ -48,7 +48,7 @@ export default () => <DemoWrapper title="Checkbox">
 		<h3 className="fd-text-default">Radio buttons (block level)</h3>
 		<div className="checkbox-block fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="1"/>
+				<input type="radio" name="radio-block" defaultChecked/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
@@ -57,7 +57,7 @@ export default () => <DemoWrapper title="Checkbox">
 		</div>
 		<div className="checkbox-block fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="2"/>
+				<input type="radio" name="radio-block"/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
@@ -66,7 +66,7 @@ export default () => <DemoWrapper title="Checkbox">
 		</div>
 		<div className="checkbox-block fd-text-default">
 			<label>
-				<input type="radio" name="radio" value="3"/>
+				<input type="radio" name="radio-block"/>
 				<div className="checkbox-control">
 					<i className="fa fa-check"></i>
 				</div>
