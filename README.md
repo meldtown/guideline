@@ -57,4 +57,22 @@ single, multiple (single row, multiple rows)
 
 multiple
 
+# Docker
 
+Docker image is used to reduce build time in pipelines
+
+Each time you upgrade dependencies from package.json you should run:
+
+	docker build . -t mac2000/fedor
+
+to check is it working you may run:
+
+	docker run --rm -v %cd%/dist:/code/dist mac2000/fedor npm run dist -s
+
+to publish image run:
+
+	docker push mac2000/fedor
+
+for push you need to login first using:
+
+	docker login
