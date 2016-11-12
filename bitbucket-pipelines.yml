@@ -9,5 +9,7 @@ pipelines:
     master:
       - step:
           script:
+            - ls -la
+            - ls node_modules -la
             - npm run dist -s
             - node deploy.js
