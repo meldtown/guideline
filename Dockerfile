@@ -1,7 +1,8 @@
 FROM node
+MAINTAINER Alexandr Marchenko <marchenko.alexandr@gmail.com>
 
-RUN mkdir /code
+COPY package.json /tmp
+RUN cd /tmp && npm install -s
+RUN mkdir /code && mv /tmp/node_modules /code
+
 WORKDIR /code
-
-COPY package.json /code
-RUN npm install -s
