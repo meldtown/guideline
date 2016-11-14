@@ -45,6 +45,9 @@ $text_default: 16px;
 $text_small: 14px;
 $text_micro: 12px;
 
+// Button
+$button_color: #ff0000;
+
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Grid";
 @import "Components/Atoms/Colors";

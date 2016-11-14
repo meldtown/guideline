@@ -1,4 +1,55 @@
-.button {
-	background: red;
+.btn-default {
+	@extend .fd-f-center-middle;
 	display: inline-flex;
+	box-sizing: border-box;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding: .1em .2em;
+	margin: 5px;
+	color: $color_dark;
+}
+
+.btn-border {
+	@extend .btn-default;
+	border-color: $button_color;
+}
+
+.btn-filled {
+	@extend .btn-default;
+	background-color: $button_color;
+	color: #fff;
+}
+
+.btn-default-hovered-border {
+	@extend .btn-default;
+	&:hover {
+		@extend .btn-border;
+	}
+}
+
+.btn-default-hovered-filled {
+	@extend .btn-default;
+	&:hover {
+		@extend .btn-filled;
+	}
+}
+
+.btn-border-hovered-filled {
+	@extend .btn-border;
+	&:hover {
+		@extend .btn-filled;
+	}
+}
+
+@each $button_class in btn-default, btn-border, btn-filled, btn-default-hovered-border, btn-default-hovered-filled, btn-border-hovered-filled {
+	.#{$button_class}-block {
+		&, &:hover {
+			display: flex;
+		}
+		width: 100%;
+		@extend .#{$button_class}
+	}
 }
