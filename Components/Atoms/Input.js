@@ -34,63 +34,63 @@ export default () => <DemoWrapper title="Input">
 
 		<div className="f-input-block icon-left icon-right fd-h1">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-h2">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-h3">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-h4">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-h5">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-h5">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-default">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-small">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<div className="f-input-block icon-left icon-right fd-micro">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 
 		<h1 className="fd-h3 text-center">Standard inline input with icons from both sides</h1>
 		<div className="f-input icon-left icon-right fd-h5">
 			<input type="text"/>
-			<i className="fa fa-map-marker"></i>
-			<i className="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
 		</div>
 	</div>
 
@@ -100,20 +100,33 @@ export default () => <DemoWrapper title="Input">
 		<h3 className="fd-h5">Type <strong>number</strong></h3>
 		<div className="f-input-block icon-right fd-h3">
 			<input type="number"/>
-			<i className="fa fa-money"></i>
+			<i className="fa fa-money"/>
 		</div>
 
 		<h3 className="fd-h5">Type <strong>date</strong></h3>
 		<div className="f-input-block icon-right fd-h3">
 			<input type="date"/>
-			<i className="fa fa-calendar"></i>
+			<i className="fa fa-calendar"/>
 		</div>
 
 		<h3 className="fd-h5">Type <strong>email</strong></h3>
 		<div className="f-input-block icon-right fd-h3">
 			<input type="email"/>
-			<i className="fa fa-envelope-o"></i>
+			<i className="fa fa-envelope-o"/>
 		</div>
-		
+
 	</div>
+
+
+	<div>
+		<h3 className="fd-h3 fd-text-center">Labeled input</h3>
+		<p>
+			<label>Username:</label>
+			<span className="f-input icon-right">
+				<input type="text"/>
+				<i className="fa fa-envelope-o"/>
+			</span>
+		</p>
+	</div>
+
 </DemoWrapper>
