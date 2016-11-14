@@ -1,44 +1,61 @@
 //Text colors
 
 // Primary
-.f-text-white {color:$color_white}
-.f-text-main {color:$color_main}
-.f-text-primary {color:$color_primary}
-.f-text-secondary {color:$color_secondary}
 
-// Secondary
-.f-text-blue {color:$color_blue}
-.f-text-green {color:$color_green}
-.f-text-yellow {color:$color_yellow}
-.f-text-pink {color:$color_pink}
-.f-text-lilak {color:$color_lilak}
+.f-text-coral {color:$ultra_coral}
+.f-text-dark-green {color:$dark_green}
+.f-text-green {color:$green}
+.f-text-royal-blue {color:$royal_blue}
+.f-text-lilac {color: $lilac
+}
+.f-text-black {color:$black}
+.f-text-green {color:$gray}
 
-// Greyscale
-.f-text-light {color:$color_light}
-.f-text-muted {color:$color_muted}
-.f-text-medium {color:$color_medium}
-.f-text-dark {color:$color_dark}
-.f-text-black {color:$color_black}
+// Primary ultra
+.f-text-ultra-blue {color:$ultra_blue}
+.f-text-ultra-green {color:$ultra_green}
+.f-text-ultra-yellow {color:$ultra_yellow}
+.f-text-ultra-coral {color:$ultra_coral}
+.f-text-ultra-lilac {color: $ultra_lilac
+}
+
+// Background-colors
+
+// Primary background
+
+.f-bg-coral {background-color:$coral}
+.f-bg-dark-green {background-color:$dark_green}
+.f-bg-green {background-color:$green}
+.f-bg-royal-blue {background-color:$royal_blue}
+.f-bg-lilac {background-color: $lilac
+}
+.f-bg-black {background-color:$black}
+.f-bg-gray {background-color:$gray}
+
+// Primary background ultra
+
+.f-bg-ultra-blue {background-color:$ultra_blue}
+.f-bg-ultra-green {background-color:$ultra_green}
+.f-bg-ultra-yellow {background-color:$ultra_yellow}
+.f-bg-ultra-coral {background-color:$ultra_coral}
+.f-bg-ultra-lilac {background-color: $ultra_lilac
+}
+
+// Adjective background
+
+.f-bg-orange {background-color: $orange}
+.f-bg-yellow {background-color: $yellow}
+.f-bg-blue {background-color: $blue}
+.f-bg-purple {background-color: $purple}
+.f-bg-light-gray {background-color: $light-gray}
+.f-bg-light-light-gray {background-color: $light_light_gray}
+.f-bg-ultra-gray {background-color: $ultra-gray}
+.f-bg-light-coral {background-color: $light_coral}
+.f-bg-light-orange {background-color: $light_orange}
+.f-bg-light-yellow {background-color: $light_yellow}
+.f-bg-light-green {background-color: $light-green}
+.f-bg-light-blue {background-color: $light_blue}
+.f-bg-light-purple {background-color: $light_purple}
+.f-bg-light-lilac {background-color: $light-lilac}
 
 
-//Background colors
-
-// Primary
-.f-bg-white {background-color:$color_white}
-.f-bg-main {background-color:$color_main}
-.f-bg-primary {background-color:$color_primary}
-.f-bg-secondary {background-color:$color_secondary}
-
-// Secondary
-.f-bg-blue {background-color:$color_blue}
-.f-bg-green {background-color:$color_green}
-.f-bg-yellow {background-color:$color_yellow}
-.f-bg-pink {background-color:$color_pink}
-.f-bg-lilak {background-color:$color_lilak}
-
-// Greyscale
-.f-bg-light {background-color:$color_light}
-.f-bg-muted {background-color:$color_muted}
-.f-bg-medium {background-color:$color_medium}
-.f-bg-dark {background-color:$color_dark}
-.f-bg-black {background-color:$color_black}
