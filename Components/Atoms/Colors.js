@@ -15,31 +15,31 @@ export default () => <DemoWrapper title="Colors">
 
 	<div>
 		<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
-			<div style={{margin: 10}}>
+			<div style={{margin: 10, flexBasis: 90}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-blue"></div>
 				<br/>
 				<b>#EBF3FA</b><br/>
 				<span>Ultra-blue</span>
 			</div>
-			<div style={{margin: 10}}>
+			<div style={{margin: 10, flexBasis: 90}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-green"></div>
 				<br/>
 				<b>#EDF5F0</b><br/>
 				<span>Ultra-green</span>
 			</div>
-			<div style={{margin: 10}}>
+			<div style={{margin: 10, flexBasis: 90}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-yellow"></div>
 				<br/>
 				<b>#F9FAEB</b><br/>
 				<span>Ultra-yellow</span>
 			</div>
-			<div style={{margin: 10}}>
+			<div style={{margin: 10, flexBasis: 90}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-coral"></div>
 				<br/>
 				<b>#F6EDEB</b><br/>
 				<span>Ultra-coral</span>
 			</div>
-			<div style={{margin: 10}}>
+			<div style={{margin: 10, flexBasis: 90}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-lilac"></div>
 				<br/>
 				<b>#F6F3FB</b><br/>
@@ -50,44 +50,44 @@ export default () => <DemoWrapper title="Colors">
 
 	<h2 className="fd-h2 temp-padding">Colors</h2>
 
-	<div className="fd-f-left fd-small" style={{textAlign: 'center'}}>
-		<div style={{margin: 10}}>
+	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-coral"></div>
 			<br/>
 			<b>#F06464</b><br/>
 			<span>Coral</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-dark-green"></div>
 			<br/>
 			<b>#4BA661</b><br/>
 			<span>Dark Green</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-green"></div>
 			<br/>
 			<b>#5FC378</b><br/>
 			<span>Green</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-royal-blue"></div>
 			<br/>
 			<b>#2956AC</b><br/>
 			<span>Royal Blue</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-lilac"></div>
 			<br/>
 			<b>#9B6EC3</b><br/>
 			<span>lilac</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-black"></div>
 			<br/>
 			<b>(0, 0, 0, 0.87)</b><br/>
 			<span>Black</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-gray"></div>
 			<br/>
 			<b>(0, 0, 0, 0.54)</b><br/>
@@ -97,7 +97,7 @@ export default () => <DemoWrapper title="Colors">
 
 	<h2 className="fd-h2 temp-padding">Adjective colors</h2>
 
-	<div className="fd-f-left fd-small" style={{textAlign: 'center'}}>
+	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
 		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-orange"></div>
 			<br/>
