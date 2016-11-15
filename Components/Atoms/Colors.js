@@ -14,7 +14,7 @@ export default () => <DemoWrapper title="Colors">
 	<h2 className="fd-h2 temp-padding">Background</h2>
 
 	<div>
-		<div className="fd-f-left fd-small" style={{textAlign: 'center'}}>
+		<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
 			<div style={{margin: 10}}>
 				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-blue"></div>
 				<br/>
@@ -98,47 +98,92 @@ export default () => <DemoWrapper title="Colors">
 	<h2 className="fd-h2 temp-padding">Adjective colors</h2>
 
 	<div className="fd-f-left fd-small" style={{textAlign: 'center'}}>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-orange"></div>
 			<br/>
 			<b>#FAAF64</b><br/>
 			<span>Orange</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-yellow"></div>
 			<br/>
 			<b>#FAF569</b><br/>
 			<span>Yellow</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-blue"></div>
 			<br/>
 			<b>#6EC3C8</b><br/>
 			<span>Blue</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-purple"></div>
 			<br/>
 			<b>#698CD7</b><br/>
 			<span>Purple</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-gray"></div>
 			<br/>
 			<b>(0, 0, 0, 0.3)</b><br/>
 			<span>Light Gray</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-light-gray"></div>
 			<br/>
 			<b>(0, 0, 0, 0.12)</b><br/>
 			<span>Light-light Gray</span>
 		</div>
-		<div style={{margin: 10}}>
+		<div style={{margin: 10, flexBasis: 90}}>
 			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-gray"></div>
 			<br/>
 			<b>(0, 0, 0, .05)</b><br/>
 			<span>Ultra Gray</span>
+		</div>
+	</div>
+
+	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-coral"></div>
+			<br/>
+			<b>#F5AAAA</b><br/>
+			<span>Light Coral</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-orange"></div>
+			<br/>
+			<b>#F5D2AA</b><br/>
+			<span>Light Orange</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-yellow"></div>
+			<br/>
+			<b>#F5F5AF</b><br/>
+			<span>Light Yellow</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-green"></div>
+			<br/>
+			<b>#AADCB4</b><br/>
+			<span>Light Green</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-blue"></div>
+			<br/>
+			<b>#AFDCE1</b><br/>
+			<span>Light Blue</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-purple"></div>
+			<br/>
+			<b>#AFBEE6</b><br/>
+			<span>Light Purple</span>
+		</div>
+		<div style={{margin: 10, flexBasis: 90}}>
+			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-lilac"></div>
+			<br/>
+			<b>#C8AFDC</b><br/>
+			<span>Light lilac</span>
 		</div>
 	</div>
 

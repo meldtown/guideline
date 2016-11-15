@@ -11,7 +11,7 @@ export default () => <DemoWrapper title="Typo">
 		<span className="fd-h2 f-bg-green fd-f1 fd-f-center-middle">H2</span>
 		<span className="fd-h1 f-bg-blue fd-f1 fd-f-center-middle">H1</span>
 		<span className="fd-h3 f-bg-yellow fd-f1 fd-f-center-middle">H3</span>
-		<span className="fd-h5 f-bg-lilak fd-f1 fd-f-center-middle">H5</span>
+		<span className="fd-h5 f-bg-lilac fd-f1 fd-f-center-middle">H5</span>
 		<span className="fd-text-small f-bg-green fd-f1 fd-f-center-middle">Small</span>
 	</div>
 
@@ -97,7 +97,7 @@ export default () => <DemoWrapper title="Typo">
 		dolor sit amet, consectetur adipisicing elit. A ab amet at culpa cum cupiditate dolores est facilis laborum
 		neque nesciunt nulla numquam perspiciatis quae quisquam repudiandae ullam, vero voluptate!
 	</div>
-	<div className="f-text-lilak f-bg-dark  fd-h3 temp-padding"><b className="f-text-black">lilak </b>Lorem
+	<div className="f-text-lilac f-bg-dark  fd-h3 temp-padding"><b className="f-text-black">lilac </b>Lorem
 		ipsum dolor sit amet, consectetur adipisicing elit. A ab amet at culpa cum cupiditate dolores est facilis
 		laborum neque nesciunt nulla numquam perspiciatis quae quisquam repudiandae ullam, vero voluptate!
 	</div>
