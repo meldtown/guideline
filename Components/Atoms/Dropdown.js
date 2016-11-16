@@ -2,11 +2,11 @@ import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
 export default () => <DemoWrapper title="Dropdown">
-	<h1 className=" temp-padding fd-h1 text-center">Dropdown</h1>
+	<h1 className=" temp-padding fd-header text-center">Dropdown</h1>
 
 
 	<div className="temp-padding">
-		<h3 className=" fd-h4 text-center">Inline select</h3>
+		<h3 className=" fd-vacancy-header text-center">Inline select</h3>
 		<div className="f-input">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -18,8 +18,8 @@ export default () => <DemoWrapper title="Dropdown">
 			<i className="fa fa-caret-down"></i>
 		</div>
 
-		<h3 className=" fd-h4 text-center">Block level select</h3>
-		<div className="f-input-block fd-h1">
+		<h3 className=" fd-vacancy-header text-center">Block level select</h3>
+		<div className="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
 				<option>Value 2</option>
@@ -30,7 +30,7 @@ export default () => <DemoWrapper title="Dropdown">
 			<i className="fa fa-caret-down"></i>
 		</div>
 
-		<div className="f-input-block fd-h3">
+		<div className="f-input-block fd-block-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
 				<option>Value 2</option>
@@ -41,7 +41,7 @@ export default () => <DemoWrapper title="Dropdown">
 			<i className="fa fa-caret-down"></i>
 		</div>
 
-		<div className="f-input-block fd-h5">
+		<div className="f-input-block fd-vacancy-title">
 			<select name="select" id="1">
 				<option>Value 1</option>
 				<option>Value 2</option>
@@ -64,13 +64,13 @@ export default () => <DemoWrapper title="Dropdown">
 		</div>
 
 
-		<h3 className="fd-h3">Fake select(block level)</h3>
+		<h3 className="fd-block-header">Fake select(block level)</h3>
 		<div className="f-input-block fd-default">
 		<span>Fake select</span>
 			<i className="fa fa-caret-down"></i>
 		</div>
 
-		<h3 className="fd-h3">Fake select</h3>
+		<h3 className="fd-block-header">Fake select</h3>
 		<div className="f-input fd-default icon-right">
 		<span>Fake select</span>
 			<i className="fa fa-caret-down"></i>

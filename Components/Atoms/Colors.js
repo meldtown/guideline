@@ -3,7 +3,7 @@ import DemoWrapper from '../DemoWrapper'
 
 const ColorItemDemo = ({color}) => {
 	let circleClassName = `f-bg-${color}`
-	let letterClassName = `f-text-${color} fd-h2`
+	let letterClassName = `f-text-${color} fd-section-header`
 	return <li style={{height: 100}} className="fd-f-center-middle">
 		<span className={circleClassName} style={{width: 50, height: 50, borderRadius: 50}}/>
 		<span className={letterClassName} style={{marginLeft: 20}}>Aa</span>
@@ -11,7 +11,7 @@ const ColorItemDemo = ({color}) => {
 }
 
 export default () => <DemoWrapper title="Colors">
-	<h2 className="fd-h2 temp-padding">Background</h2>
+	<h2 className="fd-section-header temp-padding">Background</h2>
 
 	<div>
 		<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
@@ -48,7 +48,7 @@ export default () => <DemoWrapper title="Colors">
 		</div>
 	</div>
 
-	<h2 className="fd-h2 temp-padding">Colors</h2>
+	<h2 className="fd-section-header temp-padding">Colors</h2>
 
 	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
 		<div style={{margin: 10, flexBasis: 90}}>
@@ -95,7 +95,7 @@ export default () => <DemoWrapper title="Colors">
 		</div>
 	</div>
 
-	<h2 className="fd-h2 temp-padding">Adjective colors</h2>
+	<h2 className="fd-section-header temp-padding">Adjective colors</h2>
 
 	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
 		<div style={{margin: 10, flexBasis: 90}}>

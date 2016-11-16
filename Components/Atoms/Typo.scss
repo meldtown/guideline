@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: inherit;
 }
 
-.fd-h1 {font-size: $text_h1}
-.fd-h2 {font-size: $text_h2}
-.fd-h3 {font-size: $text_h3}
-.fd-h4 {font-size: $text_h4}
-.fd-h5 {font-size: $text_h5}
+.fd-header {font-size: $text_h1}
+.fd-section-header {font-size: $text_h2}
+.fd-block-header {font-size: $text_h3}
+.fd-vacancy-header {font-size: $text_h4}
+.fd-vacancy-title {font-size: $text_h5}
 .fd-default {font-size: $text-default}
 .fd-small {font-size: $text-small}
 .fd-micro {font-size: $text-micro}

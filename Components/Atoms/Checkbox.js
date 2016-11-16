@@ -2,7 +2,7 @@ import React from 'react'
 import DemoWrapper from '../DemoWrapper'
 
 export default () => <DemoWrapper title="Checkbox">
-	<h1 className="fd-h1 text-center">Checkbox</h1>
+	<h1 className="fd-header text-center">Checkbox</h1>
 
 	<div className="temp-padding">
 		<h3 className="fd-text-default">Checkbox</h3>
