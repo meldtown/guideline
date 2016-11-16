@@ -6,7 +6,7 @@ import HotModuleReplacementPlugin from 'webpack/lib/HotModuleReplacementPlugin'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 
 const isProduction = 'production' === (process.env.NODE_ENV = process.argv.indexOf('-p') === -1 ? 'development' : 'production')
-const styles = 'css?sourceMap!postcss!sass?sourceMap'
+const styles = 'css-loader?sourceMap!postcss-loader!sass-loader?sourceMap'
 
 export default () => ({
 	devtool: isProduction ? 'source-map' : 'eval',
@@ -25,12 +25,12 @@ export default () => ({
 	),
 	module: {
 		loaders: [
-			{test: /\.js$/, loaders: ['babel']},
+			{test: /\.js$/, loaders: ['babel-loader']},
 			{
 				test: /\.s?css$/,
 				loader: isProduction
-					? ExtractTextPlugin.extract({fallbackLoader: 'style', loader: styles})
-					: `style!${styles}`
+					? ExtractTextPlugin.extract({fallbackLoader: 'style-loader', loader: styles})
+					: `style-loader!${styles}`
 			}
 		]
 	},
