@@ -1,0 +1,9 @@
+.f-paper {
+	background-color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+
+	&-lighten {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+}

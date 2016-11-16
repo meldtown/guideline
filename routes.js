@@ -59,6 +59,14 @@ export default {
 			},
 		},
 		{
+			path: '/papers',
+			getComponent(location, callback) {
+				require.ensure([], (require) => {
+					callback(null, require("./Pages/Papers").default)
+				}, 'papers.chunk')
+			},
+		},
+		{
 			path: "*",
 			getComponent: (location, callback) => {
 				require.ensure([], require => {
