@@ -1,19 +1,12 @@
-import * as ReactHotLoader from 'react-hot-loader'
 import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './Components/Index'
-import './index.scss'
-
-const AppContainer = ReactHotLoader.AppContainer
+import {render} from 'react-dom'
+import {Router, browserHistory} from 'react-router'
+import Routes from './routes.js'
 
 const root = document.createElement('div')
 document.body.appendChild(root)
 
-ReactDOM.render(<AppContainer><App /></AppContainer>, root)
-
-if (module.hot) {
-	module.hot.accept('./Components/Index', () => {
-		const NextApp = require('./Components/Index').default
-		ReactDOM.render(<AppContainer><NextApp /></AppContainer>, root)
-	})
-}
+render(
+	<Router history={browserHistory} routes={Routes} />,
+	root
+)
