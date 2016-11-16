@@ -26,6 +26,30 @@ export default () => <DemoWrapper title="Buttons">
 			<span>Сохранить</span>
 			<i className="fa fa-check"></i>
 		</button>
+
+		<h3 className="fd-h3 fd-text-center">Link-like buttons with controls</h3>
+
+		<button className="btn-control-coral-link fd-h5">
+			<span>Перейти</span>
+			<i className="fa fa-arrow-right"></i>
+		</button>
+		<br/>
+
+		<button className="btn-control-royal-blue-link fd-h5">
+			<span>Перейти</span>
+			<i className="fa fa-arrow-right"></i>
+		</button>
+		<br/>
+
+		<button className="btn-control-dark-green-link fd-h5">
+			<span>Перейти</span>
+			<i className="fa fa-check"></i>
+		</button>
+
+		<button className="btn-control-default fd-h5">
+			<span>Зарегистрироваться</span>
+			<i className="fa fa-arrow-right"></i>
+		</button>
 		<br/>
 
 		<h3 className="fd-h3 fd-text-center">Link buttons</h3>

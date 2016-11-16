@@ -53,6 +53,11 @@
 				left: 10px;
 			}
 		}
+		&-link {
+			@extend .btn-control-coral;
+			border: none;
+			padding: 0;
+		}
 	}
 	&-royal-blue {
 		color: $royal_blue;
@@ -62,12 +67,32 @@
 				left: 10px;
 			}
 		}
+		&-link {
+			@extend .btn-control-royal-blue;
+			border: none;
+			padding: 0;
+		}
 	}
 	&-dark-green {
 		color: $dark_green;
 		backgroud-color: $dark_green;
+		&-link {
+			@extend .btn-control-dark-green;
+			border: none;
+			padding: 0;
+		}
 	}
 }
+
+.btn-control-default {
+	@extend .btn-control-coral-link;
+	color: $royal_blue;
+	font-size: 14px;
+	&:hover i {
+		left: 0;
+	}
+}
+
 
 
 
