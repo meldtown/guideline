@@ -6,6 +6,11 @@ export default () => <DemoWrapper title="Buttons">
 
 		<h3 className="fd-h3 fd-text-center">Primary button</h3>
 
+		<a href="#" style={{color: '#2956ac'}} className="link fd-default">Default link</a><br/><br/>
+		<a href="#" className="link fd-default">Visited link</a>
+
+		<h3 className="fd-h3 fd-text-center">Primary button</h3>
+
 		<button className="btn-primary fd-h5">найти сейчас</button>
 
 		<h3 className="fd-h3 fd-text-center">Buttons with controls</h3>

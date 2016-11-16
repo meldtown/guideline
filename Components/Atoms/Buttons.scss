@@ -93,6 +93,22 @@
 	}
 }
 
+// Links
+
+.link {
+	color: $royal_blue;
+	&:hover {
+		opacity: .7;
+	}
+
+	&:active {
+		opacity: .9;
+	}
+
+	&:visited {
+		color: $lilac;
+	}
+}
 
 
 
