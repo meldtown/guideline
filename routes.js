@@ -5,6 +5,7 @@ import Layout from './Pages/Layout'
 if (typeof require.ensure !== 'function') require.ensure = (d, c) => c(require)
 
 
+//noinspection JSUnusedLocalSymbols
 export default {
 	component: Layout,
 	childRoutes: [{
@@ -50,14 +51,6 @@ export default {
 			},
 		},
 		{
-			path: '/input-icon',
-			getComponent(location, callback) {
-				require.ensure([], (require) => {
-					callback(null, require("./Pages/InputIcon").default)
-				}, 'inputicon.chunk')
-			},
-		},
-		{
 			path: '/controls',
 			getComponent(location, callback) {
 				require.ensure([], (require) => {
@@ -73,5 +66,5 @@ export default {
 				}, '404.chunk')
 			}
 		}]
-	}]	
+	}]
 }

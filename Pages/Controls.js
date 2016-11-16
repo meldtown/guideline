@@ -1,15 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
+import DemoWrapper from '../Components/DemoWrapper'
+import Input from '../Components/Atoms/Input'
+import Dropdown from '../Components/Atoms/Dropdown'
+import Checkbox from '../Components/Atoms/Checkbox'
 
-import Controls from '../Components/Atoms/Controls'
-
-
-
-export default class ControlsPage extends Component {
-	render() {
-		return (
-			<div>
-				<Controls />
-			</div>
-		)
-	}
-}
+export default () => <DemoWrapper>
+	<Input />
+	<Dropdown />
+	<Checkbox />
+</DemoWrapper>
