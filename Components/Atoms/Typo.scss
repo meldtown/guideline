@@ -20,18 +20,93 @@ h1, h2, h3, h4, h5, h6 {
 	color: inherit;
 }
 
-.fd-header {font-size: $text_h1}
-.fd-section-header {font-size: $text_h2}
-.fd-block-header {font-size: $text_h3}
-.fd-vacancy-header {font-size: $text_h4}
-.fd-vacancy-title {font-size: $text_h5}
-.fd-default {font-size: $text-default}
-.fd-small {font-size: $text-small}
-.fd-micro {font-size: $text-micro}
+.fd-bold {
+	font-family: 'Graphik Semibold'
+}
 
-.fd-text-left {text-align:left}
-.fd-text-right {text-align:right}
-.fd-text-center {text-align:center}
+.fd-semibold{
+	font-family: 'Graphik Semibold'
+}
+
+.fd-medium {
+	font-family: 'Graphik Medium'
+}
+.fd-regular {
+	font-family: 'Graphik Regular'
+}
+.fd-light {
+	font-family: 'Graphik Light'
+}
+
+.fd-header {
+	font-size: $text_h1;
+	@extend .fd-semibold
+}
+
+.fd-section-header {
+	font-size: $text_h2;
+	@extend .fd-semibold;
+}
+
+.fd-block-header {
+	font-size: $text_h3;
+	@extend .fd-light;
+}
+
+.fd-vacancy-header {
+	font-size: $text_h4;
+	@extend .fd-medium;
+}
+
+.fd-vacancy-title {
+	font-size: $text_h5;
+	@extend .fd-medium;
+}
+
+.fd-subheader, .fd-form-header {
+	font-size: $sub_header;
+}
+
+.fd-subheader {
+	@extend .fd-medium;
+}
+
+.fd-form-header {
+	@extend .fd-light;
+}
+
+.fd-subtitle {
+	font-size: $sub_title;
+	font-family: 'Graphik Regular';
+}
+
+.fd-default {
+	font-size: $text_default;
+}
+
+.fd-middle {
+	font-size: $text_middle;
+}
+
+.fd-small {
+	font-size: $text_small
+}
+
+.fd-micro {
+	font-size: $text_micro
+}
+
+.fd-text-left {
+	text-align: left
+}
+
+.fd-text-right {
+	text-align: right
+}
+
+.fd-text-center {
+	text-align: center
+}
 
 .fd-text-lowercase {
 	text-transform: lowercase;
@@ -49,14 +124,26 @@ a.f-link-dashed, a .f-link-dashed {
 	border-bottom: 1px dashed;
 }
 
-@media only screen and (max-width: $width_tablet){
-	.ft-text-left {text-align:left}
-	.ft-text-right {text-align:right}
-	.ft-text-center {text-align:center}
+@media only screen and (max-width: $width_tablet) {
+	.ft-text-left {
+		text-align: left
+	}
+	.ft-text-right {
+		text-align: right
+	}
+	.ft-text-center {
+		text-align: center
+	}
 }
 
-@media only screen and (max-width: $width_mobile){
-	.fm-text-left {text-align:left}
-	.fm-text-right {text-align:right}
-	.fm-text-center {text-align:center}
+@media only screen and (max-width: $width_mobile) {
+	.fm-text-left {
+		text-align: left
+	}
+	.fm-text-right {
+		text-align: right
+	}
+	.fm-text-center {
+		text-align: center
+	}
 }
