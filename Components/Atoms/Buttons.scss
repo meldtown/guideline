@@ -1,55 +1,74 @@
-.btn-default {
-	@extend .fd-f-center-middle;
+.btn {
 	display: inline-flex;
 	box-sizing: border-box;
+	padding: 11px 20px;
 	background: none;
 	outline: none;
 	cursor: pointer;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	padding: .1em .2em;
+	border-radius: 2px;
 	margin: 5px;
-	color: $black;
+	border: none;
+	&:hover {
+		opacity: .7;
+	}
+	&:active {
+		opacity: .9;
+	}
 }
 
-.btn-border {
-	@extend .btn-default;
-	border-color: $button_color;
+.btn-control, .btn-primary {
+	@extend .btn, .fd-f-center-middle;
+;
 }
 
-.btn-filled {
-	@extend .btn-default;
-	background-color: $button_color;
+.btn-primary {
+	min-width: 270px;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
 	color: #fff;
+	background-color: $coral;
 }
 
-.btn-default-hovered-border {
-	@extend .btn-default;
-	&:hover {
-		@extend .btn-border;
+.btn-control {
+	min-width: 160px;
+	border: 1px solid;
+	font-size: 18px;
+	i {
+		position: relative;
+		left: 0;
+		margin-left: 8px;
 	}
-}
-
-.btn-default-hovered-filled {
-	@extend .btn-default;
-	&:hover {
-		@extend .btn-filled;
-	}
-}
-
-.btn-border-hovered-filled {
-	@extend .btn-border;
-	&:hover {
-		@extend .btn-filled;
-	}
-}
-
-@each $button_class in btn-default, btn-border, btn-filled, btn-default-hovered-border, btn-default-hovered-filled, btn-border-hovered-filled {
-	.#{$button_class}-block {
-		&, &:hover {
-			display: flex;
+	&-coral, &-royal-blue, &-dark-green {
+		@extend .btn-control;
+		i {
+			transition: left .2s ease-in-out;
 		}
-		width: 100%;
-		@extend .#{$button_class}
+	}
+	&-coral {
+		color: $coral;
+		backgroud-color: $coral;
+		&:hover {
+			i {
+				left: 10px;
+			}
+		}
+	}
+	&-royal-blue {
+		color: $royal_blue;
+		backgroud-color: $royal_blue;
+		&:hover {
+			i {
+				left: 10px;
+			}
+		}
+	}
+	&-dark-green {
+		color: $dark_green;
+		backgroud-color: $dark_green;
 	}
 }
+
+
+
+
