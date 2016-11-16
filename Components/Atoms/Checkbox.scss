@@ -14,19 +14,28 @@
 	}
 	input {
 		display: none;
+		&[type=radio] ~ .checkbox-control {
+			border-radius: 50%;
+		}
 		&:not(:checked) {
-			& ~ .checkbox-control i {
-				display: none;
+			& ~ .checkbox-control {
+				background: none;
+				border: 2px solid rgba(0, 0, 0, .54);
+				i {
+					display: none;
+				}
 			}
 		}
 	}
 
 	.checkbox-control {
 		@extend .fd-f-center-middle;
-		width: 1.2em;
-		height: 1.2em;
-		border-radius: .25em;
-		background-color: #0fb9ff;
+		width: 16px;
+		height: 16px;
+		font-size: 10px;
+		border-radius: 3px;
+		box-sizing: border-box;
+		background-color: $green;
 		margin-right: .25em;
 		i {
 			color: #fff;

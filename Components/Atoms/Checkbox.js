@@ -21,7 +21,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio" defaultChecked/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 1</span>
 			</label>
@@ -30,7 +29,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio"/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 2</span>
 			</label>
@@ -39,7 +37,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio"/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 3</span>
 			</label>
@@ -50,7 +47,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio-block" defaultChecked/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 1</span>
 			</label>
@@ -59,7 +55,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio-block"/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 2</span>
 			</label>
@@ -68,7 +63,6 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="radio" name="radio-block"/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
 				</div>
 				<span>Option 3</span>
 			</label>
