@@ -2,6 +2,10 @@
 @import "node_modules/rua-icons-fi/font";
 
 
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
 // Primary
 $ultra_blue: #EBF3FA;
 $ultra_green: #EDF5F0;
