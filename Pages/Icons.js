@@ -1,9 +1,30 @@
 import React from 'react'
-import icons from 'rua-icons-fi/fi'
 import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => {
-	//const colors = [].map.call([].map.call(document.styleSheets, s => s.rules || s.cssRules).filter(r => r).reduce((a, b) => a.concat(b), []).shift(), r => r.selectorText).filter(s => (s || '').indexOf('.f-bg-') === 0).map(s => s.substring(1).replace('f-bg-', 'f-text-'))
+	const icons = [
+		'fi-arrows-right-big',
+		'fi-category-find',
+		'fi-check-icon',
+		'fi-checked-company',
+		'fi-company-find',
+		'fi-company-profile',
+		'fi-contact',
+		'fi-drop-down-icon',
+		'fi-home',
+		'fi-hot',
+		'fi-like',
+		'fi-links',
+		'fi-location-find',
+		'fi-location',
+		'fi-ok',
+		'fi-phone',
+		'fi-premium',
+		'fi-profession-find',
+		'fi-small-arrow',
+		'fi-vacancy'
+	]
+
 	const colors = [
 		'f-text-coral',
 		'f-text-dark_green',
@@ -15,13 +36,13 @@ export default () => {
 	]
 	let color = 0
 
-	return <DemoWrapper title="Icons">
-		<div className="fd-f-center">
+	return <DemoWrapper title='Icons'>
+		<div className='fd-f-center'>
 			<div>
 				{icons.map(icon => {
 					let cls = `${icon} ${colors[color++]}`
 					if (color >= colors.length) color = 0
-					return <p key={icon}><i className={cls} /> {icon}</p>
+					return <div key={icon}><i className={cls}/> {icon}</div>
 				})}
 			</div>
 		</div>
