@@ -10,7 +10,7 @@ export default () => <DemoWrapper title="Checkbox">
 			<label>
 				<input type="checkbox"/>
 				<div className="checkbox-control">
-					<i className="fa fa-check"></i>
+					<i className="fi-ok"></i>
 				</div>
 				<span>Lorem ipsum dolor sit amet</span>
 			</label>
