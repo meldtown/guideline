@@ -73,6 +73,13 @@
 			background-color: transparent !important;
 			border: none;
 			padding: 0;
+			&:hover {
+				opacity: .7;
+			}
+			&:active {
+				opacity: .9;
+				color: rgba($coral, 1)
+			}
 		}
 	}
 	&-royal-blue {
@@ -82,7 +89,7 @@
 			color: rgba($royal_blue, .4)
 		}
 		&:active {
-			color: rgba($royal_blue, .5)
+			color: rgba($royal_blue, .5);
 		}
 		&:hover {
 			i {
@@ -94,6 +101,13 @@
 			background-color: transparent !important;
 			border: none;
 			padding: 0;
+			&:hover {
+				opacity: .7;
+			}
+			&:active {
+				opacity: .9;
+				color: rgba($royal_blue, 1);
+			}
 		}
 	}
 	&-dark-green {
@@ -110,6 +124,13 @@
 			background-color: transparent !important;
 			border: none;
 			padding: 0;
+			&:hover {
+				opacity: .7;
+			}
+			&:active {
+				opacity: .9;
+				color: rgba($dark_green, 1);
+			}
 		}
 	}
 }
