@@ -48,7 +48,7 @@ export default () => <DemoWrapper title="Typo">
 		<p style={{margin: '10px 0'}} className="fd-micro">Smallest text</p>
 	</div>
 
-	<h1 className="fd-text-center fd-subheader">Multiline text</h1>
+	<h1 className="fd-text-center fd-block-header">Multiline text</h1>
 
 	<div className="temp-padding">
 		<p className="fd-header">
