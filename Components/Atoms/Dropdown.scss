@@ -1,19 +1,22 @@
 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	font-family: "Graphik Regular", sans-serif;
 }
 
 select::-ms-expand {
 	display: none;
 }
 
-.f-input{
-	select, span {
-		border-radius: 0;
-		padding-left: 10px;
-		padding-right: $input_padding;
+.f-input {
+	select {
+		border-radius: 2px;
+		border-color: $dropdown_border_color;
+		background-color: $dropdown_background_color;
+		color: $dropdown_text_color;
+		padding: 12px 88px 12px 11px;
 		&:focus {
-			border-color: $input_border_color;
+			border-color: $dropdown_border_color;
 			box-shadow: none;
 		}
 		option {
@@ -22,3 +25,18 @@ select::-ms-expand {
 	}
 }
 
+.f-input-pseudo-select, .f-input-pseudo-link {
+	display: block;
+	color: $royal_blue;
+	padding-right: 30px;
+	position: relative;
+	border-bottom: 1px dashed $royal_blue;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.f-input-pseudo-link {
+	padding-right: 0;
+}
