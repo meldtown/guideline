@@ -16,7 +16,7 @@ export default () => <DemoWrapper title="Dropdown">
 				<option>Value 5</option>
 			</select>
 			{/*<i className="fi-drop-down-button"></i>*/}
-			<i className="fa fa-caret-down"></i>
+			<i className="fi-drop-down-icon"></i>
 		</div>
 
 		<h3 className=" fd-vacancy-header text-center">Block level select</h3>
@@ -28,7 +28,7 @@ export default () => <DemoWrapper title="Dropdown">
 				<option>Value 4</option>
 				<option>Value 5</option>
 			</select>
-			<i className="fa fa-caret-down"></i>
+			<i className="fi-drop-down-icon"></i>
 		</div>
 
 		<div className="f-input-block fd-block-header">
@@ -39,7 +39,7 @@ export default () => <DemoWrapper title="Dropdown">
 				<option>Value 4</option>
 				<option>Value 5</option>
 			</select>
-			<i className="fa fa-caret-down"></i>
+			<i className="fi-drop-down-icon"></i>
 		</div>
 
 		<div className="f-input-block fd-vacancy-title">
@@ -50,7 +50,7 @@ export default () => <DemoWrapper title="Dropdown">
 				<option>Value 4</option>
 				<option>Value 5</option>
 			</select>
-			<i className="fa fa-caret-down"></i>
+			<i className="fi-drop-down-icon"></i>
 		</div>*/}
 
 		<div className="f-input-block fd-default">
@@ -61,14 +61,14 @@ export default () => <DemoWrapper title="Dropdown">
 				<option>Value 4</option>
 				<option>Value 5</option>
 			</select>
-			<i className="fa fa-caret-down"></i>	
+			<i className="fi-drop-down-icon"></i>
 		</div>
 
 
 		<h3 className="fd-block-header">Pseudo select</h3>
 		<div className="f-input fd-default">
 			<span className="f-input-pseudo-select">по рубрикам</span>
-			<i className="fa fa-caret-down"></i>
+			<i className="fi-drop-down-icon f-input-pseudo-link-icon"></i>
 		</div>
 
 		<h3 className="fd-block-header">Pseudo Link</h3>
