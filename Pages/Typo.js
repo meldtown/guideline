@@ -12,22 +12,6 @@ export default () => <DemoWrapper title="Typo">
 		<p className="fd-bold">Graphic LC Bold</p>
 	</div>
 
-<div className="temp-padding">
-	<ul>
-		<li style={{background: 'yellow'}}>item-1</li>
-		<li style={{background: 'yellow'}}>item-2</li>
-		<li style={{background: 'yellow'}}>item-3</li>
-		<li style={{background: 'yellow'}}>item-4</li>
-		<li style={{background: 'yellow'}}>item-5</li>
-	</ul>
-
-	<ol>
-		<li style={{background: 'yellow'}}>item-1</li>
-		<li style={{background: 'yellow'}}>item-2</li>
-		<li style={{background: 'yellow'}}>item-3</li>
-		<li style={{background: 'yellow'}}>item-4</li>
-		<li style={{background: 'yellow'}}>item-5</li>
-	</ol></div>
 
 	<h1 className="fd-header fd-text-center">Typographity</h1>
 
