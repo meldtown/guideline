@@ -21,7 +21,7 @@ export default () => {
 				{icons.map(icon => {
 					let cls = `${icon} ${colors[color++]}`
 					if (color >= colors.length) color = 0
-					return <p key={icon}><i className={cls} /> {icon}</p>
+					return <div key={icon}><i className={cls} /> {icon}</div>
 				})}
 			</div>
 		</div>
