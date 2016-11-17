@@ -1,5 +1,5 @@
 import React from 'react'
-import DemoWrapper from '../Components/DemoWrapper'
+import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <DemoWrapper title="Colors">
 	<h2 className="fd-section-header temp-padding">Background</h2>

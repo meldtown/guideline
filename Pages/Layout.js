@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import '../index.scss'
+import '../temp.scss'
 
 class Layout extends Component {
 	render() {

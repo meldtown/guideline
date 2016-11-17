@@ -34,6 +34,14 @@ export default () => ({
 			}
 		]
 	},
+	resolve: {
+		alias: {
+			Components: path.join(__dirname, 'Components'),
+			Pages: path.join(__dirname, 'Pages'),
+			Atoms: path.join(__dirname, 'Components/Atoms'),
+			Utils: path.join(__dirname, 'Components/Utils')
+		}
+	}, 
 	devServer: {
 		hot: true,
 		host: '0.0.0.0',

@@ -1,5 +1,5 @@
 import React from 'react'
-import DemoWrapper from '../DemoWrapper'
+import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <DemoWrapper title="Input">
 	<div className="temp-padding">

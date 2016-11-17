@@ -1,5 +1,5 @@
 import React from 'react'
-import DemoWrapper from '../DemoWrapper'
+import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <DemoWrapper title="Dropdown">
 	<h1 className=" temp-padding fd-header text-center">Dropdown</h1>
