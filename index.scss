@@ -1,6 +1,5 @@
 @import "Components/Utils/Fonts";
-@import "node_modules/rua-icons-fi/font";
-
+@import url("https://s3.eu-central-1.amazonaws.com/rua-icons-fi/fi.css");
 
 // Primary
 $ultra_blue: #EBF3FA;
@@ -68,7 +67,6 @@ $text_micro: 12px;
 // Button
 $button_color: #ff0000;
 
-@import "node_modules/rua-icons-fi/fi";
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Grid";
 @import "Components/Atoms/Colors";
