@@ -8,9 +8,9 @@ React and webpack used just for hot reload capabilities for nice development flo
 
 Styles itself does not depend on any scripts
 
-### Buttons
+### Icons
 
-.fd-btn-primary, .fd-btn-secondary
+Icons are build separately by different build job and can be found here: http://rua-icons-fi.s3-website.eu-central-1.amazonaws.com/
 
 # Docker
 
