@@ -39,7 +39,7 @@ input[type=number] {
 		color: $input_text_color;
 		padding-top: 12px;
 		padding-bottom: 12px;
-		padding-left: 11px;
+		padding-left: 12px;
 
 		&:focus {
 			border-color: $input_border_color_focus;
@@ -57,6 +57,11 @@ input[type=number] {
 		option {
 			padding-left: 5px;
 		}
+	}
+
+	[class^="fi-"] {
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 }
 
@@ -92,10 +97,9 @@ input[type=number] {
 	}
 }
 
-.icon-left {
+.f-input-icon-left {
 	input {
-		padding-left: $input_padding;
-		padding-right: .5em;
+		padding-left: $input_icon_left_right_padding;
 	}
 	i:first-of-type {
 		@extend .fd-f-center-middle;
@@ -108,14 +112,13 @@ input[type=number] {
 	}
 }
 
-.icon-right, select.f-input, select.f-input-block {
+.f-input-icon-right, select.f-input, select.f-input-block {
 	input {
-		padding-right: $input_padding;
-		padding-left: .5em;
+		padding-right: $input_icon_left_right_padding;
 	}
 }
 
-.icon-right i:last-of-type, .f-input select + i, .f-input span + i {
+.f-input-icon-right i:last-of-type, .f-input select + i, .f-input span + i {
 	@extend .fd-f-center-middle;
 	position: absolute;
 	right: $input_border_width;
@@ -127,10 +130,10 @@ input[type=number] {
 	border-bottom-right-radius: $input_border_radius;
 }
 
-.icon-left.icon-right {
+.f-input-icon-left.f-input-icon-right {
 	input {
-		padding-left: $input_padding;
-		padding-right: $input_padding;
+		padding-left: $input_icon_left_right_padding;
+		padding-right: $input_icon_left_right_padding;
 	}
 }
 

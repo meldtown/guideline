@@ -35,9 +35,23 @@ export default () => <div>
 			<input type="text"/>
 		</div>*/}
 
+		<h1 className="fd-block-header text-center">Standard block input with icon on left</h1>
+
+		<div className="f-input-block f-input-icon-left fd-default">
+			<input type="text"/>
+			<i className="fi-company-profile"/>
+		</div>
+
+		<h1 className="fd-block-header text-center">Standard block input with icon on right</h1>
+
+		<div className="f-input-block f-input-icon-right fd-default">
+			<input type="text"/>
+			<i className="fi-premium"/>
+		</div>
+
 		<h1 className="fd-block-header text-center">Standard block input with icons from both sides</h1>
 
-		<div className="f-input-block icon-left icon-right fd-default">
+		<div className="f-input-block f-input-icon-left f-input-icon-right fd-default">
 			<input type="text"/>
 			<i className="fi-contact"/>
 			<i className="fi-home"/>
