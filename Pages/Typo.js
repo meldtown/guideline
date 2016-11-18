@@ -104,5 +104,18 @@ export default () => <DemoWrapper title="Typo">
 		</p>
 	</div>
 
+	<h1 className="fd-text-center fd-block-header">Horizontal alignment</h1>
+
+	<ul className="fd-f">
+		<li className="fd-f1 fd-text-left f-bg-light-light-gray temp-padding">left</li>
+		<li className="fd-f1 fd-text-center f-bg-light-gray temp-padding">center</li>
+		<li className="fd-f1 fd-text-right f-bg-light-light-gray temp-padding">right</li>
+	</ul>
+
+	<h1 className="fd-text-center fd-block-header">Misc</h1>
+
+	<p>
+		<span className="fd-text-lowercase">Lower Case</span>, <span className="fd-text-uppercase">Upper Case</span>, <span className="fd-text-capitalize">Uppercase</span>
+	</p>
 
 </DemoWrapper>
