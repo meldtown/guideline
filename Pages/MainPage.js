@@ -17,5 +17,4 @@ export default () => <div style={{ marginTop: 100 }} >
 	<Link style={linkStyle} to="/grid">Grid</Link>
 	<Link style={linkStyle} to="/controls">Controls</Link>
 	<Link style={linkStyle} to="/papers">Papers</Link>
-	<Link style={linkStyle} to="/icons">Icons</Link>
 </div>

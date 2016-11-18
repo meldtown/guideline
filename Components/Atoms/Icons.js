@@ -1,5 +1,4 @@
 import React from 'react'
-import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => {
 	const icons = [
@@ -36,15 +35,11 @@ export default () => {
 	]
 	let color = 0
 
-	return <DemoWrapper title='Icons'>
-		<div className='fd-f-center'>
-			<div>
-				{icons.map(icon => {
-					let cls = `${icon} ${colors[color++]}`
-					if (color >= colors.length) color = 0
-					return <div key={icon}><i className={cls}/> {icon}</div>
-				})}
-			</div>
-		</div>
-	</DemoWrapper>
+	return <div>
+		{icons.map(icon => {
+			let cls = `${icon} ${colors[color++]}`
+			if (color >= colors.length) color = 0
+			return <div key={icon}><i className={cls}/> {icon}</div>
+		})}
+	</div>
 }

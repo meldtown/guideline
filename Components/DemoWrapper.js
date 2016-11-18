@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default ({title, children}) => <div className="demo">
+export default ({title, children}) => <div>
 	<input type="checkbox" id="overlay"/>
-	<div style={{backgroundColor: '#ebf3fa', paddingBottom: '100px'}}>
+	<div className="f-bg-ultra-blue">
 
 		<header className="f-paper" style={{width: '100%', marginBottom: '100px', position: 'relative'}}>
 			<div style={{padding: '50px', textAlign: 'center', fontSize: '23px', fontWeight: '700'}}>
@@ -17,8 +17,8 @@ export default ({title, children}) => <div className="demo">
 			{children}
 		</div>
 
-		<div className="f-paper-lighten">
-			<p style={{padding: '70px', textAlign: 'center'}}>Lorem ipsum dolor</p>
+		<div style={{overflow:'hidden'}}>
+			<p className="f-paper-lighten fd-text-center" style={{padding: '70px'}}>Lorem ipsum dolor</p>
 		</div>
 	</div>
 

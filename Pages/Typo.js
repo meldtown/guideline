@@ -1,6 +1,6 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
-import Icons from './Icons'
+import Icons from '../Components/Atoms/Icons'
 
 export default () => <DemoWrapper title="Typo">
 
@@ -16,21 +16,29 @@ export default () => <DemoWrapper title="Typo">
 
 	<h1 className="fd-section-header fd-text-center">Typographity</h1>
 
-	<div className="temp-padding fd-default">
-		<p style={{margin: '10px 0'}} className="fd-header">Header</p>
-		<p style={{margin: '10px 0'}} className="fd-section-header">Section-Header</p>
-		<p style={{margin: '10px 0'}} className="fd-block-header">Blocks-Header</p>
-		<p style={{margin: '10px 0'}} className="fd-vacancy-header">Vacancy-Header</p>
-		<p style={{margin: '10px 0'}} className="fd-vacancy-title">Vacancy-Title</p>
-		<p style={{margin: '10px 0'}}><span className="fd-form-header">Forms-Header</span> / <span
-			className="fd-subheader">Subheader</span></p>
-		<p style={{margin: '10px 0'}} className="fd-subtitle">Subtitle</p>
-		<p style={{margin: '10px 0'}}><span className="fd-regular">Default-text</span> / <span className="fd-light">Default-text</span>
-			/ <span className="fd-medium">Default-text</span> / <span className="fd-semibold">Default-text</span></p>
-		<p style={{margin: '10px 0'}} className="fd-middle"><span className="fd-light">Middle-text</span> / <span
-			className="fd-regular">Middle-text</span></p>
-		<p style={{margin: '10px 0'}} className="fd-small">Small text</p>
-		<p style={{margin: '10px 0'}} className="fd-micro">Smallest text</p>
+	<div className="fd-f-around">
+		<div>
+			<div className="temp-padding fd-default">
+				<p style={{margin: '10px 0'}} className="fd-header">Header</p>
+				<p style={{margin: '10px 0'}} className="fd-section-header">Section-Header</p>
+				<p style={{margin: '10px 0'}} className="fd-block-header">Blocks-Header</p>
+				<p style={{margin: '10px 0'}} className="fd-vacancy-header">Vacancy-Header</p>
+				<p style={{margin: '10px 0'}} className="fd-vacancy-title">Vacancy-Title</p>
+				<p style={{margin: '10px 0'}}><span className="fd-form-header">Forms-Header</span> / <span
+					className="fd-subheader">Subheader</span></p>
+				<p style={{margin: '10px 0'}} className="fd-subtitle">Subtitle</p>
+				<p style={{margin: '10px 0'}}><span className="fd-regular">Default-text</span> / <span className="fd-light">Default-text</span>
+					/ <span className="fd-medium">Default-text</span> / <span className="fd-semibold">Default-text</span></p>
+				<p style={{margin: '10px 0'}} className="fd-middle"><span className="fd-light">Middle-text</span> / <span
+					className="fd-regular">Middle-text</span></p>
+				<p style={{margin: '10px 0'}} className="fd-small">Small text</p>
+				<p style={{margin: '10px 0'}} className="fd-micro">Smallest text</p>
+			</div>
+		</div>
+		<div className="temp-padding">
+			<p style={{margin: '10px 0'}} className="fd-header">Icons</p>
+			<Icons />
+		</div>
 	</div>
 
 	<h1 className="fd-text-center fd-block-header">Multiline text</h1>
@@ -96,5 +104,5 @@ export default () => <DemoWrapper title="Typo">
 		</p>
 	</div>
 
-	<Icons />
+
 </DemoWrapper>
