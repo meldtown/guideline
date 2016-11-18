@@ -1,4 +1,4 @@
-import Layout from './Pages/Layout'
+import Layout from 'Pages/Layout'
 
 
 // polyfill webpack require.ensure

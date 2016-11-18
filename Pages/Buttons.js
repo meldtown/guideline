@@ -17,45 +17,80 @@ export default () => <DemoWrapper title="Buttons">
 
 		<button className="btn-control-coral fd-vacancy-title">
 			<span>Создать резюме</span>
-			<i className="fa fa-arrow-right" />
+			<i className="fi-arrows-right-big" />
 		</button>
+
+		<button className="btn-control-coral disabled fd-vacancy-title">
+			<span>Создать резюме</span>
+			<i className="fi-arrows-right-big" />
+		</button>
+
 		<br/>
 
 		<button className="btn-control-royal-blue fd-vacancy-title">
 			<span>Перейти</span>
-			<i className="fa fa-arrow-right" />
+			<i className="fi-arrows-right-big" />
+		</button>
+
+		<button className="btn-control-royal-blue fd-vacancy-title disabled">
+			<span>Перейти</span>
+			<i className="fi-arrows-right-big" />
 		</button>
 		<br/>
 
 		<button className="btn-control-dark-green fd-vacancy-title">
 			<span>Сохранить</span>
-			<i className="fa fa-check" />
+			<i className="fi-ok" />
+		</button>
+
+		<button className="btn-control-dark-green disabled fd-vacancy-title">
+			<span>Сохранить</span>
+			<i className="fi-ok" />
 		</button>
 
 		<h3 className="fd-block-header fd-text-center">Link-like buttons with controls</h3>
 
 		<button className="btn-control-coral-link fd-vacancy-title">
 			<span>Перейти</span>
-			<i className="fa fa-arrow-right" />
+			<i className="fi-arrows-right-big" />
+		</button>
+
+		<button className="btn-control-coral-link disabled fd-vacancy-title">
+			<span>Перейти</span>
+			<i className="fi-arrows-right-big" />
 		</button>
 		<br/>
 
 		<button className="btn-control-royal-blue-link fd-vacancy-title">
 			<span>Перейти</span>
-			<i className="fa fa-arrow-right" />
+			<i className="fi-arrows-right-big" />
+		</button>
+
+		<button className="btn-control-royal-blue-link disabled fd-vacancy-title">
+			<span>Перейти</span>
+			<i className="fi-arrows-right-big" />
 		</button>
 		<br/>
 
 		<button className="btn-control-dark-green-link fd-vacancy-title">
 			<span>Перейти</span>
-			<i className="fa fa-check" />
+			<i className="fi-ok" />
+		</button>
+
+		<button className="btn-control-dark-green-link disabled fd-vacancy-title">
+			<span>Перейти</span>
+			<i className="fi-ok" />
 		</button>
 
 		<button className="btn-control-default fd-vacancy-title">
 			<span>Зарегистрироваться</span>
-			<i className="fa fa-arrow-right" />
+			<i className="fi-small-arrow" />
 		</button>
-		<br/>
+
+		<button className="btn-control-default disabled fd-vacancy-title">
+			<span>Зарегистрироваться</span>
+			<i className="fi-small-arrow" />
+		</button>
 
 		<h3 className="fd-block-header fd-text-center">Link buttons</h3>
 	</div>
