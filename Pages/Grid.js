@@ -111,6 +111,11 @@ export default () => <DemoWrapper title="Grids">
 		</div>)}
 
 		<h2 className="fd-section-header fd-text-center">Media queries</h2>
+
+		<p>Each grid in examples above has different set of media specific class names.</p>
+		<p><strong className="f-text-lilac">fd-</strong> desktop</p>
+		<p><strong className="f-text-lilac">ft-</strong> tablet</p>
+		<p><strong className="f-text-lilac">fm-</strong> mobile</p>
 	</div>
 
 
