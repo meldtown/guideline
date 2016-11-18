@@ -1,10 +1,10 @@
-$color1: #244F75;
-$color2: #60BFBF;
-$color3: #8C4B7E;
-$color4: #F8BB44;
-$color5: #F24B4B;
-$color5: #F24B4B;
-$color6: #009688;
+$color1: #F06464;
+$color2: #698CD7;
+$color3: #5FC378;
+$color4: #2956AC;
+$color5: #9B6EC3;
+$color5: #FAAF64;
+$color6: #6EC3C8;
 
 @mixin easeOut {
   transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -21,13 +21,13 @@ $color6: #009688;
   text-align: center;
   overflow: hidden;
   color: white;
-  
+
   &__strip {
 
     & a {
       &, &:hover, &:visited {
         color: #fff;
-      } 
+      }
 
       &:hover {
         border-bottom: 1px dashed #fff;
@@ -41,23 +41,23 @@ $color6: #009688;
     overflow: hidden;
     cursor: pointer;
     @include easeOut;
-    
+
     &:nth-child(1) {
       left: 0;
     }
-    
+
     &:nth-child(2) {
       left: 16.6666vw;
     }
-    
+
     &:nth-child(3) {
       left: 33.333vw;
     }
-    
+
     &:nth-child(4) {
       left: 49.999vw;
     }
-    
+
     &:nth-child(5) {
       left: 66.666vw;
     }
@@ -65,7 +65,7 @@ $color6: #009688;
     &:nth-child(6) {
       left: 83.333vw;
     }
-    
+
     &:nth-child(1) {
       .strip__content {
         background: $color1;
@@ -74,7 +74,7 @@ $color6: #009688;
         animation-delay: 0.1s;
       }
     }
-    
+
     &:nth-child(2) {
       .strip__content {
         background: $color2;
@@ -83,7 +83,7 @@ $color6: #009688;
         animation-delay: 0.2s;
       }
     }
-    
+
     &:nth-child(3) {
       .strip__content {
         background: $color3;
@@ -92,7 +92,7 @@ $color6: #009688;
         animation-delay: 0.3s;
       }
     }
-    
+
     &:nth-child(4) {
       .strip__content {
         background: $color4;
@@ -101,7 +101,7 @@ $color6: #009688;
         animation-delay: 0.4s;
       }
     }
-    
+
     &:nth-child(5) {
       .strip__content {
         background: $color5;
@@ -118,7 +118,7 @@ $color6: #009688;
         animation-delay: 0.5s;
       }
     }
-    
+
     @include break {
       min-height: 20vh;
       &:nth-child(1) {
@@ -157,7 +157,7 @@ $color6: #009688;
       }
     }
   }
-  
+
   .strip__content {
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
@@ -194,7 +194,7 @@ $color6: #009688;
       @include easeOut;
     }
   }
-  
+
   .strip__inner-text {
     will-change: transform, opacity;
     position: absolute;
@@ -206,18 +206,18 @@ $color6: #009688;
     opacity: 0;
     @include easeOut;
   }
-  
+
   &__strip--expanded {
     width: 100%;
     top: 0 !important;
     left: 0 !important;
     z-index: 3;
     cursor: default;
-    
+
     @include break {
       min-height: 100vh;
     }
-    
+
     .strip__content {
       &:hover {
         &:before {
@@ -226,11 +226,11 @@ $color6: #009688;
         }
       }
     }
-    
+
     .strip__title {
       opacity: 0;
     }
-    
+
     .strip__inner-text {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
@@ -247,7 +247,7 @@ $color6: #009688;
   font-size: 2vw;
   color: white;
   @include easeOut;
-  
+
   @include break {
     font-size: 28px;
   }
@@ -262,7 +262,7 @@ $color6: #009688;
   @include easeOut;
   cursor: pointer;
   transition-delay: 0.5s;
-  
+
   &--show {
     opacity: 1;
   }
@@ -272,7 +272,7 @@ $color6: #009688;
   0% {
     transform: translate3d(-100%, 0, 0);
   }
-  
+
   100% {
     transform: translate3d(0, 0, 0);
   }
@@ -282,7 +282,7 @@ $color6: #009688;
   0% {
     transform: translate3d(0, 100%, 0);
   }
-  
+
   100% {
     transform: translate3d(0, 0, 0);
   }
@@ -292,7 +292,7 @@ $color6: #009688;
   0% {
     transform: translate3d(0, -100%, 0);
   }
-  
+
   100% {
     transform: translate3d(0, 0, 0);
   }
@@ -302,7 +302,7 @@ $color6: #009688;
   0% {
     transform: translate3d(0, 100%, 0);
   }
-  
+
   100% {
     transform: translate3d(0, 0, 0);
   }
@@ -312,7 +312,7 @@ $color6: #009688;
   0% {
     transform: translate3d(100%, 0, 0);
   }
-  
+
   100% {
     transform: translate3d(0, 0, 0);
   }
