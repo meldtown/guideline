@@ -1,7 +1,7 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
-export default () => <DemoWrapper title="Input">
+export default () => <div>
 	<div className="temp-padding">
 		<h1 className="fd-header text-center">Input</h1>
 
@@ -129,4 +129,4 @@ export default () => <DemoWrapper title="Input">
 		</p>
 	</div>
 
-</DemoWrapper>
+</div>
