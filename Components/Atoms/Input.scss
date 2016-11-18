@@ -26,16 +26,36 @@ input[type=number] {
 	display: inline-block;
 	position: relative;
 	margin: 5px 0;
+	outline: none;
+
 	input, select {
-		display: block;
-		padding: 4px 5px 3px 5px;
+		font-family: $font-regular;
 		line-height: 1;
+		display: block;
 		border: $input_border_width solid $input_border_color;
+		background-color: $input_background_color;
 		border-radius: $input_border_radius;
 		vertical-align: bottom;
+		color: $input_text_color;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-left: 11px;
+
 		&:focus {
-			border-color: $focus_color;
-			box-shadow: 0 0 1px 1px $focus_color;
+			border-color: $input_border_color_focus;
+			box-shadow: none;
+		}
+	}
+
+	input {
+		padding-right: 11px;
+		@include placeholder-color($input_placeholder_color);
+	}
+
+	select {
+		padding-right: 88px;
+		option {
+			padding-left: 5px;
 		}
 	}
 }
