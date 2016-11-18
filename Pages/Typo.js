@@ -114,8 +114,8 @@ export default () => <DemoWrapper title="Typo">
 
 	<h1 className="fd-text-center fd-block-header">Misc</h1>
 
-	<p>
-		<span className="fd-text-lowercase">Lower Case</span>, <span className="fd-text-uppercase">Upper Case</span>, <span className="fd-text-capitalize">Uppercase</span>
+	<p className="fd-text-center">
+		Text may be transformed like so <span className="fd-text-lowercase f-text-coral">Lower Case</span>, <span className="fd-text-uppercase f-text-royal-blue">Upper Case</span>, <span className="fd-text-capitalize f-text-lilac">Capitalize</span>
 	</p>
 
 </DemoWrapper>
