@@ -19,8 +19,11 @@ export default () => ({
 		path: path.join(__dirname, 'dist'),
 		filename: '[name].js'
 	},
-	plugins: [new LoaderOptionsPlugin({options: {context: __dirname, postcss: [autoprefixer]}})].concat(isProduction
-		? [new ExtractTextPlugin('[name].css'), new HtmlWebpackPlugin({title: 'Fedor', template: './index.html'})]
+	plugins: [
+		new LoaderOptionsPlugin({options: {context: __dirname, postcss: [autoprefixer]}}),
+		new HtmlWebpackPlugin({title: 'Fedor', template: './index.html'})
+	].concat(isProduction
+		? [new ExtractTextPlugin('[name].css')]
 		: [new HotModuleReplacementPlugin()]
 	),
 	module: {
