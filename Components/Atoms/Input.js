@@ -37,16 +37,10 @@ export default () => <div>
 
 		<h1 className="fd-block-header text-center">Standard block input with icons from both sides</h1>
 
-		<div className="f-input-block icon-left icon-right fd-header">
-			<input type="text"/>
-			<i className="fa fa-map-marker"/>
-			<i className="fa fa-map-marker"/>
-		</div>
-
 		<div className="f-input-block icon-left icon-right fd-default">
 			<input type="text"/>
-			<i className="fa fa-map-marker"/>
-			<i className="fa fa-map-marker"/>
+			<i className="fi-contact"/>
+			<i className="fi-home"/>
 		</div>
 
 		{/*<div className="f-input-block icon-left icon-right fd-section-header">
