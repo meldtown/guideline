@@ -1,3 +1,14 @@
 .temp-padding {
 	padding: 20px
 }
+
+.temp-colors-demo-wrapper {
+	li {margin: 10px;flex-basis: 90px}
+	b {display: block}
+
+	.temp-colors-demo-square {
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+	}
+}
