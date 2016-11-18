@@ -1,10 +1,9 @@
 import React from 'react'
-import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
 
 	<input type="checkbox" id="overlay"/>
-	<div style={{backgroundColor: '#ebf3fa', paddingBottom: '100px'}}>
+	<div style={{backgroundColor: '#ebf3fa', paddingBottom: '100px', overflow: 'hidden'}}>
 
 		<h2 className="fd-section-header temp-padding">Blocks</h2>
 
@@ -13,7 +12,7 @@ export default () => <div>
 			<p style={{padding: '50px', textAlign: 'center', fontSize: '23px', fontWeight: '700'}}>
 				MENU BLOCK
 				<label className="menu-icon" htmlFor="overlay">
-					<i className="fi-vacancy"></i>
+					<i className="fi-vacancy" />
 				</label>
 			</p>
 		</header>
@@ -36,8 +35,7 @@ export default () => <div>
 		</div>
 	</div>
 
-	<label className="overlay" htmlFor="overlay"></label>
-
+	<label className="overlay" htmlFor="overlay" />
 	<aside className="sidebar">
 		<label className="close-sidebar" htmlFor="overlay">
 			<i className="">&times;</i>
