@@ -1,9 +1,10 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
+import Icons from './Icons'
 
 export default () => <DemoWrapper title="Typo">
 
-	<h2 className="fd-header fd-text-center">Fonts</h2>
+	<h2 className="fd-section-header fd-text-center">Fonts</h2>
 	<div className="temp-padding fd-default">
 		<p className="fd-light">Graphic LC Light</p>
 		<p className="fd-regular">Graphic LC Regular</p>
@@ -13,7 +14,7 @@ export default () => <DemoWrapper title="Typo">
 	</div>
 
 
-	<h1 className="fd-header fd-text-center">Typographity</h1>
+	<h1 className="fd-section-header fd-text-center">Typographity</h1>
 
 	<div className="temp-padding fd-default">
 		<p style={{margin: '10px 0'}} className="fd-header">Header</p>
@@ -94,4 +95,6 @@ export default () => <DemoWrapper title="Typo">
 			minus?
 		</p>
 	</div>
+
+	<Icons />
 </DemoWrapper>
