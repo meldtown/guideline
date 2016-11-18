@@ -1,28 +1,10 @@
 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	font-family: "Graphik Regular", sans-serif;
 }
 
 select::-ms-expand {
 	display: none;
-}
-
-.f-input {
-	select {
-		border-radius: 2px;
-		border-color: $dropdown_border_color;
-		background-color: $dropdown_background_color;
-		color: $dropdown_text_color;
-		padding: 12px 88px 12px 11px;
-		&:focus {
-			border-color: $dropdown_border_color;
-			box-shadow: none;
-		}
-		option {
-			padding-left: 5px;
-		}
-	}
 }
 
 .fi-drop-down-icon {
@@ -47,4 +29,5 @@ select::-ms-expand {
 }
 .f-input-pseudo-link-icon {
 	color: $royal_blue;
+	right: -4px;
 }
