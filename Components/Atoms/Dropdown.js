@@ -1,7 +1,7 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
-export default () => <DemoWrapper title="Dropdown">
+export default () => <div>
 	<h1 className=" temp-padding fd-header text-center">Dropdown</h1>
 
 
@@ -76,4 +76,4 @@ export default () => <DemoWrapper title="Dropdown">
 			<a href="#" className="f-input-pseudo-link">Открыть контакт</a>
 		</div>
 	</div>
-</DemoWrapper>
+</div>
