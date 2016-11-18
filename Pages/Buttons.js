@@ -6,8 +6,8 @@ export default () => <DemoWrapper title="Buttons">
 
 		<h3 className="fd-block-header fd-text-center">Primary button</h3>
 
-		<a href="#" style={{color: '#2956ac'}} className="link fd-default">Default link</a><br/><br/>
-		<a href="#" className="link fd-default">Visited link</a>
+		<a href="#" className="link fd-default">Default link</a><br/><br/>
+		<a href="#" style={{color: '#9B6EC3'}} className="link fd-default">Visited link</a>
 
 		<h3 className="fd-block-header fd-text-center">Primary button</h3>
 
@@ -91,8 +91,5 @@ export default () => <DemoWrapper title="Buttons">
 			<span>Зарегистрироваться</span>
 			<i className="fi-small-arrow" />
 		</button>
-
-		<h3 className="fd-block-header fd-text-center">Link buttons</h3>
 	</div>
-
 </DemoWrapper>
