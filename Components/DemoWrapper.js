@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router'
+import SidebarMenu from 'Components/SidebarMenu'
+
 
 export default ({title, children}) => <div>
 	<input type="checkbox" id="overlay"/>
@@ -25,8 +28,12 @@ export default ({title, children}) => <div>
 	<label className="f-overlay" htmlFor="overlay"/>
 
 	<aside className="f-sidebar">
-		<label className="f-close-sidebar" htmlFor="overlay">
-			<i className="">&times;</i>
+		
+		<label style={{ display: "block" }} className="f-close-sidebar" htmlFor="overlay">
+			<i className="">&times;</i>			
 		</label>
+
+		<SidebarMenu /> 
+
 	</aside>
 </div>

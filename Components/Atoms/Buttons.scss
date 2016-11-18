@@ -56,7 +56,6 @@
 	}
 	&-coral {
 		color: $coral;
-		backgroud-color: $coral;
 		&.disabled {
 			color: rgba($coral, .4)
 		}
@@ -70,9 +69,12 @@
 		}
 		&-link {
 			@extend .btn-control-coral;
-			background-color: transparent !important;
+			background-color: transparent;
 			border: none;
 			padding: 0;
+			&, &:hover {
+				background-color: transparent;
+			}			
 			&:hover {
 				opacity: .7;
 			}
@@ -84,7 +86,7 @@
 	}
 	&-royal-blue {
 		color: $royal_blue;
-		backgroud-color: $royal_blue;
+		background-color: transparent;
 		&.disabled {
 			color: rgba($royal_blue, .4)
 		}
@@ -98,9 +100,12 @@
 		}
 		&-link {
 			@extend .btn-control-royal-blue;
-			background-color: transparent !important;
+			background-color: transparent;
 			border: none;
 			padding: 0;
+			&, &:hover {
+				background-color: transparent;
+			}
 			&:hover {
 				opacity: .7;
 			}
@@ -112,7 +117,7 @@
 	}
 	&-dark-green {
 		color: $dark_green;
-		backgroud-color: $dark_green;
+		background-color: transparent;
 		&.disabled {
 			color: rgba($dark_green, .4)
 		}
@@ -121,9 +126,12 @@
 		}
 		&-link {
 			@extend .btn-control-dark-green;
-			background-color: transparent !important;
+			background-color: transparent;
 			border: none;
 			padding: 0;
+			&, &:hover {
+				background-color: transparent;
+			}
 			&:hover {
 				opacity: .7;
 			}
@@ -173,7 +181,3 @@
 		color: $lilac;
 	}
 }
-
-
-
-

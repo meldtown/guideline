@@ -117,21 +117,21 @@ export default () => <div>
 		<h1 className="fd-vacancy-header text-center">Input types with special controls</h1>
 
 		<h3 className="fd-vacancy-title">Type <strong>number</strong></h3>
-		<div className="f-input-block icon-right fd-block-header">
+		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="number"/>
-			<i className="fa fa-money"/>
+			<i className="fi-company-find"/>
 		</div>
 
 		<h3 className="fd-vacancy-title">Type <strong>date</strong></h3>
-		<div className="f-input-block icon-right fd-block-header">
+		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="date"/>
-			<i className="fa fa-calendar"/>
+			<i className="fi-links"/>
 		</div>
 
 		<h3 className="fd-vacancy-title">Type <strong>email</strong></h3>
-		<div className="f-input-block icon-right fd-block-header">
+		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="email"/>
-			<i className="fa fa-envelope-o"/>
+			<i className="fi-hot"/>
 		</div>
 
 	</div>
@@ -141,9 +141,9 @@ export default () => <div>
 		<h3 className="fd-block-header fd-text-center">Labeled input</h3>
 		<p>
 			<label>Username:</label>
-			<span className="f-input icon-right">
+			<span className="f-input f-input-icon-right">
 				<input type="text"/>
-				<i className="fa fa-envelope-o"/>
+				<i className="fi-contact"/>
 			</span>
 		</p>
 	</div>
