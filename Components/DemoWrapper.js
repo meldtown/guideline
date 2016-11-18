@@ -28,12 +28,7 @@ export default ({title, children}) => <div>
 	<label className="f-overlay" htmlFor="overlay"/>
 
 	<aside className="f-sidebar">
-		
-		<label style={{ display: "block" }} className="f-close-sidebar" htmlFor="overlay">
-			<i className="">&times;</i>			
-		</label>
-
+		<label className="f-close-sidebar" htmlFor="overlay"><i>&times;</i></label>
 		<SidebarMenu /> 
-
 	</aside>
 </div>
