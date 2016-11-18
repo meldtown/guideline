@@ -1,0 +1,18 @@
+// placeholder color of input
+@mixin placeholder-color($plch-color) {
+    &::-webkit-input-placeholder {
+        color: $plch-color;
+    }
+
+    &:-moz-placeholder {
+        color: $plch-color;
+    }
+
+    &::-moz-placeholder {
+        color: $plch-color;
+    }
+
+    &:-ms-input-placeholder {
+        color: $plch-color;
+    }
+}

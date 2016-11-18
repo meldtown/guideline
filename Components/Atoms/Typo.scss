@@ -1,5 +1,5 @@
 html, body {
-	font-family: "Graphik Regular", sans-serif;
+	font-family: $font_regular;
 	font-weight: normal;
 	font-size: $text_default;
 	line-height: 1.35;
@@ -24,23 +24,22 @@ i {
 	font-size: 16px;
 }
 
-.fd-bold {
-	font-family: 'Graphik Semibold'
-}
-
-.fd-semibold{
-	font-family: 'Graphik Semibold'
-}
-
-.fd-medium {
-	font-family: 'Graphik Medium'
+.fd-light {
+	font-family: $font_light;
 }
 .fd-regular {
-	font-family: 'Graphik Regular'
+	font-family: $font_regular;
 }
-.fd-light {
-	font-family: 'Graphik Light'
+.fd-medium {
+	font-family: $font_medium;
 }
+.fd-semibold{
+	font-family: $font_semibold;
+}
+.fd-bold {
+	font-family: $font_bold;
+}
+
 
 .fd-header {
 	font-size: $text_h1;
@@ -81,7 +80,7 @@ i {
 
 .fd-subtitle {
 	font-size: $sub_title;
-	font-family: 'Graphik Regular';
+	font-family: $font_regular;
 }
 
 .fd-default {

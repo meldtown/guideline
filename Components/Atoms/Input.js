@@ -6,16 +6,21 @@ export default () => <DemoWrapper title="Input">
 		<h1 className="fd-header text-center">Input</h1>
 
 		<h1 className="fd-block-header text-center">Standard input</h1>
-		<div className="f-input fd-vacancy-title">
+		<div className="f-input fd-vacancy-title fd-default">
+			<input type="text" />
+		</div>
+
+		<h1 className="fd-block-header text-center">Block level input</h1>
+		<div className="f-input-block fd-vacancy-title fd-default">
 			<input type="text"/>
 		</div>
 
-		<h1 className="fd-block-header text-center">Block level input throughout all kinds of devices</h1>
-		<div className="f-input-block fd-vacancy-title">
-			<input type="text"/>
+		<h1 className="fd-block-header text-center">Block level input with placeholder</h1>
+		<div className="f-input-block fd-vacancy-title fd-default">
+			<input type="text" placeholder="Type your text here."/>
 		</div>
 
-		<h1 className="fd-block-header text-center">Block level input only for desktop</h1>
+		{/*<h1 className="fd-block-header text-center">Block level input only for desktop</h1>
 		<div className="fd-input-block fd-vacancy-title">
 			<input type="text"/>
 		</div>
@@ -28,7 +33,7 @@ export default () => <DemoWrapper title="Input">
 		<h1 className="fd-block-header text-center">Block level input only for mobiles</h1>
 		<div className="fm-input-block fd-vacancy-title">
 			<input type="text"/>
-		</div>
+		</div>*/}
 
 		<h1 className="fd-block-header text-center">Standard block input with icons from both sides</h1>
 
@@ -38,7 +43,13 @@ export default () => <DemoWrapper title="Input">
 			<i className="fa fa-map-marker"/>
 		</div>
 
-		<div className="f-input-block icon-left icon-right fd-section-header">
+		<div className="f-input-block icon-left icon-right fd-default">
+			<input type="text"/>
+			<i className="fa fa-map-marker"/>
+			<i className="fa fa-map-marker"/>
+		</div>
+
+		{/*<div className="f-input-block icon-left icon-right fd-section-header">
 			<input type="text"/>
 			<i className="fa fa-map-marker"/>
 			<i className="fa fa-map-marker"/>
@@ -91,7 +102,7 @@ export default () => <DemoWrapper title="Input">
 			<input type="text"/>
 			<i className="fa fa-map-marker"/>
 			<i className="fa fa-map-marker"/>
-		</div>
+		</div>*/}
 	</div>
 
 	<div className="temp-padding">
