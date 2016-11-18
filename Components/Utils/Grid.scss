@@ -24,6 +24,8 @@ ul.fd-f-between-middle
 
 .fd-f {display: flex}
 .fd-c {flex-direction: column}
+.fd-c-center {display: flex;flex-direction: column;align-items:center}
+.fd-c-stretch {display: flex;flex-direction: column;align-items: stretch}
 
 .fd-f-left {display:flex;justify-content:flex-start;align-items: stretch;}
 .fd-f-left-middle {display:flex;justify-content:flex-start;align-items:center;}

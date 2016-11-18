@@ -116,10 +116,15 @@ export default () => <DemoWrapper title="Grids">
 		<p>In most cases you want to rotate your cells into rows and there is only two available cases for horizontally align them - center and stretch</p>
 		<p>So your classes are: <strong className="f-text-lilac">fm-c-center</strong> and <strong className="f-text-lilac">fm-c-stretch</strong></p>
 
-		<span className="fd-c-center">
-			<span className="f-bg-light-gray temp-padding"><i className="fi-ok"/></span>
-			<span className="f-bg-light-light-gray temp-padding">hello world</span>
-		</span>
+		<p className="fd-c-center">
+			<span className="f-bg-light-gray temp-padding">top</span>
+			<span className="f-bg-light-light-gray temp-padding">bottom</span>
+		</p>
+
+		<p className="fd-c-stretch">
+			<span className="f-bg-light-gray temp-padding">top</span>
+			<span className="f-bg-light-light-gray temp-padding">bottom</span>
+		</p>
 	</div>
 
 </DemoWrapper>
