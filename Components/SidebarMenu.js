@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 
 export default () => <div className="fd-default temp-padding" style={{ marginTop: '90px' }} >
-	<Link to="/" className="btn-control-dark-green-link fd-vacancy-title">
+	<Link to="/" className="f-btn-control-royal-blue-link fd-vacancy-title">
 		<span>Homepage</span>
 		<i className="fi-arrows-right-big" />
 	</Link>
