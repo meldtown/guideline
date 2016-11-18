@@ -13,7 +13,7 @@ export default () => <DemoWrapper title="Papers (Containers)">
 			<p style={{ padding: '50px', textAlign: 'center', fontSize: '23px', fontWeight: '700' }}>
 				MENU BLOCK
 				<label className="menu-icon" htmlFor="overlay">
-					<i className="fi-vacancy"></i>
+					<i className="fi-vacancy" />
 				</label>
 			</p>
 		</header>
@@ -29,8 +29,7 @@ export default () => <DemoWrapper title="Papers (Containers)">
 		</div>
 	</div>
 
-	<label className="overlay" htmlFor="overlay"></label>
-
+	<label className="overlay" htmlFor="overlay" />
 	<aside className="sidebar">
 		<label className="close-sidebar" htmlFor="overlay">
 			<i className="">&times;</i>
