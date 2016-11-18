@@ -1,5 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router'
+import { Link } from 'react-router'
+import SidebarMenu from 'Components/SidebarMenu'
+
 
 export default ({title, children}) => <div>
 	<input type="checkbox" id="overlay"/>
@@ -27,6 +29,6 @@ export default ({title, children}) => <div>
 
 	<aside className="f-sidebar">
 		<label className="f-close-sidebar" htmlFor="overlay"><i>&times;</i></label>
-		<Link to="/">Homepage</Link>
+		<SidebarMenu /> 
 	</aside>
 </div>
