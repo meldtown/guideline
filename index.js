@@ -9,7 +9,7 @@ const root = document.createElement('div')
 document.body.appendChild(root)
 
 const browserHistory = useRouterHistory(createHistory)({
-	basename: window.location.hostname === 'localhost' ? '/' : window.location.pathname
+	basename: window.location.pathname.indexOf('fedor') === -1 ? '/' : window.location.pathname
 })
 
 render(
