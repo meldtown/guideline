@@ -53,86 +53,94 @@
 			transition: left .2s ease-in-out;
 		}
 	}
-	&-coral {
-		color: $coral;
-		backgroud-color: $coral;
-		&.f-disabled {
-			color: rgba($coral, .4)
-		}
-		&:active {
-			color: rgba($coral, .5)
-		}
-		&:hover {
-			i {
-				left: 10px;
-			}
-		}
-		&-link {
-			@extend .f-btn-control-coral;
-			background-color: transparent !important;
-			border: none;
-			padding: 0;
-			&:hover {
-				opacity: .7;
-			}
-			&:active {
-				opacity: .9;
-				color: rgba($coral, 1)
-			}
-		}
+}
+
+.f-btn-control-coral {
+	color: $coral;
+	backgroud-color: $coral;
+	&.f-disabled {
+		color: rgba($coral, .4)
 	}
-	&-royal-blue {
-		color: $royal_blue;
-		backgroud-color: $royal_blue;
-		&.f-disabled {
-			color: rgba($royal_blue, .4)
-		}
-		&:active {
-			color: rgba($royal_blue, .5);
-		}
-		&:hover {
-			i {
-				left: 10px;
-			}
-		}
-		&-link {
-			@extend .f-btn-control-royal-blue;
-			background-color: transparent !important;
-			border: none;
-			padding: 0;
-			&:hover {
-				opacity: .7;
-			}
-			&:active {
-				opacity: .9;
-				color: rgba($royal_blue, 1);
-			}
-		}
+	&:active {
+		color: rgba($coral, .5)
 	}
-	&-dark-green {
-		color: $dark_green;
-		backgroud-color: $dark_green;
-		&.f-disabled {
-			color: rgba($dark_green, .4)
-		}
-		&:active {
-			color: rgba($dark_green, .5)
-		}
-		&-link {
-			@extend .f-btn-control-dark-green;
-			background-color: transparent !important;
-			border: none;
-			padding: 0;
-			&:hover {
-				opacity: .7;
-			}
-			&:active {
-				opacity: .9;
-				color: rgba($dark_green, 1);
-			}
+	&:hover {
+		i {
+			left: 10px;
 		}
 	}
 }
+
+.f-btn-control-coral-link {
+	@extend .f-btn-control-coral;
+	background-color: transparent !important;
+	border: none;
+	padding: 0;
+	&:hover {
+		opacity: .7;
+	}
+	&:active {
+		opacity: .9;
+		color: rgba($coral, 1)
+	}
+}
+
+.f-btn-control-royal-blue {
+	color: $royal_blue;
+	backgroud-color: $royal_blue;
+	&.f-disabled {
+		color: rgba($royal_blue, .4)
+	}
+	&:active {
+		color: rgba($royal_blue, .5);
+	}
+	&:hover {
+		i {
+			left: 10px;
+		}
+	}
+}
+
+.f-btn-control-royal-blue-link {
+	@extend .f-btn-control-royal-blue;
+	background-color: transparent !important;
+	border: none;
+	padding: 0;
+	&:hover {
+		opacity: .7;
+	}
+	&:active {
+		opacity: .9;
+		color: rgba($royal_blue, 1);
+	}
+}
+
+
+.f-btn-control-dark-green {
+	color: $dark_green;
+	backgroud-color: $dark_green;
+	&.f-disabled {
+		color: rgba($dark_green, .4)
+	}
+	&:active {
+		color: rgba($dark_green, .5)
+	}
+}
+
+.f-btn-control-dark-green-link {
+	@extend .f-btn-control-dark-green;
+	background-color: transparent !important;
+	border: none;
+	padding: 0;
+	&:hover {
+		opacity: .7;
+	}
+	&:active {
+		opacity: .9;
+		color: rgba($dark_green, 1);
+	}
+}
+
 
 .f-btn-control-default {
 	@extend .f-btn-control-coral-link;
