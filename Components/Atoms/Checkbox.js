@@ -1,7 +1,7 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
-export default () => <DemoWrapper title="Checkbox">
+export default () => <div>
 	<h1 className="fd-header text-center">Checkbox</h1>
 
 	<div className="temp-padding">
@@ -68,4 +68,4 @@ export default () => <DemoWrapper title="Checkbox">
 			</label>
 		</div>
 	</div>
-</DemoWrapper>
+</div>

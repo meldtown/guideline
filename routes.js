@@ -67,14 +67,6 @@ export default {
 				},
 			},
 			{
-				path: '/icons',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Icons").default)
-					}, 'icons.chunk')
-				},
-			},
-			{
 				path: "*",
 				getComponent: (location, callback) => {
 					require.ensure([], require => {
