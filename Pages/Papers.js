@@ -17,8 +17,7 @@ export default () => <div>
 			</p>
 		</header>
 
-		<div style={{width: '90%', margin: '0 auto 100px'}}>
-			<div className="f-paper" style={{padding: '50px'}}>
+			<div className="f-paper f-main-wrapper" style={{padding: '50px'}}>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore tenetur dolores possimus,
 				optio nesciunt maxime veritatis, ipsa suscipit expedita molestias consequatur facilis illum illo error,
 				assumenda. Eos, similique error! Nam cumque, saepe doloribus debitis possimus inventore ab eos
@@ -28,7 +27,6 @@ export default () => <div>
 				magnam, impedit ipsam quo ipsum asperiores sint dignissimos est omnis? Reprehenderit aliquam rerum
 				cumque libero sit sint, sed necessitatibus natus quisquam unde.
 			</div>
-		</div>
 
 		<div className="f-paper-lighten">
 			<p style={{padding: '70px', textAlign: 'center'}}>Lorem ipsum dolor</p>
