@@ -4,178 +4,149 @@ import DemoWrapper from 'Components/DemoWrapper'
 export default () => <DemoWrapper title="Colors">
 	<h2 className="fd-section-header temp-padding">Background</h2>
 
-	<div>
-		<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
-			<div style={{margin: 10, flexBasis: 90}}>
-				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-blue"></div>
-				<br/>
-				<b>#EBF3FA</b><br/>
-				<span>Ultra-blue</span>
-			</div>
-			<div style={{margin: 10, flexBasis: 90}}>
-				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-green"></div>
-				<br/>
-				<b>#EDF5F0</b><br/>
-				<span>Ultra-green</span>
-			</div>
-			<div style={{margin: 10, flexBasis: 90}}>
-				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-yellow"></div>
-				<br/>
-				<b>#F9FAEB</b><br/>
-				<span>Ultra-yellow</span>
-			</div>
-			<div style={{margin: 10, flexBasis: 90}}>
-				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-coral"></div>
-				<br/>
-				<b>#F6EDEB</b><br/>
-				<span>Ultra-coral</span>
-			</div>
-			<div style={{margin: 10, flexBasis: 90}}>
-				<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-lilac"></div>
-				<br/>
-				<b>#F6F3FB</b><br/>
-				<span>Ultra-lilac</span>
-			</div>
-		</div>
-	</div>
+	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+		<li>
+			<div className="f-bg-ultra-blue temp-colors-demo-square"></div>
+			<b>#EBF3FA</b>
+			<span>Ultra-blue</span>
+		</li>
+		<li>
+			<div className="f-bg-ultra-green temp-colors-demo-square"></div>
+			<b>#EDF5F0</b>
+			<span>Ultra-green</span>
+		</li>
+		<li>
+			<div className="f-bg-ultra-yellow temp-colors-demo-square"></div>
+			<b>#F9FAEB</b>
+			<span>Ultra-yellow</span>
+		</li>
+		<li>
+			<div className="f-bg-ultra-coral temp-colors-demo-square"></div>
+			<b>#F6EDEB</b>
+			<span>Ultra-coral</span>
+		</li>
+		<li>
+			<div className="f-bg-ultra-lilac temp-colors-demo-square"></div>
+			<b>#F6F3FB</b>
+			<span>Ultra-lilac</span>
+		</li>
+	</ul>
 
 	<h2 className="fd-section-header temp-padding">Colors</h2>
 
-	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-coral"></div>
-			<br/>
-			<b>#F06464</b><br/>
+	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+		<li>
+			<div className="f-bg-coral temp-colors-demo-square"></div>
+			<b>#F06464</b>
 			<span>Coral</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-dark-green"></div>
-			<br/>
-			<b>#4BA661</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-dark-green temp-colors-demo-square"></div>
+			<b>#4BA661</b>
 			<span>Dark Green</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-green"></div>
-			<br/>
-			<b>#5FC378</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-green temp-colors-demo-square"></div>
+			<b>#5FC378</b>
 			<span>Green</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-royal-blue"></div>
-			<br/>
-			<b>#2956AC</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-royal-blue temp-colors-demo-square"></div>
+			<b>#2956AC</b>
 			<span>Royal Blue</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-lilac"></div>
-			<br/>
-			<b>#9B6EC3</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-lilac temp-colors-demo-square"></div>
+			<b>#9B6EC3</b>
 			<span>lilac</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-black"></div>
-			<br/>
-			<b>(0, 0, 0, 0.87)</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-black temp-colors-demo-square"></div>
+			<b>(0, 0, 0, 0.87)</b>
 			<span>Black</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-gray"></div>
-			<br/>
-			<b>(0, 0, 0, 0.54)</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-gray temp-colors-demo-square"></div>
+			<b>(0, 0, 0, 0.54)</b>
 			<span>Gray</span>
-		</div>
-	</div>
+		</li>
+	</ul>
 
 	<h2 className="fd-section-header temp-padding">Adjective colors</h2>
 
-	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-orange"></div>
-			<br/>
-			<b>#FAAF64</b><br/>
+	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+		<li>
+			<div className="f-bg-orange temp-colors-demo-square"></div>
+			<b>#FAAF64</b>
 			<span>Orange</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-yellow"></div>
-			<br/>
-			<b>#FAF569</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-yellow temp-colors-demo-square"></div>
+			<b>#FAF569</b>
 			<span>Yellow</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-blue"></div>
-			<br/>
-			<b>#6EC3C8</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-blue temp-colors-demo-square"></div>
+			<b>#6EC3C8</b>
 			<span>Blue</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-purple"></div>
-			<br/>
-			<b>#698CD7</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-purple temp-colors-demo-square"></div>
+			<b>#698CD7</b>
 			<span>Purple</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-gray"></div>
-			<br/>
-			<b>(0, 0, 0, 0.3)</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-gray temp-colors-demo-square"></div>
+			<b>(0, 0, 0, 0.3)</b>
 			<span>Light Gray</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-light-gray"></div>
-			<br/>
-			<b>(0, 0, 0, 0.12)</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-light-gray temp-colors-demo-square"></div>
+			<b>(0, 0, 0, 0.12)</b>
 			<span>Light-light Gray</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-ultra-gray"></div>
-			<br/>
-			<b>(0, 0, 0, .05)</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-ultra-gray temp-colors-demo-square"></div>
+			<b>(0, 0, 0, .05)</b>
 			<span>Ultra Gray</span>
-		</div>
-	</div>
+		</li>
+	</ul>
 
-	<div className="fd-f-left fd-micro" style={{textAlign: 'center'}}>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-coral"></div>
-			<br/>
-			<b>#F5AAAA</b><br/>
+	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+		<li>
+			<div className="f-bg-light-coral temp-colors-demo-square"></div>
+			<b>#F5AAAA</b>
 			<span>Light Coral</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-orange"></div>
-			<br/>
-			<b>#F5D2AA</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-orange temp-colors-demo-square"></div>
+			<b>#F5D2AA</b>
 			<span>Light Orange</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-yellow"></div>
-			<br/>
-			<b>#F5F5AF</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-yellow temp-colors-demo-square"></div>
+			<b>#F5F5AF</b>
 			<span>Light Yellow</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-green"></div>
-			<br/>
-			<b>#AADCB4</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-green temp-colors-demo-square"></div>
+			<b>#AADCB4</b>
 			<span>Light Green</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-blue"></div>
-			<br/>
-			<b>#AFDCE1</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-blue temp-colors-demo-square"></div>
+			<b>#AFDCE1</b>
 			<span>Light Blue</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-purple"></div>
-			<br/>
-			<b>#AFBEE6</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-purple temp-colors-demo-square"></div>
+			<b>#AFBEE6</b>
 			<span>Light Purple</span>
-		</div>
-		<div style={{margin: 10, flexBasis: 90}}>
-			<div style={{width: 60, height: 60, display: 'inline-block'}} className="f-bg-light-lilac"></div>
-			<br/>
-			<b>#C8AFDC</b><br/>
+		</li>
+		<li>
+			<div className="f-bg-light-lilac temp-colors-demo-square"></div>
+			<b>#C8AFDC</b>
 			<span>Light lilac</span>
-		</div>
-	</div>
-
+		</li>
+	</ul>
 </DemoWrapper>

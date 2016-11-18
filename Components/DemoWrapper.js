@@ -7,7 +7,7 @@ export default ({title, children}) => <div>
 		<header className="f-paper" style={{width: '100%', marginBottom: '100px', position: 'relative'}}>
 			<div style={{padding: '50px', textAlign: 'center', fontSize: '23px', fontWeight: '700'}}>
 				{title}
-				<label className="menu-icon" htmlFor="overlay">
+				<label className="f-menu-icon" htmlFor="overlay">
 					<i className="fi-vacancy"/>
 				</label>
 			</div>
@@ -22,10 +22,10 @@ export default ({title, children}) => <div>
 		</div>
 	</div>
 
-	<label className="overlay" htmlFor="overlay"/>
+	<label className="f-overlay" htmlFor="overlay"/>
 
-	<aside className="sidebar">
-		<label className="close-sidebar" htmlFor="overlay">
+	<aside className="f-sidebar">
+		<label className="f-close-sidebar" htmlFor="overlay">
 			<i className="">&times;</i>
 		</label>
 	</aside>

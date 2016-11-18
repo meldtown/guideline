@@ -12,19 +12,19 @@
 	display: none;
 }
 
-.menu-icon {
+.f-menu-icon {
 	position: absolute;
 	right: 20px;
 	top: 50%;
 	transform: translateY(-50%);
 	i {
 		font-size: 30px;
-		color: $dark_green;
+		color: $purple;
 		cursor: pointer;
 	}
 }
 
-.overlay {
+.f-overlay {
 	position: fixed;
 	background-color: rgba(150, 150, 150, .5);
 	#overlay:checked ~ & {
@@ -35,7 +35,7 @@
 	}
 }
 
-aside.sidebar {
+aside.f-sidebar {
 	position: fixed;
 	width: $sidebar_width;
 	background-color: #fff;
@@ -47,7 +47,7 @@ aside.sidebar {
 	#overlay:checked ~ & {
 		right: 0;
 	}
-	.close-sidebar {
+	.f-close-sidebar {
 		position: absolute;
 		top: 20px;
 		right: 20px;
