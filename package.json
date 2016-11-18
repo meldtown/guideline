@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server",
-    "dist": "webpack -p"
+    "dist": "webpack -p",
+    "deploy": "node deploy.js"
   },
   "babel": {
     "presets": [
