@@ -25,7 +25,7 @@ export default () => ({
 	),
 	module: {
 		loaders: [
-			{test: /\.js$/, loaders: ['babel-loader']},
+			{test: /\.js$/, loaders: ['babel-loader'], exclude: /node_modules/},
 			{
 				test: /\.s?css$/,
 				loader: isProduction
@@ -41,7 +41,7 @@ export default () => ({
 			Atoms: path.join(__dirname, 'Components/Atoms'),
 			Utils: path.join(__dirname, 'Components/Utils')
 		}
-	}, 
+	},
 	devServer: {
 		hot: true,
 		host: '0.0.0.0',
