@@ -35,7 +35,7 @@
 	}
 }
 
-aside.f-sidebar {
+.f-sidebar {
 	position: fixed;
 	width: $sidebar_width;
 	background-color: #fff;
@@ -49,9 +49,10 @@ aside.f-sidebar {
 		right: 0;
 	}
 
-	$close_box_size: 60px;
 
 	.f-close-sidebar {
+		$close_box_size: 60px;
+
 		//background: gray;
 		position: absolute;
 		top: 0;
