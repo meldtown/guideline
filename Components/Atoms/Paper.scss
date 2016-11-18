@@ -44,17 +44,26 @@ aside.f-sidebar {
 	right: -$sidebar_width;
 	z-index: 3;
 	transition: all .2s;
+
 	#overlay:checked ~ & {
 		right: 0;
 	}
+
+	$close_box_size: 60px;
+
 	.f-close-sidebar {
+		//background: gray;
 		position: absolute;
-		top: 20px;
-		right: 20px;
+		top: 0;
+		right: 0;
+		width: $close_box_size;
+		height: $close_box_size;
 		cursor: pointer;
+		text-align:center;
 		i {
 			font-size: 50px;
 			font-style: normal;
+			line-height: $close_box_size;
 		}
 	}
 }
