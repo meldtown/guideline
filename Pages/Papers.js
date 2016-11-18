@@ -1,4 +1,6 @@
 import React from 'react'
+import SidebarMenu from 'Components/SidebarMenu'
+
 
 export default () => <div>
 
@@ -38,6 +40,8 @@ export default () => <div>
 		<label className="f-close-sidebar" htmlFor="overlay">
 			<i className="">&times;</i>
 		</label>
+
+		<SidebarMenu />
 	</aside>
 
 </div>

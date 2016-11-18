@@ -1,78 +1,44 @@
-import Layout from 'Pages/Layout'
-
+import * as Pages from './Pages'
 
 // polyfill webpack require.ensure
 if (typeof require.ensure !== 'function') require.ensure = (d, c) => c(require)
 
-
 //noinspection JSUnusedLocalSymbols
 export default {
-	component: Layout,
+	component: Pages.Layout,
 	childRoutes: [{
 		childRoutes: [
 			{
 				path: '/',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/MainPage").default)
-					}, 'mainpage.chunk')
-				},
+				component: Pages.MainPage
 			},
 			{
 				path: '/buttons',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Buttons").default)
-					}, 'buttons.chunk')
-				},
+				component: Pages.Buttons
 			},
 			{
 				path: '/colors',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Colors").default)
-					}, 'colors.chunk')
-				},
+				component: Pages.Colors
 			},
 			{
 				path: '/typo',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Typo").default)
-					}, 'typo.chunk')
-				},
+				component: Pages.Typo
 			},
 			{
 				path: '/grid',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Grid").default)
-					}, 'grid.chunk')
-				},
+				component: Pages.Grid
 			},
 			{
 				path: '/controls',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Controls").default)
-					}, 'controls.chunk')
-				},
+				component: Pages.Controls
 			},
 			{
 				path: '/papers',
-				getComponent(location, callback) {
-					require.ensure([], (require) => {
-						callback(null, require("./Pages/Papers").default)
-					}, 'papers.chunk')
-				},
+				component: Pages.Papers
 			},
 			{
 				path: "*",
-				getComponent: (location, callback) => {
-					require.ensure([], require => {
-						callback(null, require("./Pages/NotFound").default)
-					}, '404.chunk')
-				}
+				component: Pages.NotFound
 			}]
 	}]
 }

@@ -22,6 +22,15 @@ input[type=number] {
 	-moz-appearance: textfield;
 }
 
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
 .f-input {
 	display: inline-block;
 	position: relative;
@@ -39,7 +48,7 @@ input[type=number] {
 		color: $input_text_color;
 		padding-top: 12px;
 		padding-bottom: 12px;
-		padding-left: 11px;
+		padding-left: 12px;
 
 		&:focus {
 			border-color: $input_border_color_focus;
@@ -58,6 +67,34 @@ input[type=number] {
 			padding-left: 5px;
 		}
 	}
+
+	[class^="fi-"] {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.f-input-pseudo-select, .f-input-pseudo-link {
+		display: block;
+		color: $royal_blue;
+		padding-right: 25px;
+		position: relative;
+		border-bottom: 1px dashed $royal_blue;
+		cursor: pointer;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	.f-input-pseudo-link, .f-input-pseudo-link-icon {
+		padding-right: 0;
+	}
+	.f-input-pseudo-link-icon {
+		color: $royal_blue;
+		right: -4px;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .f-input-block {
@@ -68,6 +105,11 @@ input[type=number] {
 		width: 100%;
 		box-sizing: border-box;
 	}
+}
+
+
+.fi-drop-down-icon {
+	padding-right: 5px;
 }
 
 .fd-input-block, .ft-input-block, .fm-input-block {
@@ -92,10 +134,9 @@ input[type=number] {
 	}
 }
 
-.icon-left {
+.f-input-icon-left {
 	input {
-		padding-left: $input_padding;
-		padding-right: .5em;
+		padding-left: $input_icon_left_right_padding;
 	}
 	i:first-of-type {
 		@extend .fd-f-center-middle;
@@ -108,14 +149,13 @@ input[type=number] {
 	}
 }
 
-.icon-right, select.f-input, select.f-input-block {
+.f-input-icon-right, select.f-input, select.f-input-block {
 	input {
-		padding-right: $input_padding;
-		padding-left: .5em;
+		padding-right: $input_icon_left_right_padding;
 	}
 }
 
-.icon-right i:last-of-type, .f-input select + i, .f-input span + i {
+.f-input-icon-right i:last-of-type, .f-input select + i, .f-input span + i {
 	@extend .fd-f-center-middle;
 	position: absolute;
 	right: $input_border_width;
@@ -127,10 +167,10 @@ input[type=number] {
 	border-bottom-right-radius: $input_border_radius;
 }
 
-.icon-left.icon-right {
+.f-input-icon-left.f-input-icon-right {
 	input {
-		padding-left: $input_padding;
-		padding-right: $input_padding;
+		padding-left: $input_icon_left_right_padding;
+		padding-right: $input_icon_left_right_padding;
 	}
 }
 
