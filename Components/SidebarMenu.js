@@ -2,19 +2,18 @@ import React from 'react'
 import { Link } from 'react-router'
 
 
-export default () => <div class="fd-default temp-padding" style={{ marginTop: '90px' }} >
-	<button className="btn-control-dark-green-link fd-vacancy-title">
-		<span>Разместить резюме</span>
+export default () => <div className="fd-default temp-padding" style={{ marginTop: '90px' }} >
+	<Link to="/" className="f-btn-control-royal-blue-link fd-vacancy-title">
+		<span>Homepage</span>
 		<i className="fi-arrows-right-big" />
-	</button>
+	</Link>
 
-	<ul class="temp-sidebar-ul" style={{ marginTop: '20px' }}>
-		<li><Link to="/">Main page</Link></li>
-		<li><Link to="/buttons">Buttons</Link></li>
-		<li><Link to="/colors">Colors</Link></li>
-		<li><Link to="/typo">Typo</Link></li>
-		<li><Link to="/controls">Controls</Link></li>
-		<li><Link to="/grid">Grid</Link></li>
-		<li><Link to="/papers">Papers</Link></li>
+	<ul className="temp-sidebar-ul f-reset-list temp-padding" style={{ paddingLeft: '25px' }}>
+		<li><Link to="/buttons" className="f-text-black" activeClassName="f-text-royal-blue">Buttons</Link></li>
+		<li><Link to="/colors" className="f-text-black" activeClassName="f-text-royal-blue">Colors</Link></li>
+		<li><Link to="/typo" className="f-text-black" activeClassName="f-text-royal-blue">Typo</Link></li>
+		<li><Link to="/controls" className="f-text-black" activeClassName="f-text-royal-blue">Controls</Link></li>
+		<li><Link to="/grid" className="f-text-black" activeClassName="f-text-royal-blue">Grid</Link></li>
+		<li><Link to="/papers" className="f-text-black" activeClassName="f-text-royal-blue">Papers</Link></li>
 	</ul>
 </div>
