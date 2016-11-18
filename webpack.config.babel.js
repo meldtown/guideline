@@ -20,7 +20,7 @@ export default () => ({
 		filename: '[name].js'
 	},
 	plugins: [new LoaderOptionsPlugin({options: {context: __dirname, postcss: [autoprefixer]}})].concat(isProduction
-		? [new ExtractTextPlugin('[name].css'), new HtmlWebpackPlugin({title: 'Fedor'})]
+		? [new ExtractTextPlugin('[name].css'), new HtmlWebpackPlugin({title: 'Fedor', template: './index.html'})]
 		: [new HotModuleReplacementPlugin()]
 	),
 	module: {
