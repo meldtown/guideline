@@ -1,7 +1,8 @@
 import React from 'react'
+import DemoWrapper from 'Components/DemoWrapper'
 
-export default () => <div style={{textAlign: 'center', margin: 200}}>
-	<h1 style={{ fontSize: 50, textTransform: 'uppercase' }}>
+export default () => <DemoWrapper title="Not found">
+	<h1 className="fd-header fd-text-center fd-text-uppercase">
 		Page not found!
-	</h1>	
-</div>
+	</h1>
+</DemoWrapper>

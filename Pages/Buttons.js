@@ -3,7 +3,6 @@ import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <DemoWrapper title="Buttons">
 	<div className="temp-padding">
-
 		<h3 className="fd-block-header fd-text-center">Primary button</h3>
 
 		<a href="#" style={{color: '#2956ac'}} className="f-link fd-default">Default link</a><br/><br/>
@@ -91,7 +90,5 @@ export default () => <DemoWrapper title="Buttons">
 			<span>Зарегистрироваться</span>
 			<i className="fi-small-arrow" />
 		</button>
-
 	</div>
-
 </DemoWrapper>

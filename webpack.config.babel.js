@@ -3,6 +3,7 @@ import autoprefixer from 'autoprefixer'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import LoaderOptionsPlugin from 'webpack/lib/LoaderOptionsPlugin'
 import HotModuleReplacementPlugin from 'webpack/lib/HotModuleReplacementPlugin'
+import NamedModulesPlugin from 'webpack/lib/NamedModulesPlugin'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 
 const isProduction = 'production' === (process.env.NODE_ENV = process.argv.indexOf('-p') === -1 ? 'development' : 'production')
@@ -24,7 +25,7 @@ export default () => ({
 		new HtmlWebpackPlugin({title: 'Fedor', template: './index.html'})
 	].concat(isProduction
 		? [new ExtractTextPlugin('[name].css')]
-		: [new HotModuleReplacementPlugin()]
+		: [new NamedModulesPlugin(), new HotModuleReplacementPlugin()]
 	),
 	module: {
 		loaders: [

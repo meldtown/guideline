@@ -1,18 +1,23 @@
+import './index.scss'
+import './temp.scss'
 import 'isomorphic-fetch'
+// import * as ReactHotLoader from 'react-hot-loader'
+import { AppContainer } from 'react-hot-loader';
 import React from 'react'
-import {render} from 'react-dom'
-import {Router, useRouterHistory} from 'react-router'
-import Routes from './routes.js'
-import {createHistory} from 'history'
+import ReactDOM from 'react-dom'
+import App from './Components/App'
+
+// let AppContainer = require('react-hot-loader').AppContainer
 
 const root = document.createElement('div')
 document.body.appendChild(root)
 
-const browserHistory = useRouterHistory(createHistory)({
-	basename: window.location.pathname.indexOf('fedor') === -1 ? '/' : window.location.pathname
-})
 
-render(
-	<Router history={browserHistory} routes={Routes}/>,
-	root
-)
+ReactDOM.render(<AppContainer><App /></AppContainer>, root)
+
+if (module.hot) {
+	module.hot.accept('./Components/App', () => {
+		const NextApp = require('./Components/App').default
+		ReactDOM.render(<AppContainer><NextApp /></AppContainer>, root)
+	})
+}
