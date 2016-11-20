@@ -2,7 +2,14 @@ import React from 'react'
 import { BrowserRouter, Match, Miss } from 'react-router'
 import * as Pages from '../Pages'
 
-export default () => <BrowserRouter>
+// https://github.com/ReactTraining/react-router/blob/v4/website/components/App.js#L15-L19
+const basename = (() => {
+	const a = document.createElement('a')
+	a.href = document.baseURI
+	return a.pathname.replace(/\/$/, '')
+})()
+
+export default () => <BrowserRouter basename={basename}>
 	<div>
 		<Match exactly pattern="/" component={Pages.MainPage} />
 		<Match pattern="/buttons" component={Pages.Buttons}/>
