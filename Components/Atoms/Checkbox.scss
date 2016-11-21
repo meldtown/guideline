@@ -1,4 +1,4 @@
-.checkbox {
+.f-checkbox {
 	line-height: 1;
 	label {
 		display: inline-block;
@@ -9,16 +9,16 @@
 			vertical-align: middle;
 		}
 	}
-	&, .checkbox-control {
+	&, .f-checkbox-control {
 		display: inline-flex;
 	}
 	input {
 		display: none;
-		&[type=radio] ~ .checkbox-control {
+		&[type=radio] ~ .f-checkbox-control {
 			border-radius: 50%;
 		}
 		&:not(:checked) {
-			& ~ .checkbox-control {
+			& ~ .f-checkbox-control {
 				background: none;
 				border: 2px solid rgba(0, 0, 0, .54);
 				i {
@@ -28,7 +28,7 @@
 		}
 	}
 
-	.checkbox-control {
+	.f-checkbox-control {
 		@extend .fd-f-center-middle;
 		width: 16px;
 		height: 16px;
@@ -47,8 +47,8 @@
 	}
 }
 
-.checkbox-block {
-	@extend .checkbox;
+.f-checkbox-block {
+	@extend .f-checkbox;
 	display: block;
 	margin: 10px auto;
 }
