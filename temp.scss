@@ -1,14 +1,67 @@
+@import 'index.scss';
+
 .temp-padding {
 	padding: 20px
 }
 
 .temp-colors-demo-wrapper {
-	li {margin: 10px;flex-basis: 90px}
-	b {display: block}
+	li { margin: 10px; flex-basis: 90px }
+	b { display: block }
 
 	.temp-colors-demo-square {
 		width: 60px;
 		height: 60px;
 		display: inline-block;
+	}
+}
+
+
+.temp-paper-page-wrap {
+	min-height: 100vh;
+	background-color: #ebf3fa;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+.temp-paper-header-wrap {
+	width: 100%;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.temp-paper-header-text {
+	padding: 50px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.temp-paper-lighten-wrap {
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+// Temp paddings for block with media-queries
+
+.temp-fd-block-paddings {
+	padding: 50px;	
+}
+
+
+@media only screen and (max-width: $width_tablet) { 
+	.temp-ft-block-paddings {
+		padding: 30px;
+	}
+}
+
+@media only screen and (max-width: $width_mobile) { 
+	.temp-fm-block-paddings {
+		padding: 20px;
 	}
 }
