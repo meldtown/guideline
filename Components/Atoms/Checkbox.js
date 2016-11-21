@@ -6,10 +6,10 @@ export default () => <div>
 
 	<div className="temp-padding">
 		<h3 className="fd-text-default">Checkbox</h3>
-		<div className="checkbox fd-text-default">
+		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="checkbox"/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 					<i className="fi-check-icon"></i>
 				</div>
 				<span>Lorem ipsum dolor sit amet</span>
@@ -17,52 +17,52 @@ export default () => <div>
 		</div>
 
 		<h3 className="fd-text-default">Radio button</h3>
-		<div className="checkbox fd-text-default">
+		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio" defaultChecked/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 1</span>
 			</label>
 		</div>
-		<div className="checkbox fd-text-default">
+		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio"/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 2</span>
 			</label>
 		</div>
-		<div className="checkbox fd-text-default">
+		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio"/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 3</span>
 			</label>
 		</div>
 
 		<h3 className="fd-text-default">Radio buttons (block level)</h3>
-		<div className="checkbox-block fd-text-default">
+		<div className="f-checkbox-block fd-text-default">
 			<label>
 				<input type="radio" name="radio-block" defaultChecked/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 1</span>
 			</label>
 		</div>
-		<div className="checkbox-block fd-text-default">
+		<div className="f-checkbox-block fd-text-default">
 			<label>
 				<input type="radio" name="radio-block"/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 2</span>
 			</label>
 		</div>
-		<div className="checkbox-block fd-default">
+		<div className="f-checkbox-block fd-default">
 			<label>
 				<input type="radio" name="radio-block"/>
-				<div className="checkbox-control">
+				<div className="f-checkbox-control">
 				</div>
 				<span>Option 3</span>
 			</label>
