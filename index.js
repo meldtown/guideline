@@ -1,5 +1,4 @@
 import './index.scss'
-import './temp.scss'
 import 'isomorphic-fetch'
 // import * as ReactHotLoader from 'react-hot-loader'
 import { AppContainer } from 'react-hot-loader';

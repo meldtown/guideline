@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-import './MainPage.scss'
-
 export default () => <div>
 	<section className="temp-strips">
 		<article className="temp-strips__strip">

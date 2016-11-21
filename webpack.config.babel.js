@@ -14,7 +14,8 @@ export default () => ({
 	entry: {
 		index: isProduction
 			? './index'
-			: ['react-hot-loader/patch', 'webpack-dev-server/client?http://localhost:8080', 'webpack/hot/only-dev-server', './index']
+			: ['react-hot-loader/patch', 'webpack-dev-server/client?http://localhost:8080', 'webpack/hot/only-dev-server', './index'],
+		temp: './temp.js' 
 	},
 	output: {
 		path: path.join(__dirname, 'dist'),
