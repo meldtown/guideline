@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import SidebarMenu from 'Components/SidebarMenu'
-
+import Footer from './Organisms/Footer'
 
 export default ({title, children}) => <div>
 	<input type="checkbox" id="overlay"/>
@@ -23,6 +23,8 @@ export default ({title, children}) => <div>
 		<div style={{overflow:'hidden'}}>
 			<p className="f-paper-lighten fd-text-center" style={{padding: '70px'}}>Lorem ipsum dolor</p>
 		</div>
+
+		<Footer />
 	</div>
 
 	<label className="f-overlay" htmlFor="overlay"/>

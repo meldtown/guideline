@@ -1,13 +1,10 @@
 import './index.scss'
-import './temp.scss'
 import 'isomorphic-fetch'
 // import * as ReactHotLoader from 'react-hot-loader'
 import { AppContainer } from 'react-hot-loader';
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './Components/App'
-
-// let AppContainer = require('react-hot-loader').AppContainer
 
 const root = document.createElement('div')
 document.body.appendChild(root)

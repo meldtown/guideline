@@ -6,7 +6,8 @@ import * as Pages from '../Pages'
 const basename = (() => {
 	const a = document.createElement('a')
 	a.href = document.baseURI
-	return a.pathname.replace(/\/$/, '')
+	let result = a.pathname.replace(/\/$/, '')
+	return result.indexOf('fedor') === -1 ? '' : '/fedor'
 })()
 
 export default () => <BrowserRouter basename={basename}>
@@ -17,7 +18,6 @@ export default () => <BrowserRouter basename={basename}>
 		<Match pattern="/typo" component={Pages.Typo}/>
 		<Match pattern="/grid" component={Pages.Grid}/>
 		<Match pattern="/controls" component={Pages.Controls}/>
-		<Match pattern="/papers" component={Pages.Papers}/>
 		<Match pattern="/papers" component={Pages.Papers}/>
 		<Miss component={Pages.NotFound}/>
 	</div>
