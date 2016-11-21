@@ -42,7 +42,7 @@ i {
 
 .fd-header {
 	font-size: $text_h1;
-	@extend .fd-semibold
+	@extend .fd-semibold;
 }
 
 .fd-section-header {
@@ -96,6 +96,129 @@ i {
 
 .fd-micro {
 	font-size: $text_micro
+}
+
+
+@media only screen and (max-width: $width_tablet){
+
+	.ft-header {
+		font-size: $text_h1;
+		font-family: $font_semibold;
+	}
+
+	.ft-section-header {
+		font-size: $text_h2;
+		font-family: $font_semibold
+	}
+
+	.ft-block-header {
+		font-size: $text_h3;
+		font-family: $font_light
+	}
+
+	.ft-vacancy-header {
+		font-size: $text_h4;
+		font-family: $font_medium;
+	}
+
+	.ft-vacancy-title {
+		font-size: $text_h5;
+		font-family: $font_medium;
+	}
+
+	.ft-subheader, .ft-form-header {
+		font-size: $sub_header;
+	}
+
+	.ft-subheader {
+		font-family: $font_medium;
+	}
+
+	.ft-form-header {
+		font-family: $font_medium;
+	}
+
+	.ft-subtitle {
+		font-size: $sub_title;
+		font-family: $font_regular;
+	}
+
+	.ft-default {
+		font-size: $text_default;
+	}
+
+	.ft-middle {
+		font-size: $text_middle;
+	}
+
+	.ft-small {
+		font-size: $text_small
+	}
+
+	.ft-micro {
+		font-size: $text_micro
+	}
+}
+
+@media only screen and (max-width: $width_mobile){
+
+	.fm-header {
+		font-size: $text_h1;
+		font-family: $font_semibold;
+	}
+
+	.fm-section-header {
+		font-size: $text_h2;
+		font-family: $font_semibold
+	}
+
+	.fm-block-header {
+		font-size: $text_h3;
+		font-family: $font_light
+	}
+
+	.fm-vacancy-header {
+		font-size: $text_h4;
+		font-family: $font_medium;
+	}
+
+	.fm-vacancy-title {
+		font-size: $text_h5;
+		font-family: $font_medium;
+	}
+
+	.fm-subheader, .fm-form-header {
+		font-size: $sub_header;
+	}
+
+	.fm-subheader {
+		font-family: $font_medium;
+	}
+
+	.fm-form-header {
+		font-family: $font_medium;
+	}
+
+	.fm-subtitle {
+		font-size: $sub_title;
+		font-family: $font_regular;
+	}
+
+	.fm-default {
+		font-size: $text_default;
+	}
+
+	.fm-middle {
+		font-size: $text_middle;
+	}
+
+	.fm-small {
+		font-size: $text_small
+	}
+
+	.fm-micro {
+		font-size: $text_micro
+	}
 }
 
 .fd-text-left {

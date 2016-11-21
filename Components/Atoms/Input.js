@@ -3,19 +3,19 @@ import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
 	<div className="temp-padding">
-		<h1 className="fd-header text-center">Input</h1>
+		<h1 className="fd-header fm-default text-center">Input</h1>
 
-		<h1 className="fd-block-header text-center">Standard input</h1>
+		<h1 className="fd-block-header fm-default text-center">Standard input</h1>
 		<div className="f-input fd-vacancy-title fd-default">
 			<input type="text" />
 		</div>
 
-		<h1 className="fd-block-header text-center">Block level input</h1>
+		<h1 className="fd-block-header fm-default text-center">Block level input</h1>
 		<div className="f-input-block fd-vacancy-title fd-default">
 			<input type="text"/>
 		</div>
 
-		<h1 className="fd-block-header text-center">Block level input with placeholder</h1>
+		<h1 className="fd-block-header fm-default text-center">Block level input with placeholder</h1>
 		<div className="f-input-block fd-vacancy-title fd-default">
 			<input type="text" placeholder="Type your text here."/>
 		</div>
@@ -35,21 +35,21 @@ export default () => <div>
 			<input type="text"/>
 		</div>*/}
 
-		<h1 className="fd-block-header text-center">Standard block input with icon on left</h1>
+		<h1 className="fd-block-header fm-default text-center">Standard block input with icon on left</h1>
 
 		<div className="f-input-block f-input-icon-left fd-default">
 			<input type="text"/>
 			<i className="fi-company-profile"/>
 		</div>
 
-		<h1 className="fd-block-header text-center">Standard block input with icon on right</h1>
+		<h1 className="fd-block-header fm-default text-center">Standard block input with icon on right</h1>
 
 		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="text"/>
 			<i className="fi-premium"/>
 		</div>
 
-		<h1 className="fd-block-header text-center">Standard block input with icons from both sides</h1>
+		<h1 className="fd-block-header fm-default text-center">Standard block input with icons from both sides</h1>
 
 		<div className="f-input-block f-input-icon-left f-input-icon-right fd-default">
 			<input type="text"/>
@@ -114,21 +114,21 @@ export default () => <div>
 	</div>
 
 	<div className="temp-padding">
-		<h1 className="fd-vacancy-header text-center">Input types with special controls</h1>
+		<h1 className="fd-vacancy-header fm-default text-center">Input types with special controls</h1>
 
-		<h3 className="fd-vacancy-title">Type <strong>number</strong></h3>
+		<h3 className="fd-vacancy-title fm-default">Type <strong>number</strong></h3>
 		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="number"/>
 			<i className="fi-company-find"/>
 		</div>
 
-		<h3 className="fd-vacancy-title">Type <strong>date</strong></h3>
+		<h3 className="fd-vacancy-title fm-default">Type <strong>date</strong></h3>
 		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="date"/>
 			<i className="fi-links"/>
 		</div>
 
-		<h3 className="fd-vacancy-title">Type <strong>email</strong></h3>
+		<h3 className="fd-vacancy-title fm-default">Type <strong>email</strong></h3>
 		<div className="f-input-block f-input-icon-right fd-default">
 			<input type="email"/>
 			<i className="fi-hot"/>

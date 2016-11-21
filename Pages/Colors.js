@@ -2,7 +2,7 @@ import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <DemoWrapper title="Colors">
-	<h2 className="fd-section-header temp-padding">Background</h2>
+	<h2 className="fd-section-header fm-default temp-padding">Background</h2>
 
 	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
@@ -32,7 +32,7 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<h2 className="fd-section-header temp-padding">Colors</h2>
+	<h2 className="fd-section-header fm-default temp-padding">Colors</h2>
 
 	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
@@ -72,7 +72,7 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<h2 className="fd-section-header temp-padding">Adjective colors</h2>
+	<h2 className="fd-section-header fm-default temp-padding">Adjective colors</h2>
 
 	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>

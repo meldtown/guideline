@@ -2,10 +2,10 @@ import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
-	<h1 className="fd-header text-center">Checkbox</h1>
+	<h1 className="fd-header fm-default text-center">Checkbox</h1>
 
 	<div className="temp-padding">
-		<h3 className="fd-text-default">Checkbox</h3>
+		<h3 className="fd-text-default fm-default">Checkbox</h3>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="checkbox"/>
@@ -16,7 +16,7 @@ export default () => <div>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default">Radio button</h3>
+		<h3 className="fd-text-default fm-default">Radio button</h3>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio" defaultChecked/>
@@ -42,7 +42,7 @@ export default () => <div>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default">Radio buttons (block level)</h3>
+		<h3 className="fd-text-default fm-default">Radio buttons (block level)</h3>
 		<div className="f-checkbox-block fd-text-default">
 			<label>
 				<input type="radio" name="radio-block" defaultChecked/>

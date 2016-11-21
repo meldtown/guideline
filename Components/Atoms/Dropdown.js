@@ -2,11 +2,11 @@ import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
-	<h1 className=" temp-padding fd-header text-center">Dropdown</h1>
+	<h1 className=" temp-padding fd-header fm-default text-center">Dropdown</h1>
 
 
 	<div className="temp-padding">
-		<h3 className=" fd-vacancy-header text-center">Inline select</h3>
+		<h3 className=" fd-vacancy-header fm-default text-center">Inline select</h3>
 		<div className="f-input">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -19,7 +19,7 @@ export default () => <div>
 			<i className="fi-drop-down-icon"></i>
 		</div>
 
-		<h3 className=" fd-vacancy-header text-center">Block level select</h3>
+		<h3 className=" fd-vacancy-header fm-default text-center">Block level select</h3>
 		{/*<div className="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -65,13 +65,13 @@ export default () => <div>
 		</div>
 
 
-		<h3 className="fd-block-header">Pseudo select</h3>
+		<h3 className="fd-block-header fm-default">Pseudo select</h3>
 		<div className="f-input fd-default">
 			<span className="f-input-pseudo-select">по рубрикам</span>
 			<i className="fi-drop-down-icon f-input-pseudo-link-icon"></i>
 		</div>
 
-		<h3 className="fd-block-header">Pseudo Link</h3>
+		<h3 className="fd-block-header fm-default">Pseudo Link</h3>
 		<div className="f-input fd-default">
 			<a href="#" className="f-input-pseudo-link">Открыть контакт</a>
 		</div>
