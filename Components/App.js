@@ -6,7 +6,8 @@ import * as Pages from '../Pages'
 const basename = (() => {
 	const a = document.createElement('a')
 	a.href = document.baseURI
-	return a.pathname.replace(/\/$/, '')
+	let result = a.pathname.replace(/\/$/, '')
+	return result.indexOf('fedor') === -1 ? '' : '/fedor'
 })()
 
 export default () => <BrowserRouter basename={basename}>

@@ -94,10 +94,13 @@ $sidebar_width: 350px;
 
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Grid";
+@import "Components/Utils/List";
+
 @import "Components/Atoms/Colors";
 @import "Components/Atoms/Typo";
 @import "Components/Atoms/Buttons";
 @import "Components/Atoms/Input";
 @import "Components/Atoms/Checkbox";
 @import "Components/Atoms/Paper";
-@import "Components/Utils/List.scss";
+
+@import "Components/Organisms/Footer";
