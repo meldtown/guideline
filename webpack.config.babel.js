@@ -44,6 +44,7 @@ export default () => ({
 			Components: path.join(__dirname, 'Components'),
 			Pages: path.join(__dirname, 'Pages'),
 			Atoms: path.join(__dirname, 'Components/Atoms'),
+			Organisms: path.join(__dirname, 'Components/Organisms'),
 			Utils: path.join(__dirname, 'Components/Utils')
 		}
 	},

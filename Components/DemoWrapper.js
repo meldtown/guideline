@@ -1,20 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router'
-import SidebarMenu from 'Components/SidebarMenu'
-import Footer from './Organisms/Footer'
+import Header from 'Organisms/Header'
+import Footer from 'Organisms/Footer'
 
 export default ({title, children}) => <div>
-	<input type="checkbox" id="overlay"/>
+	
 	<div className="f-bg-ultra-blue">
 
-		<header className="f-paper" style={{width: '100%', marginBottom: '100px', position: 'relative'}}>
-			<div style={{padding: '50px', textAlign: 'center', fontSize: '23px', fontWeight: '700'}}>
-				{title}
-				<label className="f-menu-icon" htmlFor="overlay">
-					<i className="fi-vacancy"/>
-				</label>
-			</div>
-		</header>
+		<Header title={title} />
 
 		<div className="f-paper f-main-wrapper" style={{padding: '50px'}}>
 			{children}
@@ -25,12 +18,7 @@ export default ({title, children}) => <div>
 		</div>
 
 		<Footer />
+
 	</div>
 
-	<label className="f-overlay" htmlFor="overlay"/>
-
-	<aside className="f-sidebar">
-		<label className="f-close-sidebar" htmlFor="overlay"><i>&times;</i></label>
-		<SidebarMenu /> 
-	</aside>
 </div>
