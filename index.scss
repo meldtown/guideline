@@ -68,23 +68,23 @@ $input_placeholder_color: rgba(0, 0, 0, 0.3);
 $font_light: 'Graphik Light', sans-serif;
 $font_regular: "Graphik Regular", sans-serif;
 $font_medium: 'Graphik Medium', sans-serif;
-$font_semibold: 'Graphik Semibold', sans-serif;
+$font_semi: 'Graphik Semibold', sans-serif;
 $font_bold: 'Graphik Semibold', sans-serif;
 
 
 // Text size
 
-$text_h1: 70px;
-$text_h2: 40px;
-$text_h3: 36px;
-$text_h4: 32px;
-$text_h5: 26px;
-$sub_header: 24px;
-$sub_title: 18px;
-$text_default: 16px;
-$text_middle: 15px;
-$text_small: 14px;
-$text_micro: 12px;
+$text_emperor: 70px;
+$text_shogun: 36px;
+$text_daimyo: 32px;
+$text_samurai: 26px;
+$text_ronin: 24px;
+$text_soldier: 18px;
+$text_merchant: 16px;
+$text_farmer: 15px;
+$text_craftsmen: 14px;
+$text_peasant: 13px;
+$text_serf: 12px;
 
 // Button
 $button_color: #ff0000;
@@ -98,6 +98,7 @@ $sidebar_width: 350px;
 
 @import "Components/Atoms/Colors";
 @import "Components/Atoms/Typo";
+@import "Components/Atoms/Icons";
 @import "Components/Atoms/Buttons";
 @import "Components/Atoms/Input";
 @import "Components/Atoms/Checkbox";

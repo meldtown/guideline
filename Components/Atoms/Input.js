@@ -1,22 +1,21 @@
 import React from 'react'
-import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
 	<div className="temp-padding">
-		<h1 className="fd-header fm-default text-center">Input</h1>
+		<h1 className="f-emperor fm-merchant text-center">Input</h1>
 
-		<h1 className="fd-block-header fm-default text-center">Standard input</h1>
-		<div className="f-input fd-vacancy-title fd-default">
+		<h1 className="fd-shogun fm-merchant text-center">Standard input</h1>
+		<div className="f-input fd-samurai fd-merchant">
 			<input type="text" />
 		</div>
 
-		<h1 className="fd-block-header fm-default text-center">Block level input</h1>
-		<div className="f-input-block fd-vacancy-title fd-default">
+		<h1 className="fd-shogun fm-merchant text-center">Block level input</h1>
+		<div className="f-input-block fd-samurai fd-merchant">
 			<input type="text"/>
 		</div>
 
-		<h1 className="fd-block-header fm-default text-center">Block level input with placeholder</h1>
-		<div className="f-input-block fd-vacancy-title fd-default">
+		<h1 className="fd-shogun fm-merchant text-center">Block level input with placeholder</h1>
+		<div className="f-input-block fd-samurai fd-merchant">
 			<input type="text" placeholder="Type your text here."/>
 		</div>
 
@@ -35,23 +34,23 @@ export default () => <div>
 			<input type="text"/>
 		</div>*/}
 
-		<h1 className="fd-block-header fm-default text-center">Standard block input with icon on left</h1>
+		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icon on left</h1>
 
-		<div className="f-input-block f-input-icon-left fd-default">
+		<div className="f-input-block f-input-icon-left fd-merchant">
 			<input type="text"/>
 			<i className="fi-company-profile"/>
 		</div>
 
-		<h1 className="fd-block-header fm-default text-center">Standard block input with icon on right</h1>
+		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icon on right</h1>
 
-		<div className="f-input-block f-input-icon-right fd-default">
+		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="text"/>
 			<i className="fi-premium"/>
 		</div>
 
-		<h1 className="fd-block-header fm-default text-center">Standard block input with icons from both sides</h1>
+		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icons from both sides</h1>
 
-		<div className="f-input-block f-input-icon-left f-input-icon-right fd-default">
+		<div className="f-input-block f-input-icon-left f-input-icon-right fd-merchant">
 			<input type="text"/>
 			<i className="fi-contact"/>
 			<i className="fi-home"/>
@@ -114,22 +113,22 @@ export default () => <div>
 	</div>
 
 	<div className="temp-padding">
-		<h1 className="fd-vacancy-header fm-default text-center">Input types with special controls</h1>
+		<h1 className="fd-daimyo fm-merchant text-center">Input types with special controls</h1>
 
-		<h3 className="fd-vacancy-title fm-default">Type <strong>number</strong></h3>
-		<div className="f-input-block f-input-icon-right fd-default">
+		<h3 className="fd-samurai fm-merchant">Type <strong>number</strong></h3>
+		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="number"/>
 			<i className="fi-company-find"/>
 		</div>
 
-		<h3 className="fd-vacancy-title fm-default">Type <strong>date</strong></h3>
-		<div className="f-input-block f-input-icon-right fd-default">
+		<h3 className="fd-samurai fm-merchant">Type <strong>date</strong></h3>
+		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="date"/>
 			<i className="fi-links"/>
 		</div>
 
-		<h3 className="fd-vacancy-title fm-default">Type <strong>email</strong></h3>
-		<div className="f-input-block f-input-icon-right fd-default">
+		<h3 className="fd-samurai fm-merchant">Type <strong>email</strong></h3>
+		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="email"/>
 			<i className="fi-hot"/>
 		</div>
@@ -138,7 +137,7 @@ export default () => <div>
 
 
 	<div>
-		<h3 className="fd-block-header fd-text-center">Labeled input</h3>
+		<h3 className="fd-shogun fd-text-center">Labeled input</h3>
 		<p>
 			<label>Username:</label>
 			<span className="f-input f-input-icon-right">

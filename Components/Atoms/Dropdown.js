@@ -1,12 +1,11 @@
 import React from 'react'
-import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
-	<h1 className=" temp-padding fd-header fm-default text-center">Dropdown</h1>
+	<h1 className=" temp-padding f-emperor fm-merchant text-center">Dropdown</h1>
 
 
 	<div className="temp-padding">
-		<h3 className=" fd-vacancy-header fm-default text-center">Inline select</h3>
+		<h3 className=" fd-daimyo fm-merchant text-center">Inline select</h3>
 		<div className="f-input">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -16,10 +15,10 @@ export default () => <div>
 				<option>Value 5</option>
 			</select>
 			{/*<i className="fi-drop-down-button"></i>*/}
-			<i className="fi-drop-down-icon"></i>
+			<i className="fi-drop-down-icon" />
 		</div>
 
-		<h3 className=" fd-vacancy-header fm-default text-center">Block level select</h3>
+		<h3 className=" fd-daimyo fm-merchant text-center">Block level select</h3>
 		{/*<div className="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -53,7 +52,7 @@ export default () => <div>
 			<i className="fi-drop-down-icon"></i>
 		</div>*/}
 
-		<div className="f-input-block fd-default">
+		<div className="f-input-block fd-merchant">
 			<select name="select" id="1">
 				<option>Value 1</option>
 				<option>Value 2</option>
@@ -61,18 +60,18 @@ export default () => <div>
 				<option>Value 4</option>
 				<option>Value 5</option>
 			</select>
-			<i className="fi-drop-down-icon"></i>
+			<i className="fi-drop-down-icon" />
 		</div>
 
 
-		<h3 className="fd-block-header fm-default">Pseudo select</h3>
-		<div className="f-input fd-default">
+		<h3 className="fd-shogun fm-merchant">Pseudo select</h3>
+		<div className="f-input fd-merchant">
 			<span className="f-input-pseudo-select">по рубрикам</span>
-			<i className="fi-drop-down-icon f-input-pseudo-link-icon"></i>
+			<i className="fi-drop-down-icon f-input-pseudo-link-icon" />
 		</div>
 
-		<h3 className="fd-block-header fm-default">Pseudo Link</h3>
-		<div className="f-input fd-default">
+		<h3 className="fd-shogun fm-merchant">Pseudo Link</h3>
+		<div className="f-input fd-merchant">
 			<a href="#" className="f-input-pseudo-link">Открыть контакт</a>
 		</div>
 	</div>

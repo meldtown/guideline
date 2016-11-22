@@ -1,7 +1,7 @@
 html, body {
 	font-family: $font_regular;
 	font-weight: normal;
-	font-size: $text_default;
+	font-size: $text_merchant;
 	line-height: 1.35;
 }
 
@@ -19,256 +19,179 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 40px;
 }
 
-i {
-	font-size: 16px;
-}
 
-.fd-light {
-	font-family: $font_light;
-}
-.fd-regular {
-	font-family: $font_regular;
-}
-.fd-medium {
-	font-family: $font_medium;
-}
-.fd-semibold{
-	font-family: $font_semibold;
-}
-.fd-bold {
-	font-family: $font_bold;
-}
+// Font Weight
+
+.fd-thin {font-family: $font_light}
+.fd-beefy {font-family: $font_medium}
+.fd-fat{font-family: $font_semi}
 
 
-.fd-header {
-	font-size: $text_h1;
-	@extend .fd-semibold;
-}
+// Font Size
 
-.fd-section-header {
-	font-size: $text_h2;
-	@extend .fd-semibold;
-}
-
-.fd-block-header {
-	font-size: $text_h3;
-	@extend .fd-light;
-}
-
-.fd-vacancy-header {
-	font-size: $text_h4;
-	@extend .fd-medium;
-}
-
-.fd-vacancy-title {
-	font-size: $text_h5;
-	@extend .fd-medium;
-}
-
-.fd-subheader, .fd-form-header {
-	font-size: $sub_header;
-}
-
-.fd-subheader {
-	@extend .fd-medium;
-}
-
-.fd-form-header {
-	@extend .fd-light;
-}
-
-.fd-subtitle {
-	font-size: $sub_title;
-	font-family: $font_regular;
-}
-
-.fd-default {
-	font-size: $text_default;
-}
-
-.fd-middle {
-	font-size: $text_middle;
-}
-
-.fd-small {
-	font-size: $text_small
-}
-
-.fd-micro {
-	font-size: $text_micro
-}
+.fd-shogun {font-size: $text_shogun}
+.fd-daimyo {font-size: $text_daimyo}
+.fd-samurai {font-size: $text_samurai}
+.fd-ronin {font-size: $text_ronin}
+.fd-soldier {font-size: $text_soldier}
+.fd-merchant {font-size: $text_merchant}
+.fd-farmer {font-size: $text_farmer}
+.fd-craftsmen {font-size: $text_craftsmen}
+.fd-peasant {font-size: $text_peasant}
+.fd-serf {font-size: $text_serf}
 
 
-@media only screen and (max-width: $width_tablet){
+// Font Size Variations
 
-	.ft-header {
-		font-size: $text_h1;
-		font-family: $font_semibold;
-	}
+.fd-thin-shogun {font-size: $text_shogun;font-family: $font_light}
+.fd-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
+.fd-thin-samurai {font-size: $text_samurai;font-family: $font_light}
+.fd-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+.fd-thin-soldier {font-size: $text_soldier;font-family: $font_light}
+.fd-thin-merchant {font-size: $text_merchant;font-family: $font_light}
+.fd-thin-farmer {font-size: $text_farmer;font-family: $font_light}
+.fd-thin-craftsmen {font-size: $text_craftsmen;font-family: $font_light}
+.fd-thin-peasant {font-size: $text_peasant;font-family: $font_light}
+.fd-thin-serf {font-size: $text_serf;font-family: $font_light}
 
-	.ft-section-header {
-		font-size: $text_h2;
-		font-family: $font_semibold
-	}
+.fd-beefy-shogun {font-size: $text_shogun;font-family: $font_medium}
+.fd-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
+.fd-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
+.fd-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+.fd-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
+.fd-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
+.fd-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
+.fd-beefy-craftsmen {font-size: $text_craftsmen;font-family: $font_medium}
+.fd-beefy-peasant {font-size: $text_peasant;font-family: $font_medium}
+.fd-beefy-serf {font-size: $text_serf;font-family: $font_medium}
 
-	.ft-block-header {
-		font-size: $text_h3;
-		font-family: $font_light
-	}
+.fd-fat-shogun {font-size: $text_shogun;font-family: $font_semi}
+.fd-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
+.fd-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
+.fd-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+.fd-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
+.fd-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
+.fd-fat-farmer {font-size: $text_farmer;font-family: $font_semi}
+.fd-fat-craftsmen {font-size: $text_craftsmen;font-family: $font_semi}
+.fd-fat-peasant {font-size: $text_peasant;font-family: $font_semi}
+.fd-fat-serf {font-size: $text_serf;font-family: $font_semi}
 
-	.ft-vacancy-header {
-		font-size: $text_h4;
-		font-family: $font_medium;
-	}
 
-	.ft-vacancy-title {
-		font-size: $text_h5;
-		font-family: $font_medium;
-	}
+// Text Alignment
 
-	.ft-subheader, .ft-form-header {
-		font-size: $sub_header;
-	}
+.fd-text-left {text-align: left}
+.fd-text-right {text-align: right}
+.fd-text-center {text-align: center}
 
-	.ft-subheader {
-		font-family: $font_medium;
-	}
 
-	.ft-form-header {
-		font-family: $font_medium;
-	}
+// Misc
 
-	.ft-subtitle {
-		font-size: $sub_title;
-		font-family: $font_regular;
-	}
+.f-emperor {font-size: $text_emperor;font-family: $font_semi/*$font_bold*/}
 
-	.ft-default {
-		font-size: $text_default;
-	}
-
-	.ft-middle {
-		font-size: $text_middle;
-	}
-
-	.ft-small {
-		font-size: $text_small
-	}
-
-	.ft-micro {
-		font-size: $text_micro
-	}
-}
-
-@media only screen and (max-width: $width_mobile){
-
-	.fm-header {
-		font-size: $text_h1;
-		font-family: $font_semibold;
-	}
-
-	.fm-section-header {
-		font-size: $text_h2;
-		font-family: $font_semibold
-	}
-
-	.fm-block-header {
-		font-size: $text_h3;
-		font-family: $font_light
-	}
-
-	.fm-vacancy-header {
-		font-size: $text_h4;
-		font-family: $font_medium;
-	}
-
-	.fm-vacancy-title {
-		font-size: $text_h5;
-		font-family: $font_medium;
-	}
-
-	.fm-subheader, .fm-form-header {
-		font-size: $sub_header;
-	}
-
-	.fm-subheader {
-		font-family: $font_medium;
-	}
-
-	.fm-form-header {
-		font-family: $font_medium;
-	}
-
-	.fm-subtitle {
-		font-size: $sub_title;
-		font-family: $font_regular;
-	}
-
-	.fm-default {
-		font-size: $text_default;
-	}
-
-	.fm-middle {
-		font-size: $text_middle;
-	}
-
-	.fm-small {
-		font-size: $text_small
-	}
-
-	.fm-micro {
-		font-size: $text_micro
-	}
-}
-
-.fd-text-left {
-	text-align: left
-}
-
-.fd-text-right {
-	text-align: right
-}
-
-.fd-text-center {
-	text-align: center
-}
-
-.fd-text-lowercase {
-	text-transform: lowercase;
-}
-
-.fd-text-uppercase {
-	text-transform: uppercase;
-}
-
-.fd-text-capitalize {
-	text-transform: capitalize;
-}
+.fd-text-lowercase {text-transform: lowercase}
+.fd-text-uppercase {text-transform: uppercase}
+.fd-text-capitalize {text-transform: capitalize}
 
 a.f-link-dashed, a .f-link-dashed {
 	border-bottom: 1px dashed;
 }
 
-@media only screen and (max-width: $width_tablet) {
-	.ft-text-left {
-		text-align: left
-	}
-	.ft-text-right {
-		text-align: right
-	}
-	.ft-text-center {
-		text-align: center
-	}
+@media only screen and (max-width: $width_tablet){
+	.ft-shogun {font-size: $text_shogun;font-family: $font_semi}
+	.ft-daimyo {font-size: $text_daimyo;font-family: $font_light}
+	.ft-samurai {font-size: $text_samurai;font-family: $font_medium}
+	.ft-ronin {font-size: $text_ronin}
+	.ft-soldier {font-size: $text_soldier}
+	.ft-merchant {font-size: $text_merchant}
+	.ft-farmer {font-size: $text_farmer}
+	.ft-craftsmen {font-size: $text_craftsmen}
+	.ft-peasant {font-size: $text_peasant}
+	.ft-serf {font-size: $text_serf}
+
+	.ft-thin-shogun {font-size: $text_shogun;font-family: $font_light}
+	.ft-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
+	.ft-thin-samurai {font-size: $text_samurai;font-family: $font_light}
+	.ft-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+	.ft-thin-soldier {font-size: $text_soldier;font-family: $font_light}
+	.ft-thin-merchant {font-size: $text_merchant;font-family: $font_light}
+	.ft-thin-farmer {font-size: $text_farmer;font-family: $font_light}
+	.ft-thin-craftsmen {font-size: $text_craftsmen;font-family: $font_light}
+	.ft-thin-peasant {font-size: $text_peasant;font-family: $font_light}
+	.ft-thin-serf {font-size: $text_serf;font-family: $font_light}
+
+	.ft-beefy-shogun {font-size: $text_shogun;font-family: $font_medium}
+	.ft-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
+	.ft-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
+	.ft-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+	.ft-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
+	.ft-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
+	.ft-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
+	.ft-beefy-craftsmen {font-size: $text_craftsmen;font-family: $font_medium}
+	.ft-beefy-peasant {font-size: $text_peasant;font-family: $font_medium}
+	.ft-beefy-serf {font-size: $text_serf;font-family: $font_medium}
+
+	.ft-fat-shogun {font-size: $text_shogun;font-family: $font_semi}
+	.ft-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
+	.ft-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
+	.ft-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+	.ft-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
+	.ft-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
+	.ft-fat-farmer {font-size: $text_farmer;font-family: $font_semi}
+	.ft-fat-craftsmen {font-size: $text_craftsmen;font-family: $font_semi}
+	.ft-fat-peasant {font-size: $text_peasant;font-family: $font_semi}
+	.ft-fat-serf {font-size: $text_serf;font-family: $font_semi}
+
+	.ft-text-left {text-align: left}
+	.ft-text-right {text-align: right}
+	.ft-text-center {text-align: center}
 }
 
-@media only screen and (max-width: $width_mobile) {
-	.fm-text-left {
-		text-align: left
-	}
-	.fm-text-right {
-		text-align: right
-	}
-	.fm-text-center {
-		text-align: center
-	}
+@media only screen and (max-width: $width_mobile){
+	.fm-shogun {font-size: $text_shogun;font-family: $font_semi}
+	.fm-daimyo {font-size: $text_daimyo;font-family: $font_light}
+	.fm-samurai {font-size: $text_samurai;font-family: $font_medium}
+	.fm-ronin {font-size: $text_ronin}
+	.fm-soldier {font-size: $text_soldier}
+	.fm-merchant {font-size: $text_merchant}
+	.fm-farmer {font-size: $text_farmer}
+	.fm-craftsmen {font-size: $text_craftsmen}
+	.fm-peasant {font-size: $text_peasant}
+	.fm-serf {font-size: $text_serf}
+
+	.fm-thin-shogun {font-size: $text_shogun;font-family: $font_light}
+	.fm-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
+	.fm-thin-samurai {font-size: $text_samurai;font-family: $font_light}
+	.fm-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+	.fm-thin-soldier {font-size: $text_soldier;font-family: $font_light}
+	.fm-thin-merchant {font-size: $text_merchant;font-family: $font_light}
+	.fm-thin-farmer {font-size: $text_farmer;font-family: $font_light}
+	.fm-thin-craftsmen {font-size: $text_craftsmen;font-family: $font_light}
+	.fm-thin-peasant {font-size: $text_peasant;font-family: $font_light}
+	.fm-thin-serf {font-size: $text_serf;font-family: $font_light}
+
+	.fm-beefy-shogun {font-size: $text_shogun;font-family: $font_medium}
+	.fm-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
+	.fm-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
+	.fm-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+	.fm-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
+	.fm-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
+	.fm-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
+	.fm-beefy-craftsmen {font-size: $text_craftsmen;font-family: $font_medium}
+	.fm-beefy-peasant {font-size: $text_peasant;font-family: $font_medium}
+	.fm-beefy-serf {font-size: $text_serf;font-family: $font_medium}
+
+	.fm-fat-shogun {font-size: $text_shogun;font-family: $font_semi}
+	.fm-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
+	.fm-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
+	.fm-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+	.fm-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
+	.fm-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
+	.fm-fat-farmer {font-size: $text_farmer;font-family: $font_semi}
+	.fm-fat-craftsmen {font-size: $text_craftsmen;font-family: $font_semi}
+	.fm-fat-peasant {font-size: $text_peasant;font-family: $font_semi}
+	.fm-fat-serf {font-size: $text_serf;font-family: $font_semi}
+
+	.fm-text-left {text-align: left}
+	.fm-text-right {text-align: right}
+	.fm-text-center {text-align: center}
 }

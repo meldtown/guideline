@@ -1,22 +1,21 @@
 import React from 'react'
-import DemoWrapper from 'Components/DemoWrapper'
 
 export default () => <div>
-	<h1 className="fd-header fm-default text-center">Checkbox</h1>
+	<h1 className="f-emperor fm-merchant text-center">Checkbox</h1>
 
 	<div className="temp-padding">
-		<h3 className="fd-text-default fm-default">Checkbox</h3>
+		<h3 className="fd-text-default fm-merchant">Checkbox</h3>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="checkbox"/>
 				<div className="f-checkbox-control">
-					<i className="fi-check-icon"></i>
+					<i className="fi-check-icon" />
 				</div>
 				<span>Lorem ipsum dolor sit amet</span>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default fm-default">Radio button</h3>
+		<h3 className="fd-text-default fm-merchant">Radio button</h3>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio" defaultChecked/>
@@ -42,7 +41,7 @@ export default () => <div>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default fm-default">Radio buttons (block level)</h3>
+		<h3 className="fd-text-default fm-merchant">Radio buttons (block level)</h3>
 		<div className="f-checkbox-block fd-text-default">
 			<label>
 				<input type="radio" name="radio-block" defaultChecked/>
@@ -59,7 +58,7 @@ export default () => <div>
 				<span>Option 2</span>
 			</label>
 		</div>
-		<div className="f-checkbox-block fd-default">
+		<div className="f-checkbox-block fd-merchant">
 			<label>
 				<input type="radio" name="radio-block"/>
 				<div className="f-checkbox-control">
