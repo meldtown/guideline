@@ -1,0 +1,131 @@
+.f-overlay {
+	position: fixed;
+	background-color: rgba(150, 150, 150, .5);
+	#f-overlay-chkbx:checked ~ & {
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+#f-overlay-chkbx {
+	display: none;
+}
+
+.f-menu-icon {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	i {
+		font-size: 30px;
+		color: $purple;
+		cursor: pointer;
+	}
+}
+
+.f-sidebar {
+	position: fixed;
+	width: $sidebar_width;
+	background-color: #fff;
+	top: 0;
+	bottom: 0;	
+
+	right: -$sidebar_width;
+	z-index: 3;
+	transition: all .2s;
+
+	#f-overlay-chkbx:checked ~ & {
+		transform: translateX(-$sidebar_width);
+	}
+
+	.f-close-sidebar {
+		$close_box_size: 60px;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: $close_box_size;
+		height: $close_box_size;
+		cursor: pointer;
+		text-align:center;
+		i {
+			font-size: 50px;
+			font-style: normal;
+			line-height: $close_box_size;
+		}
+	}
+}
+
+
+.f-header {
+	padding-left: 53px;
+	padding-right: 53px;
+	margin-bottom: 70px;
+}
+
+.f-header-logo {
+	height: 100%;
+	margin-right: 35px;
+}
+.f-header-menu-list {
+	li {
+		position: relative;
+		display: inline-block;
+		position: relative;
+		padding: 45px 0 22px;
+		margin: 0 10px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+
+		& a {
+			&, &:hover, &:visited {
+				color: $input_text_color
+			}
+		}
+	}	
+}
+
+.f-header-menu-list-link {
+		&:hover:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 30px;
+			height: 4px;
+			background-color: $coral;
+		}
+}
+
+.f-header-menu-list-pseudo-btn {
+	padding: 10px 10px 7px 11px;	
+	border-radius: 2px;
+	border: 1px solid $input_text_color;
+	text-transform: uppercase;
+}
+
+.f-header-menu-list-link-with-border {
+	border-bottom: 1px dashed $input_text_color;
+	padding-bottom: 5px;
+
+	& label {
+		cursor: pointer;
+	}
+}
+
+.f-header-menu-list-topbtn {
+	position: absolute;
+	top: 14px;
+	right: 0;
+	font-size: 14px;
+	color: $royal_blue !important;
+	min-width: 0;
+	margin: 0;
+}
