@@ -1,0 +1,81 @@
+.f-footer {
+	.f-footer--primary {
+		.f-main-wrapper {
+			padding: 30px 0 20px 0;
+		}
+
+		nav {
+			span, a {
+				float: left;
+				clear: left;
+			}
+
+			span {
+				margin-bottom: 10px;
+			}
+		}
+
+		.fi-logo-symbol {
+			font-size: 36px;
+
+			&:before {
+				margin-top: -25px;
+			}
+		}
+
+		.f-footer--feedback-col {
+			max-width: 210px;
+
+			.f-input-block {
+				margin: 0 0 50px;
+			}
+		}
+	}
+
+	.f-footer--secondary {
+		padding: 20px 0;
+
+		.fd-f-left-middle {
+			img, i, span {
+				margin: 0 20px
+			}
+
+			.fi-logo-footer {
+				margin-left: 0;
+				font-size: 140px;
+				width: 140px;
+				height: 30px;
+				display: flex;
+				align-items: center;
+				overflow: hidden;
+			}
+
+			span span {
+				margin: 0;
+				display: block;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $width_mobile){
+	.f-footer {
+		.f-footer--primary {
+			.f-main-wrapper {
+				padding: 0 20px 20px;
+			}
+
+			nav, .f-footer--feedback-col {
+				margin-top: 20px;
+			}
+
+			.f-footer--feedback-col {
+				max-width: none;
+
+				.f-input-block {
+					margin: 0 0 10px;
+				}
+			}
+		}
+	}
+}

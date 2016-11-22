@@ -4,7 +4,7 @@ import DemoWrapper from 'Components/DemoWrapper'
 export default () => <DemoWrapper title="Colors">
 	<h2 className="fd-section-header fm-default temp-padding">Background</h2>
 
-	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+	<ul className="fd-f-left fm-c-center fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-ultra-blue temp-colors-demo-square"></div>
 			<b>#EBF3FA</b>
@@ -34,7 +34,7 @@ export default () => <DemoWrapper title="Colors">
 
 	<h2 className="fd-section-header fm-default temp-padding">Colors</h2>
 
-	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+	<ul className="fd-f-left fm-c-center fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-coral temp-colors-demo-square"></div>
 			<b>#F06464</b>
@@ -74,7 +74,7 @@ export default () => <DemoWrapper title="Colors">
 
 	<h2 className="fd-section-header fm-default temp-padding">Adjective colors</h2>
 
-	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+	<ul className="fd-f-left fm-c-center fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-orange temp-colors-demo-square"></div>
 			<b>#FAAF64</b>
@@ -112,7 +112,7 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<ul className="fd-f-left fd-micro fd-text-center temp-colors-demo-wrapper">
+	<ul className="fd-f-left fm-c-center fd-micro fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-light-coral temp-colors-demo-square"></div>
 			<b>#F5AAAA</b>

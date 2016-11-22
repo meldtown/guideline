@@ -1,114 +1,70 @@
 import React from 'react'
 
-export default () => <div className="f-main-wrapper">
-	<ul className="fd-f-between fd-micro">
-		<li>
-			<i className="fi-checked-company fd-header" />
-		</li>
-		<li>
-			<p>
-				<strong className="fd-small">rabota.ua</strong>
-			</p>
-			<ul className="f-reset-list">
-				<li>
+export default () => <footer className="f-footer">
+	<div className="f-footer--primary">
+		<div className="f-main-wrapper">
+			<div className="fd-f-between fm-c-stretch fd-micro">
+				<i className="fi-logo-symbol ft-hidden fm-hidden"/>
+				<nav>
+					<span className="fd-semibold fd-small">rabota.ua</span>
 					<a href="#">rabota.ua</a>
-				</li>
-				<li>
 					<a href="#">Конфиденциальность</a>
-				</li>
-				<li>
 					<a href="#">Карта сайта</a>
-				</li>
-			</ul>
-		</li>
-		<li>
-			<p>
-				<strong className="fd-small">соискателю</strong>
-			</p>
-			<ul className="f-reset-list">
-				<li>
+				</nav>
+				<nav>
+					<span className="fd-semibold fd-small">соискателю</span>
 					<a href="#">Найти работу</a>
-				</li>
-				<li>
 					<a href="#">Разместить резюме</a>
-				</li>
-				<li>
 					<a href="#">Рассылка вакансий</a>
-				</li>
-				<li>
 					<a href="#">Как составить резюме</a>
-				</li>
-				<li>
 					<a href="#">Советы соискателю</a>
-				</li>
-				<li>
 					<a href="#">Архив вакансий</a>
-				</li>
-			</ul>
-		</li>
-		<li>
-			<p>
-				<strong className="fd-small">работодателю</strong>
-			</p>
-			<ul className="f-reset-list">
-				<li>
+				</nav>
+				<nav>
+					<span className="fd-semibold fd-small">работодателю</span>
 					<a href="#">Добавить вакансию</a>
-				</li>
-				<li>
 					<a href="#">Поиск резюме</a>
-				</li>
-				<li>
 					<a href="#">Рассылка резюме</a>
-				</li>
-				<li>
 					<a href="#">Наши услуги</a>
-				</li>
-				<li>
 					<a href="#">Советы работодателю</a>
-				</li>
-			</ul>
-		</li>
-		<li>
-			<p>
-				<strong className="fd-small">популярные города</strong>
-			</p>
-			<ul className="f-reset-list">
-				<li>
+				</nav>
+				<nav className="ft-hidden">
+					<span className="fd-semibold fd-small">популярные города</span>
 					<a href="#">Работа в Киеве</a>
-				</li>
-				<li>
 					<a href="#">Работа в Днепре (Днепропетровске)</a>
-				</li>
-				<li>
 					<a href="#">Работа в Донецке</a>
-				</li>
-				<li>
 					<a href="#">Работа в Харькове</a>
-				</li>
-				<li>
 					<a href="#">Работа в Одессе</a>
-				</li>
-				<li>
 					<a href="#">Работа во Львове</a>
-				</li>
-				<li>
 					<a href="#">Работа в Запорожье</a>
-				</li>
-			</ul>
-		</li>
-		<li>
-			<div className="f-input-block fd-default">
-				<select>
-					<option>Русский</option>
-					<option>Украинский</option>
-				</select>
-				<i className="fi-drop-down-icon" />
+				</nav>
+				<div className="f-footer--feedback-col">
+					<div className="f-input-block fd-default">
+						<select>
+							<option>Русский</option>
+							<option>Украинский</option>
+						</select>
+						<i className="fi-drop-down-icon"/>
+					</div>
+					<div className="fd-small">
+						<a href="#">Написать <strong>rabota.ua</strong> <i className="fi-small-arrow"/></a>
+						<div>Присылайте свои замечания и пожелания по работе и наполнению портала.</div>
+					</div>
+				</div>
 			</div>
-			<p className="fd-small">
-				<a href="#">Написать <strong>rabota.ua</strong> <i className="fi-small-arrow" /></a>
-				<br />
-				Присылайте свои замечания и пожелания по работе и наполнению портала.
-			</p>
-		</li>
-	</ul>
-</div>
+		</div>
+	</div>
+	<div className="f-bg-white f-footer--secondary">
+		<div className="f-main-wrapper">
+			<div className="fd-f-left-middle">
+				<i className="fi-logo-footer fm-hidden"/>
+				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/>
+				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/>
+				<span className="fd-f1 fd-micro">
+					<span className="fd-small">ООО &laquo;Работа Интернешнл&raquo; &copy; 2016</span>
+					Все права защищены и охраняются действующим законодательством Украины. Использование материалов с данного сайта возможно только с письменного разрешения компании ООО «Работа Интернешнл». Администрация сайта не несет ответственности за содержание размещенных объявлений.
+				</span>
+			</div>
+		</div>
+	</div>
+</footer>

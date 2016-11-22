@@ -78,17 +78,13 @@ ul.fd-f-between-middle
 	.fm-c-center {flex-direction: column;align-items:center}
 	.fm-c-stretch {flex-direction: column;align-items: stretch}
 
-	.fm-hidden {display: none}
+	.fm-hidden {display: none!important;}
 }
 
 @media only screen and (min-width: $width_tablet){
-	.fd-hidden {display: none}
+	.fd-hidden {display: none!important;}
 }
 
 @media only screen and (min-width: $width_mobile) and (max-width: $width_tablet){
-	.ft-hidden {display: none}
-}
-
-@media only screen and (max-width: $width_mobile){
-	.fm-hidden {display: none}
+	.ft-hidden {display: none!important;}
 }
