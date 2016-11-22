@@ -57,7 +57,7 @@ export default () => <footer className="f-footer">
 	<div className="f-bg-white f-footer--secondary">
 		<div className="f-main-wrapper">
 			<div className="fd-f-left-middle">
-				<i className="fi-logo-footer fm-hidden"/>
+				<img className="fm-hidden" src="https://img1.rabota.com.ua/static/2016/11/logo-footer-none-padding.svg" alt="rabota.ua"/>
 				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/>
 				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/>
 				<span className="fd-f1 fd-micro">
