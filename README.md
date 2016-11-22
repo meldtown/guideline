@@ -1,5 +1,7 @@
 # Fedor
 
+http://rua-assets.s3-website.eu-central-1.amazonaws.com/fedor/
+
 Style guide project
 
 Main purpose is to have single reusable stylesheet for future redesign tasks

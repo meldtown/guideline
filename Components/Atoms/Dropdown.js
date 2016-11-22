@@ -2,21 +2,39 @@ import React from 'react'
 import Title from '../Utils/Title'
 
 export default () => <div>
-	<div className="temp-padding">
-		<Title>Inline select</Title>
-		<div className="f-input">
-			<select name="select" id="1">
-				<option>Value 1</option>
-				<option>Value 2</option>
-				<option>Value 3</option>
-				<option>Value 4</option>
-				<option>Value 5</option>
-			</select>
-			{/*<i className="fi-drop-down-button"></i>*/}
-			<i className="fi-drop-down-icon" />
-		</div>
+	<Title>Input</Title>
+	<ul className="fd-f-left fm-c-stretch">
+		<li>
+			<div className="f-input fm-input-block">
+				<select name="select" id="1">
+					<option>Standard</option>
+					<option>Value 1</option>
+					<option>Value 2</option>
+					<option>Value 3</option>
+					<option>Value 4</option>
+					<option>Value 5</option>
+				</select>
+				<i className="fi-drop-down-icon" />
+			</div>
+		</li>
+		<li>&nbsp;</li>
+		<li className="fd-f1">
+			<div className="f-input-block">
+				<select name="select" id="1">
+					<option>Block level</option>
+					<option>Value 1</option>
+					<option>Value 2</option>
+					<option>Value 3</option>
+					<option>Value 4</option>
+					<option>Value 5</option>
+				</select>
+				<i className="fi-drop-down-icon" />
+			</div>
+		</li>
+	</ul>
 
-		<Title>Block level select</Title>
+
+	<div className="temp-padding">
 		{/*<div className="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -50,16 +68,7 @@ export default () => <div>
 			<i className="fi-drop-down-icon"></i>
 		</div>*/}
 
-		<div className="f-input-block fd-merchant">
-			<select name="select" id="1">
-				<option>Value 1</option>
-				<option>Value 2</option>
-				<option>Value 3</option>
-				<option>Value 4</option>
-				<option>Value 5</option>
-			</select>
-			<i className="fi-drop-down-icon" />
-		</div>
+
 
 
 		<Title>Pseudo select</Title>
