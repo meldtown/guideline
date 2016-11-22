@@ -1,9 +1,9 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
+import Title from '../Components/Utils/Title'
 
 export default () => <DemoWrapper title="Colors">
-	<h2 className="fd-section-header fm-merchant temp-padding">Background</h2>
-
+	<Title>Background</Title>
 	<ul className="fd-f-left fm-c-center fd-serf fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-ultra-blue temp-colors-demo-square"></div>
@@ -32,8 +32,7 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<h2 className="fd-section-header fm-merchant temp-padding">Colors</h2>
-
+	<Title>Colors</Title>
 	<ul className="fd-f-left fm-c-center fd-serf fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-coral temp-colors-demo-square"></div>
@@ -72,8 +71,7 @@ export default () => <DemoWrapper title="Colors">
 		</li>
 	</ul>
 
-	<h2 className="fd-section-header fm-merchant temp-padding">Adjective colors</h2>
-
+	<Title>Adjective colors</Title>
 	<ul className="fd-f-left fm-c-center fd-serf fd-text-center temp-colors-demo-wrapper">
 		<li>
 			<div className="f-bg-orange temp-colors-demo-square"></div>

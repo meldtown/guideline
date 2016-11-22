@@ -1,18 +1,14 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
+import Title from '../Components/Utils/Title'
 
 export default () => <DemoWrapper title="Buttons">
 	<div className="temp-padding">
-		<h3 className="fd-shogun fd-text-center">Primary button</h3>
-
-		<a href="#" style={{color: '#2956ac'}} className="f-link fd-merchant">Default link</a><br/><br/>
-		<a href="#" style={{color: '#9B6EC3'}} className="f-link fd-merchant">Visited link</a>
-
-		<h3 className="fd-shogun fd-text-center">Primary button</h3>
+		<Title>Primary button</Title>
 
 		<button className="f-btn-primary fd-samurai">найти сейчас</button>
 
-		<h3 className="fd-shogun fd-text-center">Buttons with controls</h3>
+		<Title>Buttons with controls</Title>
 
 		<button className="f-btn-control-coral fd-samurai">
 			<span>Создать резюме</span>
@@ -47,7 +43,7 @@ export default () => <DemoWrapper title="Buttons">
 			<i className="fi-ok" />
 		</button>
 
-		<h3 className="fd-shogun fd-text-center">Link-like buttons with controls</h3>
+		<Title>Link-like buttons with controls</Title>
 
 		<button className="f-btn-control-coral-link fd-samurai">
 			<span>Перейти</span>

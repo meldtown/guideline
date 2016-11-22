@@ -1,11 +1,9 @@
 import React from 'react'
+import Title from '../Utils/Title'
 
 export default () => <div>
-	<h1 className=" temp-padding f-emperor fm-merchant text-center">Dropdown</h1>
-
-
 	<div className="temp-padding">
-		<h3 className=" fd-daimyo fm-merchant text-center">Inline select</h3>
+		<Title>Inline select</Title>
 		<div className="f-input">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -18,7 +16,7 @@ export default () => <div>
 			<i className="fi-drop-down-icon" />
 		</div>
 
-		<h3 className=" fd-daimyo fm-merchant text-center">Block level select</h3>
+		<Title>Block level select</Title>
 		{/*<div className="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>
@@ -64,13 +62,13 @@ export default () => <div>
 		</div>
 
 
-		<h3 className="fd-shogun fm-merchant">Pseudo select</h3>
+		<Title>Pseudo select</Title>
 		<div className="f-input fd-merchant">
 			<span className="f-input-pseudo-select">по рубрикам</span>
 			<i className="fi-drop-down-icon f-input-pseudo-link-icon" />
 		</div>
 
-		<h3 className="fd-shogun fm-merchant">Pseudo Link</h3>
+		<Title>Pseudo Link</Title>
 		<div className="f-input fd-merchant">
 			<a href="#" className="f-input-pseudo-link">Открыть контакт</a>
 		</div>

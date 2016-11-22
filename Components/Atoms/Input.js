@@ -1,20 +1,19 @@
 import React from 'react'
+import Title from '../Utils/Title'
 
 export default () => <div>
 	<div className="temp-padding">
-		<h1 className="f-emperor fm-merchant text-center">Input</h1>
-
-		<h1 className="fd-shogun fm-merchant text-center">Standard input</h1>
+		<Title>Standard input</Title>
 		<div className="f-input fd-samurai fd-merchant">
 			<input type="text" />
 		</div>
 
-		<h1 className="fd-shogun fm-merchant text-center">Block level input</h1>
+		<Title>Block level input</Title>
 		<div className="f-input-block fd-samurai fd-merchant">
 			<input type="text"/>
 		</div>
 
-		<h1 className="fd-shogun fm-merchant text-center">Block level input with placeholder</h1>
+		<Title>Block level input with placeholder</Title>
 		<div className="f-input-block fd-samurai fd-merchant">
 			<input type="text" placeholder="Type your text here."/>
 		</div>
@@ -34,21 +33,21 @@ export default () => <div>
 			<input type="text"/>
 		</div>*/}
 
-		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icon on left</h1>
+		<Title>Standard block input with icon on left</Title>
 
 		<div className="f-input-block f-input-icon-left fd-merchant">
 			<input type="text"/>
 			<i className="fi-company-profile"/>
 		</div>
 
-		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icon on right</h1>
+		<Title>Standard block input with icon on right</Title>
 
 		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="text"/>
 			<i className="fi-premium"/>
 		</div>
 
-		<h1 className="fd-shogun fm-merchant text-center">Standard block input with icons from both sides</h1>
+		<Title>Standard block input with icons from both sides</Title>
 
 		<div className="f-input-block f-input-icon-left f-input-icon-right fd-merchant">
 			<input type="text"/>
@@ -113,21 +112,21 @@ export default () => <div>
 	</div>
 
 	<div className="temp-padding">
-		<h1 className="fd-daimyo fm-merchant text-center">Input types with special controls</h1>
+		<Title>Input types with special controls</Title>
 
-		<h3 className="fd-samurai fm-merchant">Type <strong>number</strong></h3>
+		<Title>Type <strong>number</strong></Title>
 		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="number"/>
 			<i className="fi-company-find"/>
 		</div>
 
-		<h3 className="fd-samurai fm-merchant">Type <strong>date</strong></h3>
+		<Title>Type <strong>date</strong></Title>
 		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="date"/>
 			<i className="fi-links"/>
 		</div>
 
-		<h3 className="fd-samurai fm-merchant">Type <strong>email</strong></h3>
+		<Title>Type <strong>email</strong></Title>
 		<div className="f-input-block f-input-icon-right fd-merchant">
 			<input type="email"/>
 			<i className="fi-hot"/>
@@ -137,7 +136,7 @@ export default () => <div>
 
 
 	<div>
-		<h3 className="fd-shogun fd-text-center">Labeled input</h3>
+		<Title>Labeled input</Title>
 		<p>
 			<label>Username:</label>
 			<span className="f-input f-input-icon-right">

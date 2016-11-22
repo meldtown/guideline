@@ -1,10 +1,9 @@
 import React from 'react'
+import Title from '../Utils/Title'
 
 export default () => <div>
-	<h1 className="f-emperor fm-merchant text-center">Checkbox</h1>
-
 	<div className="temp-padding">
-		<h3 className="fd-text-default fm-merchant">Checkbox</h3>
+		<Title>Checkbox</Title>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="checkbox"/>
@@ -15,7 +14,7 @@ export default () => <div>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default fm-merchant">Radio button</h3>
+		<Title>Radio button</Title>
 		<div className="f-checkbox fd-text-default">
 			<label>
 				<input type="radio" name="radio" defaultChecked/>
@@ -41,7 +40,7 @@ export default () => <div>
 			</label>
 		</div>
 
-		<h3 className="fd-text-default fm-merchant">Radio buttons (block level)</h3>
+		<Title>Radio buttons (block level)</Title>
 		<div className="f-checkbox-block fd-text-default">
 			<label>
 				<input type="radio" name="radio-block" defaultChecked/>
