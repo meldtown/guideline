@@ -1,6 +1,5 @@
 .f-footer {
 	.f-footer--primary {
-
 		.f-main-wrapper {
 			padding: 30px 0 20px 0;
 		}
@@ -59,16 +58,15 @@
 	}
 }
 
-
 @media only screen and (max-width: $width_mobile){
 	.f-footer {
 		.f-footer--primary {
 			.f-main-wrapper {
-				padding: 20px
+				padding: 0 20px 20px;
 			}
 
 			nav, .f-footer--feedback-col {
-				margin: 10px 0;
+				margin-top: 20px;
 			}
 
 			.f-footer--feedback-col {
@@ -77,8 +75,6 @@
 				.f-input-block {
 					margin: 0 0 10px;
 				}
-
-				a {}
 			}
 		}
 	}
