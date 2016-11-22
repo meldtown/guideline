@@ -1,21 +1,16 @@
 import React from 'react'
 import SidebarMenu from 'Components/SidebarMenu'
-
+import Header from 'Organisms/Header'
 
 export default () => <div>
 
-	<input type="checkbox" id="overlay"/>
 	<div class="temp-paper-page-wrap">
 
-		<h2 className="fd-section-header temp-padding">Blocks</h2>
-
+		<Header title="Paper" />
 
 		<header className="f-paper temp-paper-header-wrap">
 			<p class="temp-paper-header-text temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">
 				MENU BLOCK
-				<label className="f-menu-icon" htmlFor="overlay">
-					<i className="fi-vacancy" />
-				</label>
 			</p>
 		</header>
 
@@ -34,14 +29,5 @@ export default () => <div>
 			<p class="temp-paper-lighten-wrap temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">Lorem ipsum dolor</p>
 		</div>
 	</div>
-
-	<label className="f-overlay" htmlFor="overlay" />
-	<aside className="f-sidebar">
-		<label className="f-close-sidebar" htmlFor="overlay">
-			<i className="">&times;</i>
-		</label>
-
-		<SidebarMenu />
-	</aside>
 
 </div>

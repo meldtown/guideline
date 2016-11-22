@@ -68,14 +68,17 @@
 .f-header-logo {
 	height: 100%;
 	margin-right: 35px;
+	position: relative;
+	top: 7px;
 }
+
 .f-header-menu-list {
 	li {
 		position: relative;
 		display: inline-block;
 		position: relative;
 		padding: 45px 0 22px;
-		margin: 0 10px;
+		margin: 0 24px;
 
 		&:first-child {
 			margin-left: 0;
@@ -86,13 +89,18 @@
 
 		& a {
 			&, &:hover, &:visited {
-				color: $input_text_color
+				color: $header_link_color
 			}
 		}
 	}	
 }
 
 .f-header-menu-list-link {
+		
+		& a {
+			position: relative;
+		}
+
 		&:hover:after {
 			content: '';
 			position: absolute;
@@ -104,28 +112,67 @@
 		}
 }
 
+.f-header-menu-list-link-badge {
+	position: absolute;
+    top: -5px;
+    left: 100%;
+    margin-left: 2px;
+}
+
 .f-header-menu-list-pseudo-btn {
 	padding: 10px 10px 7px 11px;	
 	border-radius: 2px;
-	border: 1px solid $input_text_color;
+	border: 1px solid $header_link_color;
 	text-transform: uppercase;
 }
 
 .f-header-menu-list-link-with-border {
-	border-bottom: 1px dashed $input_text_color;
+	border-bottom: 1px dashed $header_link_color;
 	padding-bottom: 5px;
 
 	& label {
 		cursor: pointer;
 	}
+
+	&.-forloggedin {
+		margin-left: 40px;
+	}
 }
 
 .f-header-menu-list-topbtn {
 	position: absolute;
+	background-color: transparent !important;
 	top: 14px;
 	right: 0;
 	font-size: 14px;
 	color: $royal_blue !important;
 	min-width: 0;
 	margin: 0;
+}
+
+.f-header-name-and-avatar-wrap {
+	position: relative;
+}
+
+.f-header-useravatar {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	@include center(y);
+	display: inline-block;
+	border-radius: 50%;
+	background-color: $light_blue;
+	vertical-align: middle;
+}
+
+.f-header-useravatar-letters {
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: $header_useravatar_text_color;
+
+	position: absolute;
+	@include center(y);
+	display: inline-block;
+	text-transform: uppercase;
 }
