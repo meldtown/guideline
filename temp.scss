@@ -4,7 +4,9 @@
 	padding: 20px
 }
 
-.temp-colors-demo-wrapper {
+ul.temp-colors-demo-wrapper {
+	margin-left: -23px;
+
 	li { margin: 10px; flex-basis: 90px }
 	b { display: block }
 
@@ -49,17 +51,19 @@
 // Temp paddings for block with media-queries
 
 .temp-fd-block-paddings {
-	padding: 50px;	
+	padding: 50px;
 }
 
 
-@media only screen and (max-width: $width_tablet) { 
+@media only screen and (max-width: $width_tablet) {
 	.temp-ft-block-paddings {
 		padding: 30px;
 	}
 }
 
-@media only screen and (max-width: $width_mobile) { 
+@media only screen and (max-width: $width_mobile) {
+	ul.temp-colors-demo-wrapper {margin-left: 0}
+
 	.temp-fm-block-paddings {
 		padding: 20px;
 	}
