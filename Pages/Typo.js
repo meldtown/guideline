@@ -16,23 +16,20 @@ export default () => <DemoWrapper title="Typo">
 
 	<h1 className="fd-section-header fm-default fd-text-center">Typographity</h1>
 
-	<div className="fd-f-around">
+	<div className="fd-f-between fm-c-stretch">
 		<div>
 			<div className="temp-padding fd-default">
-				<p style={{margin: '10px 0'}} className="fd-header ft-subtitle fm-default">Header</p>
-				<p style={{margin: '10px 0'}} className="fd-section-header ft-subtitle fm-default">Section-Header</p>
-				<p style={{margin: '10px 0'}} className="fd-subtitle ft-subtitle fm-default">Blocks-Header</p>
-				<p style={{margin: '10px 0'}} className="fd-vacancy-header ft-subtitle fm-default">Vacancy-Header</p>
-				<p style={{margin: '10px 0'}} className="fd-vacancy-title ft-subtitle fm-default">Vacancy-Title</p>
-				<p style={{margin: '10px 0'}}><span className="fd-form-header ft-subtitle fm-default">Forms-Header</span> / <span
-					className="fd-subheader ft-subtitle fm-default">Subheader</span></p>
-				<p style={{margin: '10px 0'}} className="fd-subtitle ft-subtitle fm-default">Subtitle</p>
-				<p style={{margin: '10px 0'}}><span className="fd-regular ft-subtitle fm-default">Default-text</span> / <span className="fd-light ft-subtitle fm-default">Default-text</span>
-					/ <span className="fd-medium ft-subtitle fm-default">Default-text</span> / <span className="fd-semibold ft-subtitle fm-default">Default-text</span></p>
-				<p style={{margin: '10px 0'}} className="fd-middle ft-subtitle fm-default"><span className="fd-light ft-subtitle fm-default">Middle-text</span> / <span
-					className="fd-regular ft-subtitle fm-default">Middle-text</span></p>
-				<p style={{margin: '10px 0'}} className="fd-small ft-subtitle fm-default">Small text</p>
-				<p style={{margin: '10px 0'}} className="fd-micro ft-subtitle fm-default">Smallest text</p>
+				<div className="fd-header ft-subtitle fm-default">Header</div>
+				<div className="fd-section-header ft-subtitle fm-default">Section-Header</div>
+				<div className="fd-subtitle ft-subtitle fm-default">Blocks-Header</div>
+				<div className="fd-vacancy-header ft-subtitle fm-default">Vacancy-Header</div>
+				<div className="fd-vacancy-title ft-subtitle fm-default">Vacancy-Title</div>
+				<div><span className="fd-form-header ft-subtitle fm-default">Forms-Header</span> / <span className="fd-subheader ft-subtitle fm-default">Subheader</span></div>
+				<div className="fd-subtitle ft-subtitle fm-default">Subtitle</div>
+				<div><span className="fd-regular ft-subtitle fm-default">Default-text</span> / <span className="fd-light ft-subtitle fm-default">Default-text</span> / <span className="fd-medium ft-subtitle fm-default">Default-text</span> / <span className="fd-semibold ft-subtitle fm-default">Default-text</span></div>
+				<div className="fd-middle ft-subtitle fm-default"><span className="fd-light ft-subtitle fm-default">Middle-text</span> / <span className="fd-regular ft-subtitle fm-default">Middle-text</span></div>
+				<div className="fd-small ft-subtitle fm-default">Small text</div>
+				<div className="fd-micro ft-subtitle fm-default">Smallest text</div>
 			</div>
 		</div>
 		<div className="temp-padding">
