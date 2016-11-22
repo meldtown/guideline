@@ -1,0 +1,30 @@
+.f-footer {
+	padding: 30px 0 20px 0;
+
+	nav {
+		span, a {
+			float: left;
+			clear: left;
+		}
+
+		span {
+			margin-bottom: 10px;
+		}
+	}
+
+	.fi-logo-symbol {
+		font-size: 36px;
+
+		&:before {
+			margin-top: -25px;
+		}
+	}
+
+	.f-footer--feedback-col {
+		max-width: 210px;
+
+		.f-input-block {
+			margin: 0 0 50px;
+		}
+	}
+}
