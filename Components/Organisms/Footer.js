@@ -1,18 +1,18 @@
 import React from 'react'
 
-export default () => <footer className="f-footer">
-	<div className="f-footer--primary">
-		<div className="f-main-wrapper">
-			<div className="fd-f-between fm-c-stretch fd-serf">
-				<i className="fi-logo-symbol ft-hidden fm-hidden"/>
+export default () => <footer class="f-footer">
+	<div class="f-footer--primary">
+		<div class="f-main-wrapper">
+			<div class="fd-f-between fm-c-stretch fd-serf">
+				<i class="fi-logo-symbol ft-hidden fm-hidden"/>
 				<nav>
-					<span className="fd-fat fd-peasant">rabota.ua</span>
+					<span class="fd-fat fd-peasant">rabota.ua</span>
 					<a href="#">rabota.ua</a>
 					<a href="#">Конфиденциальность</a>
 					<a href="#">Карта сайта</a>
 				</nav>
 				<nav>
-					<span className="fd-fat fd-peasant">соискателю</span>
+					<span class="fd-fat fd-peasant">соискателю</span>
 					<a href="#">Найти работу</a>
 					<a href="#">Разместить резюме</a>
 					<a href="#">Рассылка вакансий</a>
@@ -21,15 +21,15 @@ export default () => <footer className="f-footer">
 					<a href="#">Архив вакансий</a>
 				</nav>
 				<nav>
-					<span className="fd-fat fd-peasant">работодателю</span>
+					<span class="fd-fat fd-peasant">работодателю</span>
 					<a href="#">Добавить вакансию</a>
 					<a href="#">Поиск резюме</a>
 					<a href="#">Рассылка резюме</a>
 					<a href="#">Наши услуги</a>
 					<a href="#">Советы работодателю</a>
 				</nav>
-				<nav className="ft-hidden">
-					<span className="fd-fat fd-peasant">популярные города</span>
+				<nav class="ft-hidden">
+					<span class="fd-fat fd-peasant">популярные города</span>
 					<a href="#">Работа в Киеве</a>
 					<a href="#">Работа в Днепре (Днепропетровске)</a>
 					<a href="#">Работа в Донецке</a>
@@ -38,30 +38,30 @@ export default () => <footer className="f-footer">
 					<a href="#">Работа во Львове</a>
 					<a href="#">Работа в Запорожье</a>
 				</nav>
-				<div className="f-footer--feedback-col">
-					<div className="f-input-block fd-merchant">
+				<div class="f-footer--feedback-col">
+					<div class="f-input-block fd-merchant">
 						<select>
 							<option>Русский</option>
 							<option>Украинский</option>
 						</select>
-						<i className="fi-drop-down-icon"/>
+						<i class="fi-drop-down-icon"/>
 					</div>
-					<div className="fd-peasant">
-						<a href="#">Написать <strong>rabota.ua</strong> <i className="fi-small-arrow"/></a>
+					<div class="fd-peasant">
+						<a href="#">Написать <strong>rabota.ua</strong> <i class="fi-small-arrow"/></a>
 						<div>Присылайте свои замечания и пожелания по работе и наполнению портала.</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div className="f-bg-white f-footer--secondary">
-		<div className="f-main-wrapper">
-			<div className="fd-f-left-middle">
-				<img className="fm-hidden" src="https://img1.rabota.com.ua/static/2016/11/logo-footer-none-padding.svg" alt="rabota.ua"/>
-				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/>
-				<img className="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/>
-				<span className="fd-f1 fd-serf">
-					<span className="fd-peasant">ООО &laquo;Работа Интернешнл&raquo; &copy; 2016</span>
+	<div class="f-bg-white f-footer--secondary">
+		<div class="f-main-wrapper">
+			<div class="fd-f-left-middle">
+				<img class="fm-hidden" src="https://img1.rabota.com.ua/static/2016/11/logo-footer-none-padding.svg" alt="rabota.ua"/>
+				<img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/>
+				<img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/>
+				<span class="fd-f1 fd-serf">
+					<span class="fd-peasant">ООО &laquo;Работа Интернешнл&raquo; &copy; 2016</span>
 					Все права защищены и охраняются действующим законодательством Украины. Использование материалов с данного сайта возможно только с письменного разрешения компании ООО «Работа Интернешнл». Администрация сайта не несет ответственности за содержание размещенных объявлений.
 				</span>
 			</div>
