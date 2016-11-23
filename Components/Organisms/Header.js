@@ -25,16 +25,16 @@ export default class HeaderContainer extends Component {
 	fakeLogOut() {
 		this.setState({ isLoggedIn: false })
 	}
-
+	  
 	randomName() {
-		const namesArr = [ "Валентин", "Иннокентий", "Борис", "Андрей", "Фёдор", "Людмила", "Степан", "Сергей", "Алина", "Ольга", "Оксана", "Александр", "Артём", "Валерий", "Олег", "Кристина", "Елена", "Артур", "Василий", "Константин", "Юрий" ]
+		const namesArr = [ "Степан Фролов", "Валентин", "Валерий Иванов", "Иннокентий", "Борис", "Андрей", "Фёдор", "Иван Иванов", "Людмила", "Степан", "Иннокентий Левчук", "Сергей", "Алина", "Ольга", "Иван Ксевашин", "Оксана", "Александр", "Артём", "Валерий", "Олег", "Олег Петряк", "Кристина", "Елена", "Артур", "Василий", "Кристина Корнейчук", "Константин", "Юрий" ]
 		return namesArr[ ~~(Math.random() * namesArr.length) ];
 	}
 
 	notLoggedMenuList() {
 		return (
 			<div>
-				<ul class="fd-merchant fd-f-right f-header-menu-list f-reset-list">
+				<ul class="fd-f-around fd-merchant fd-f-right f-header-menu-list f-reset-list">
 					<li class="f-header-menu-list-link">
 						<a href="#find_work">Найти работу</a>
 					</li>
@@ -66,9 +66,9 @@ export default class HeaderContainer extends Component {
 		const randomName = this.randomName();
 
 		return (
-			<div>
-				<ul class="fd-merchant fd-f-right f-header-menu-list f-reset-list">
-					<li class="f-header-menu-list-link">
+			<div> 
+				<ul class="fd-f-around fd-merchant fd-f-right f-header-menu-list f-reset-list">
+					<li class="f-header-menu-list-link">	
 						<a href="#find_work">
 							Найти работу
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">22</span>
@@ -102,6 +102,12 @@ export default class HeaderContainer extends Component {
 					<li>
 						<a onClick={::this.fakeLogOut} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#my_cv">Мои резюме</a>
 					</li>
+					<li class="f-header-menu-list-link">
+						<a href="#chat">
+							<span class="fi-chat-icon"></span>
+							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">36</span>
+						</a>
+					</li>
 					<li>
 
 						<div class="f-header-name-and-avatar-wrap">
@@ -110,10 +116,10 @@ export default class HeaderContainer extends Component {
 									{ randomName.slice(0, 2) }
 								</span>
 							</span>
-
-							<a class="f-header-menu-list-link-with-border -forloggedin" href="#signin">
-								<span>
-									<label htmlFor="f-overlay-chkbx">{randomName}</label>
+					
+							<a alt={randomName} title={randomName} class="f-header-menu-list-link-with-border -forloggedin" href="#signin">
+								<span class="f-header-username-span">
+									<label htmlFor="f-overlay-chkbx">{randomName}</label>	
 								</span>
 							</a>
 						</div>
@@ -141,8 +147,10 @@ export default class HeaderContainer extends Component {
 				<header class="f-paper">
 
 					<div class="f-header fd-f-between-middle fd-c-middle">
-
-						<img class="f-header-logo" src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
+						
+						<a class="f-header-logo" href="/">
+							<img src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
+						</a>
 
 						{ this.state.isLoggedIn ? <LoggedInMenuList /> : <NotLoggedMenuList /> }
 

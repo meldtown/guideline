@@ -9,11 +9,11 @@ export default () => <div class="fd-merchant temp-padding" style={{ marginTop: '
 	</Link>
 
 	<ul class="temp-sidebar-ul f-reset-list temp-padding" style={{ paddingLeft: '25px' }}>
-		<li><Link to="/buttons" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Buttons</Link></li>
-		<li><Link to="/colors" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Colors</Link></li>
-		<li><Link to="/typo" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Typo</Link></li>
-		<li><Link to="/controls" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Controls</Link></li>
-		<li><Link to="/grid" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Grid</Link></li>
-		<li><Link to="/papers" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Papers</Link></li>
+		<li><Link to="/buttons" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Buttons</Link></li>
+		<li><Link to="/colors" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Colors</Link></li>
+		<li><Link to="/typo" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Typo</Link></li>
+		<li><Link to="/controls" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Controls</Link></li>
+		<li><Link to="/grid" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Grid</Link></li>
+		<li><Link to="/papers" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Papers</Link></li>
 	</ul>
 </div>

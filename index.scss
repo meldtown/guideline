@@ -43,7 +43,7 @@ $light_purple: #AFBEE6;
 $light_lilac: #C8AFDC;
 
 // Layout
-$width_desktop: 1345px;
+$width_desktop: 1260px;
 $width_tablet: 960px;
 $width_mobile: 600px;
 
@@ -106,6 +106,8 @@ $sidebar_width: 350px;
 @import "Components/Atoms/Input";
 @import "Components/Atoms/Checkbox";
 @import "Components/Atoms/Paper";
+
+@import "Components/Molecules/jQuery/Autocomplete";
 
 @import "Components/Organisms/Footer";
 @import "Components/Organisms/Header";
