@@ -34,11 +34,11 @@ export default class HeaderContainer extends Component {
 	notLoggedMenuList() {
 		return (
 			<div>
-				<ul class="fd-f-around fd-merchant fd-f-right f-header-menu-list f-reset-list">
-					<li class="f-header-menu-list-link">
+				<ul class="fd-f-around fd-craftsmen fd-f-right f-header-menu-list f-reset-list">
+					<li class="f-header-menu-list-link ft-hidden fm-hidden">
 						<a href="#find_work">Найти работу</a>
 					</li>
-					<li>
+					<li class="ft-hidden fm-hidden">
 						<a onClick={::this.fakeLogIn} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#send_cv">Разместить резюме</a>
 					</li>
 					<li>
@@ -67,42 +67,42 @@ export default class HeaderContainer extends Component {
 
 		return (
 			<div> 
-				<ul class="fd-f-around fd-merchant fd-f-right f-header-menu-list f-reset-list">
-					<li class="f-header-menu-list-link">	
+				<ul class="fd-f-around fd-craftsmen fd-f-right f-header-menu-list f-reset-list">
+					<li class="f-header-menu-list-link ft-hidden fm-hidden">	
 						<a href="#find_work">
 							Найти работу
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">22</span>
 						</a>
 					</li>
-					<li class="f-header-menu-list-link">
+					<li class="f-header-menu-list-link f-header-1220-hide">
 						<a href="#recommend">
 							Рекомендуемые
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">12</span>
 						</a>
 					</li>
-					<li class="f-header-menu-list-link">
+					<li class="f-header-menu-list-link f-header-1220-hide">
 						<a href="#interested">
 							Интересные
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">3</span>
 						</a>
 					</li>
-					<li class="f-header-menu-list-link">
+					<li class="f-header-menu-list-link f-header-1220-hide">
 						<a href="#feedback">
 							Мои отклики
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">5</span>
 						</a>
 					</li>
-					<li class="f-header-menu-list-link">
+					<li class="f-header-menu-list-link ft-hidden fm-hidden">
 						<a href="#viewed">
 							Просмотры резюме
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">10</span>
 						</a>
 					</li>
 
-					<li>
+					<li class="fm-hidden">
 						<a onClick={::this.fakeLogOut} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#my_cv">Мои резюме</a>
 					</li>
-					<li class="f-header-menu-list-link">
+					<li class="fm-hidden f-header-menu-list-link f-header-chat-icon">
 						<a href="#chat">
 							<span class="fi-chat-icon"></span>
 							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">36</span>
@@ -149,7 +149,8 @@ export default class HeaderContainer extends Component {
 					<div class="f-header fd-f-between-middle fd-c-middle">
 						
 						<a class="f-header-logo" href="/">
-							<img src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
+							<img class="f-header-logo-desktop" src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
+							<img class="f-header-logo-mobile" src="https://img1.rabota.com.ua/static/2016/11/logo-symbol.svg" alt="Rabota.UA - logo"/>
 						</a>
 
 						{ this.state.isLoggedIn ? <LoggedInMenuList /> : <NotLoggedMenuList /> }
