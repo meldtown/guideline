@@ -49,6 +49,10 @@ select::-ms-expand {
 		padding-top: 12px;
 		padding-bottom: 12px;
 		padding-left: 12px;
+		&[type=date] {
+			padding-top: 11px;
+			padding-bottom: 11px;
+		}
 
 		&:focus {
 			border-color: $input_border_color_focus;
