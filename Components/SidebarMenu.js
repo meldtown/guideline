@@ -2,18 +2,18 @@ import React from 'react'
 import { Link } from 'react-router'
 
 
-export default () => <div className="fd-merchant temp-padding" style={{ marginTop: '90px' }} >
-	<Link to="/" className="f-always-blue f-btn-control-royal-blue-link fd-samurai">
+export default () => <div class="fd-merchant temp-padding" style={{ marginTop: '90px' }} >
+	<Link to="/" class="f-always-blue f-btn-control-royal-blue-link fd-samurai">
 		<span>Homepage</span>
-		<i className="fi-arrows-right-big" />
+		<i class="fi-arrows-right-big" />
 	</Link>
 
-	<ul className="temp-sidebar-ul f-reset-list temp-padding" style={{ paddingLeft: '25px' }}>
-		<li><Link to="/buttons" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Buttons</Link></li>
-		<li><Link to="/colors" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Colors</Link></li>
-		<li><Link to="/typo" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Typo</Link></li>
-		<li><Link to="/controls" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Controls</Link></li>
-		<li><Link to="/grid" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Grid</Link></li>
-		<li><Link to="/papers" className="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Papers</Link></li>
+	<ul class="temp-sidebar-ul f-reset-list temp-padding" style={{ paddingLeft: '25px' }}>
+		<li><Link to="/buttons" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Buttons</Link></li>
+		<li><Link to="/colors" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Colors</Link></li>
+		<li><Link to="/typo" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Typo</Link></li>
+		<li><Link to="/controls" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Controls</Link></li>
+		<li><Link to="/grid" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Grid</Link></li>
+		<li><Link to="/papers" class="f-always-blue f-text-black" activeclass="f-text-royal-blue">Papers</Link></li>
 	</ul>
 </div>

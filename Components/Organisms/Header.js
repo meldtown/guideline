@@ -23,7 +23,7 @@ export default class HeaderContainer extends Component {
 	}
 
 	fakeLogOut() {
-		this.setState({ isLoggedIn: false })	
+		this.setState({ isLoggedIn: false })
 	}
 	  
 	randomName() {
@@ -41,15 +41,15 @@ export default class HeaderContainer extends Component {
 					<li>
 						<a onClick={::this.fakeLogIn} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#send_cv">Разместить резюме</a>
 					</li>
-					<li> 
+					<li>
 						<a class="f-header-menu-list-link-with-border" href="#signin">
 							<span>
 								<label htmlFor="f-overlay-chkbx">
 									Войти / Зарегистрироваться
-								</label>	
+								</label>
 							</span>
 						</a>
-						
+
 						<a href="#for_employer" class="f-header-menu-list-topbtn fd-craftsmen f-btn-control-royal-blue-link">
 							Работодателю
 							<i class="fi-small-arrow" />
@@ -102,22 +102,22 @@ export default class HeaderContainer extends Component {
 					<li>
 						<a onClick={::this.fakeLogOut} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#my_cv">Мои резюме</a>
 					</li>
-					<li> 
-						
+					<li>
+
 						<div class="f-header-name-and-avatar-wrap">
 							<span class="f-header-useravatar">
 								<span class="f-header-useravatar-letters fd-craftsmen">
 									{ randomName.slice(0, 2) }
 								</span>
 							</span>
-							
+					
 							<a alt={randomName} title={randomName} class="f-header-menu-list-link-with-border -forloggedin" href="#signin">
 								<span class="f-header-username-span">
 									<label htmlFor="f-overlay-chkbx">{randomName}</label>	
 								</span>
 							</a>
 						</div>
-						
+
 						<a href="#for_employer" class="f-header-menu-list-topbtn fd-craftsmen f-btn-control-royal-blue-link">
 							Работодателю
 							<i class="fi-small-arrow" />
@@ -138,7 +138,7 @@ export default class HeaderContainer extends Component {
 			<div>
 				<input type="checkbox" id="f-overlay-chkbx" />
 
-				<header className="f-paper">
+				<header class="f-paper">
 
 					<div class="f-header fd-f-between-middle fd-c-middle">
 						
@@ -152,11 +152,11 @@ export default class HeaderContainer extends Component {
 
 				</header>
 
-				<label className="f-overlay" htmlFor="f-overlay-chkbx" />
+				<label class="f-overlay" htmlFor="f-overlay-chkbx" />
 
-				<aside className="f-sidebar">
-					<label className="f-close-sidebar" htmlFor="f-overlay-chkbx"><i>&times;</i></label>
-					<SidebarMenu /> 
+				<aside class="f-sidebar">
+					<label class="f-close-sidebar" htmlFor="f-overlay-chkbx"><i>&times;</i></label>
+					<SidebarMenu />
 				</aside>
 			</div>
 		)
