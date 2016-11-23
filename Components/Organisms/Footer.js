@@ -57,9 +57,9 @@ export default () => <footer class="f-footer">
 	<div class="f-bg-white f-footer--secondary">
 		<div class="f-main-wrapper">
 			<div class="fd-f-left-middle">
-				<img class="fm-hidden" src="https://img1.rabota.com.ua/static/2016/11/logo-footer-none-padding.svg" alt="rabota.ua"/>
-				<img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/>
-				<img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/>
+				<a href="#"><img class="fm-hidden" src="https://img1.rabota.com.ua/static/2016/11/logo-footer-none-padding.svg" alt="rabota.ua"/></a>
+				<a href="#"><img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/pracuj.png" alt="pracuj"/></a>
+				<a href="#"><img class="ft-hidden fm-hidden" src="https://img1.rabota.com.ua/static/2014/11/network.png" alt="network"/></a>
 				<span class="fd-f1 fd-serf">
 					<span class="fd-peasant">ООО &laquo;Работа Интернешнл&raquo; &copy; 2016</span>
 					Все права защищены и охраняются действующим законодательством Украины. Использование материалов с данного сайта возможно только с письменного разрешения компании ООО «Работа Интернешнл». Администрация сайта не несет ответственности за содержание размещенных объявлений.
