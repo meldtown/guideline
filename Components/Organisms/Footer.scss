@@ -6,8 +6,8 @@
 	select {
 		height: auto;
 	}
-	a:hover {
-		text-decoration: none;
+	a {
+		text-decoration: none !important;
 	}
 	.f-footer--primary {
 		.f-main-wrapper {
