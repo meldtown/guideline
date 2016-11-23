@@ -72,8 +72,12 @@ export default () => <div>
 
 
 		<Title>Pseudo select</Title>
-		<div class="f-input fd-merchant">
+		<div class="f-input fd-merchant" style={{marginRight: 20}}>
 			<span class="f-input-pseudo-select">по рубрикам</span>
+			<i class="fi-drop-down-icon f-input-pseudo-link-icon" />
+		</div>
+		<div class="f-input fd-merchant">
+			<span class="f-input-pseudo-select pseudo-select-focus">по рубрикам</span>
 			<i class="fi-drop-down-icon f-input-pseudo-link-icon" />
 		</div>
 
