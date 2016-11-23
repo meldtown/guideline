@@ -3,88 +3,88 @@ import DemoWrapper from 'Components/DemoWrapper'
 import Title from '../Components/Utils/Title'
 
 export default () => <DemoWrapper title="Buttons">
-	<div className="temp-padding">
+	<div class="temp-padding">
 		<Title>Primary button</Title>
 
-		<button className="f-btn-primary fd-samurai">найти сейчас</button>
+		<button class="f-btn-primary fd-samurai">найти сейчас</button>
 
 		<Title>Buttons with controls</Title>
 
-		<button className="f-btn-control-coral fd-samurai">
+		<button class="f-btn-control-coral fd-samurai">
 			<span>Создать резюме</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 
-		<button className="f-btn-control-coral f-disabled fd-samurai">
+		<button class="f-btn-control-coral f-disabled fd-samurai">
 			<span>Создать резюме</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 
 		<br/>
 
-		<button className="f-btn-control-royal-blue fd-samurai">
+		<button class="f-btn-control-royal-blue fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 
-		<button className="f-btn-control-royal-blue fd-samurai f-disabled">
+		<button class="f-btn-control-royal-blue fd-samurai f-disabled">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 		<br/>
 
-		<button className="f-btn-control-dark-green fd-samurai">
+		<button class="f-btn-control-dark-green fd-samurai">
 			<span>Сохранить</span>
-			<i className="fi-ok" />
+			<i class="fi-ok" />
 		</button>
 
-		<button className="f-btn-control-dark-green f-disabled fd-samurai">
+		<button class="f-btn-control-dark-green f-disabled fd-samurai">
 			<span>Сохранить</span>
-			<i className="fi-ok" />
+			<i class="fi-ok" />
 		</button>
 
 		<Title>Link-like buttons with controls</Title>
 
-		<button className="f-btn-control-coral-link fd-samurai">
+		<button class="f-btn-control-coral-link fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 
-		<button className="f-btn-control-coral-link f-disabled fd-samurai">
+		<button class="f-btn-control-coral-link f-disabled fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 		<br/>
 
-		<button className="f-btn-control-royal-blue-link fd-samurai">
+		<button class="f-btn-control-royal-blue-link fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 
-		<button className="f-btn-control-royal-blue-link f-disabled fd-samurai">
+		<button class="f-btn-control-royal-blue-link f-disabled fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-arrows-right-big" />
+			<i class="fi-arrows-right-big" />
 		</button>
 		<br/>
 
-		<button className="f-btn-control-dark-green-link fd-samurai">
+		<button class="f-btn-control-dark-green-link fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-ok" />
+			<i class="fi-ok" />
 		</button>
 
-		<button className="f-btn-control-dark-green-link f-disabled fd-samurai">
+		<button class="f-btn-control-dark-green-link f-disabled fd-samurai">
 			<span>Перейти</span>
-			<i className="fi-ok" />
+			<i class="fi-ok" />
 		</button>
 
-		<button className="f-btn-control-default fd-samurai">
+		<button class="f-btn-control-default fd-samurai">
 			<span>Зарегистрироваться</span>
-			<i className="fi-small-arrow" />
+			<i class="fi-small-arrow" />
 		</button>
 
-		<button className="f-btn-control-default f-disabled fd-samurai">
+		<button class="f-btn-control-default f-disabled fd-samurai">
 			<span>Зарегистрироваться</span>
-			<i className="fi-small-arrow" />
+			<i class="fi-small-arrow" />
 		</button>
 	</div>
 </DemoWrapper>

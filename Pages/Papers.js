@@ -8,13 +8,13 @@ export default () => <div>
 
 		<Header title="Paper" />
 
-		<header className="f-paper temp-paper-header-wrap">
+		<header class="f-paper temp-paper-header-wrap">
 			<p class="temp-paper-header-text temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">
 				MENU BLOCK
 			</p>
 		</header>
 
-			<div className="f-paper f-main-wrapper temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">
+			<div class="f-paper f-main-wrapper temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore tenetur dolores possimus,
 				optio nesciunt maxime veritatis, ipsa suscipit expedita molestias consequatur facilis illum illo error,
 				assumenda. Eos, similique error! Nam cumque, saepe doloribus debitis possimus inventore ab eos
@@ -25,7 +25,7 @@ export default () => <div>
 				cumque libero sit sint, sed necessitatibus natus quisquam unde.
 			</div>
 
-		<div className="f-paper-lighten">
+		<div class="f-paper-lighten">
 			<p class="temp-paper-lighten-wrap temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">Lorem ipsum dolor</p>
 		</div>
 	</div>
