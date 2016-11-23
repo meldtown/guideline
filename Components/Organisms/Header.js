@@ -102,6 +102,12 @@ export default class HeaderContainer extends Component {
 					<li>
 						<a onClick={::this.fakeLogOut} class="fd-craftsmen f-header-menu-list-pseudo-btn" href="#my_cv">Мои резюме</a>
 					</li>
+					<li class="f-header-menu-list-link">
+						<a href="#chat">
+							<span class="fi-chat-icon"></span>
+							<span class="fd-fat f-text-coral fd-serf f-header-menu-list-link-badge">36</span>
+						</a>
+					</li>
 					<li>
 
 						<div class="f-header-name-and-avatar-wrap">
@@ -142,8 +148,8 @@ export default class HeaderContainer extends Component {
 
 					<div class="f-header fd-f-between-middle fd-c-middle">
 						
-						<a href="/">
-							<img class="f-header-logo" src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
+						<a class="f-header-logo" href="/">
+							<img src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
 						</a>
 
 						{ this.state.isLoggedIn ? <LoggedInMenuList /> : <NotLoggedMenuList /> }

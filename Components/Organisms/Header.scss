@@ -62,16 +62,20 @@
 .f-header {
 	padding-left: 53px;
 	padding-right: 53px;
-	
+
 	max-width: 1920px;
 	margin: 0 auto 70px;
 }
 
 .f-header-logo {
-	height: 100%;
-	margin-right: 35px;
 	position: relative;
-	top: 10px;
+    top: 7px;
+    
+	& img {
+		vertical-align: middle;
+		height: 100%;
+		margin-right: 35px;
+	}
 }
 
 .f-header-menu-list-wrapper {
