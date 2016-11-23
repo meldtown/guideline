@@ -3,6 +3,9 @@
 	font-weight: normal;
 	font-size: $text_merchant;
 	line-height: 1.35;
+	select {
+		height: auto;
+	}
 	a:hover {
 		text-decoration: none;
 	}
