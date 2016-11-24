@@ -5,7 +5,7 @@ import Footer from 'Organisms/Footer'
 
 export default ({title, children}) => <div>
 
-	<div class="f-bg-ultra-blue">
+	<div class="f-bg-ultra-blue" style={{ paddingTop: '150px' }}>
 
 		<Header title={title} />
 

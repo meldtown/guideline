@@ -59,12 +59,20 @@
 }
 
 
+.f-header-fixed-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
 .f-header {
 	padding-left: 53px;
 	padding-right: 53px;
 
 	max-width: 1920px;
-	margin: 0 auto 70px;
+	margin: 0 auto;
 }
 
 .f-header-logo {
@@ -78,6 +86,10 @@
 	}
 }
 
+
+.f-header-logo-desktop, .f-header-logo-mobile {
+	height: 100%;
+}
 
 .f-header-logo-mobile {
 	display: none;
@@ -119,24 +131,76 @@
 .f-header-menu-list-link {
 		pointer-events: none;
 
+		
 		& a {
 			position: relative;
 			pointer-events: all;
 		}
 
-		&:hover:after {
+		&:after {
 			content: '';
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			width: 30px;
 			height: 4px;
+			width: 0;
 			background-color: $coral;
+
+			animation: headerLinkAnimationOut 0.2s cubic-bezier(.4, .86, .4, .86);
+		}
+
+		&:hover:after {
+			animation: headerLinkAnimationIn 0.3s cubic-bezier(.27, 1.01, .4, 1.55);
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes headerLinkAnimationIn {
+			to {
+				width: 30px;
+			}
+		}
+
+		@keyframes headerLinkAnimationOut {
+			from {
+				width: 30px;
+			}
 		}
 }
 
+
+.f-header-pinned {
+	
+	& .f-header-logo {
+		top: 0;
+	}
+
+	& .f-header-logo-desktop {
+		display: none;
+	}
+
+	& .f-header-logo-mobile {
+		display: block;
+		height: 35px;
+	}
+
+	& .f-header-menu-list {
+		& li {
+			transition: all 1s ease;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		& .f-header-menu-list-topbtn {
+			display: none;
+		}
+	}
+}
+
+
+
 .f-header-chat-icon {	
 	padding-bottom: 0 !important;
+	top: -2px;
 
 	a {
 		display: inline-block;

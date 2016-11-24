@@ -2,20 +2,19 @@ import React, { Component } from 'react'
 import SidebarMenu from 'Components/SidebarMenu'
 
 
-
 export default class HeaderContainer extends Component {
 
 	constructor() {
 		super();
 
 		this.state = {
-			isLoggedIn: false
+			isLoggedIn: false,
+			scrollHeader: false
 		}
 	}
 
 	shouldComponentUpdate(nextProps, nextState) {
-		// for don't trigger re-render and change rnd name
-		return nextState.isLoggedIn !== this.state.isLoggedIn
+		return (nextState.isLoggedIn !== this.state.isLoggedIn) || (this.state.scrollHeader !== nextState.scrollHeader)
 	}
 
 	fakeLogIn() {
@@ -60,6 +59,22 @@ export default class HeaderContainer extends Component {
 		)
 	}
 
+	componentDidMount() {	
+		this.headerEl = this.refs.headerWrapper;
+		window.addEventListener('scroll', this.scrollFunc.bind(this));
+	}
+
+
+	scrollFunc() {
+		// const headerH = this.headerEl.clientHeight;
+
+		if( document.body.scrollTop >= 200 ) {
+			this.setState({ scrollHeader: true })
+		}
+		else {
+			this.setState({ scrollHeader: false })	
+		}
+	}
 
 	loggedMenuList() {
 
@@ -141,12 +156,12 @@ export default class HeaderContainer extends Component {
 		const LoggedInMenuList = ::this.loggedMenuList;
 
 		return (
-			<div>
+			<div class="f-header-fixed-wrapper">
 				<input type="checkbox" id="f-overlay-chkbx" />
 
 				<header class="f-paper">
 
-					<div class="f-header fd-f-between-middle fd-c-middle">
+					<div ref="headerWrapper" class={ `f-header fd-f-between-middle fd-c-middle ${ this.state.scrollHeader ? 'f-header-pinned' : '' }` } >
 						
 						<a class="f-header-logo" href="/">
 							<img class="f-header-logo-desktop" src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
