@@ -57,3 +57,44 @@
 	display: block;
 	margin: 10px auto;
 }
+
+.f-switch-checkbox {
+	&, label {
+		display: inline-block;
+	}
+
+	label {
+		width: 34px;
+		height: 14px;
+		position: relative;
+		border-radius: 5px/50%;
+		background-color: $light_light_gray;
+		transition: all .1s linear;
+		cursor: pointer;
+	}
+
+	input {
+		display: none;
+		&:checked ~ label {
+			background-color: rgba($light_green, .5);
+			.f-switcher {
+				background-color: $green;
+				left: 17px;
+			}
+		}
+	}
+
+	.f-switcher {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		left: -3px;
+		top: 50%;
+		margin-top: -10px;
+		transition: all .1s linear;
+		border-radius: 50%;
+		background-color: #f1f1f1;
+		box-shadow: 0 2px 2px 0 $light_gray;
+	}
+
+}

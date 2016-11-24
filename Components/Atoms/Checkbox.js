@@ -85,5 +85,13 @@ export default () => <div>
 				<span>Option 3</span>
 			</label>
 		</div>
+
+		<Title>IOS-like checkboxes</Title>
+		<div className="f-switch-checkbox">
+			<input id="switch-checkbox" type="checkbox"/>
+			<label for="switch-checkbox">
+				<div className="f-switcher"></div>
+			</label>
+		</div>
 	</div>
 </div>
