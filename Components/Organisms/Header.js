@@ -69,9 +69,10 @@ export default class HeaderContainer extends Component {
 		// const headerH = this.headerEl.clientHeight;
 
 		if( document.body.scrollTop >= 200 ) {
+			if( this.state.scrollHeader === false )
 			this.setState({ scrollHeader: true })
 		}
-		else {
+		else if( this.state.scrollHeader === true ) {
 			this.setState({ scrollHeader: false })	
 		}
 	}
