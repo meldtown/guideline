@@ -13,6 +13,26 @@ export default () => <div>
 				<span>Lorem ipsum dolor sit amet</span>
 			</label>
 		</div>
+		<div class="fd-f-left" style={{width: 300, marginTop: 50, border: '1px solid', padding: 5}}>
+			<div class="f-checkbox fd-f1 fd-text-default">
+				<label>
+					<input type="checkbox"/>
+					<div class="f-checkbox-control">
+						<i class="fi-check-icon" />
+					</div>
+					<span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</span>
+				</label>
+			</div>
+			<div class="f-checkbox fd-f1 fd-text-default">
+				<label>
+					<input type="checkbox"/>
+					<div class="f-checkbox-control">
+						<i class="fi-check-icon" />
+					</div>
+					<span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</span>
+				</label>
+			</div>
+		</div>
 
 		<Title>Radio button</Title>
 		<div class="f-checkbox fd-text-default">

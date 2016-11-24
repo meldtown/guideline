@@ -5,6 +5,8 @@
 		line-height: normal;
 		padding-right: .5em;
 		cursor: pointer;
+		position: relative;
+		padding-left: 21px;
 		& > * {
 			vertical-align: middle;
 		}
@@ -36,7 +38,10 @@
 		border-radius: 3px;
 		box-sizing: border-box;
 		background-color: $green;
-		margin-right: .25em;
+		margin-right: 5px;
+		position: absolute;
+		left: 0;
+
 		i {
 			color: #fff;
 		}
