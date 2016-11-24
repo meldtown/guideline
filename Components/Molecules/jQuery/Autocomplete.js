@@ -13,3 +13,18 @@ export default () => <div>
 	</div>
 
 </div>
+
+/*
+jQuery('#demo').autocomplete({
+	source: 'http://api.rabota.ua/autocomplete/keyword',
+	minLength: 2,
+	open: function(event, ui) {
+		$(this).autocomplete('widget').css({width: jQuery(this).outerWidth()})
+	}
+}).data('ui-autocomplete')._renderItem = function (ul, item) {
+	return $("<li></li>")
+		.data("item.autocomplete", item)
+		.append($("<a></a>").html(this.term ? item.label.replace(new RegExp('(' + this.term + ')', 'gi'), '<b>$1</b>') : item.label))
+		.appendTo(ul)
+}
+*/
