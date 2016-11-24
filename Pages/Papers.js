@@ -14,7 +14,7 @@ export default () => <div>
 			</p>
 		</header>
 
-			<div class="f-paper f-main-wrapper temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">
+			<div class="f-paper f-main-wrapper">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore tenetur dolores possimus,
 				optio nesciunt maxime veritatis, ipsa suscipit expedita molestias consequatur facilis illum illo error,
 				assumenda. Eos, similique error! Nam cumque, saepe doloribus debitis possimus inventore ab eos
