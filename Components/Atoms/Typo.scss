@@ -2,7 +2,7 @@ html, body {
 	font-family: $font_regular;
 	font-weight: normal;
 	font-size: $text_merchant;
-	line-height: 1.35;
+	line-height: 1.2;
 }
 
 a {
@@ -33,7 +33,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	font: inherit;
 	color: inherit;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 b, strong {font-family: $font_medium}
