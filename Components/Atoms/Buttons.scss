@@ -180,17 +180,20 @@
 
 .fd-btn-block {
 	display: block;
+	width: 100%;
 }
 
 .ft-btn-block {
 	@media only screen and (max-width: $width_tablet) {
 		display: block;
+		width: 100%;
 	}
 }
 
 .fm-btn-block {
 	@media only screen and (max-width: $width_mobile) {
 		display: block;
+		width: 100%;
 	}
 }
 
