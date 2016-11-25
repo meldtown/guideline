@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SidebarMenu from 'Components/SidebarMenu'
+import { Link } from 'react-router'
 
 
 export default class HeaderContainer extends Component {
@@ -16,6 +17,32 @@ export default class HeaderContainer extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return (nextState.isLoggedIn !== this.state.isLoggedIn) || (this.state.scrollHeader !== nextState.scrollHeader)
 	}
+
+
+	componentDidMount() {	
+		// this.headerEl = this.refs.headerWrapper;
+		window.addEventListener('scroll', this.scrollFunc.bind(this));
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener('scroll', this.scrollFunc);
+		this.state = {};
+	}
+
+
+	scrollFunc() {
+		// const headerH = this.headerEl.clientHeight;
+
+		if( document.body.scrollTop >= 200 ) {
+			if( this.state.scrollHeader === false ) {
+				this.setState({ scrollHeader: true })		
+			}
+		}
+		else if( this.state.scrollHeader === true ) {
+			this.setState({ scrollHeader: false })	
+		}
+	}
+
 
 	fakeLogIn() {
 		this.setState({ isLoggedIn: true })
@@ -34,7 +61,7 @@ export default class HeaderContainer extends Component {
 		return (
 			<div>
 				<ul class="fd-f-around fd-craftsmen fd-f-right f-header-menu-list f-reset-list">
-					<li class="f-header-menu-list-link ft-hidden fm-hidden">
+					<li id="test_anim" class="f-header-menu-list-link ft-hidden fm-hidden">
 						<a href="#find_work">Найти работу</a>
 					</li>
 					<li class="ft-hidden fm-hidden">
@@ -57,24 +84,6 @@ export default class HeaderContainer extends Component {
 				</ul>
 			</div>
 		)
-	}
-
-	componentDidMount() {	
-		this.headerEl = this.refs.headerWrapper;
-		window.addEventListener('scroll', this.scrollFunc.bind(this));
-	}
-
-
-	scrollFunc() {
-		// const headerH = this.headerEl.clientHeight;
-
-		if( document.body.scrollTop >= 200 ) {
-			if( this.state.scrollHeader === false )
-			this.setState({ scrollHeader: true })
-		}
-		else if( this.state.scrollHeader === true ) {
-			this.setState({ scrollHeader: false })	
-		}
 	}
 
 	loggedMenuList() {
@@ -164,10 +173,11 @@ export default class HeaderContainer extends Component {
 
 					<div ref="headerWrapper" class={ `f-header fd-f-between-middle fd-c-middle ${ this.state.scrollHeader ? 'f-header-pinned' : '' }` } >
 						
-						<a class="f-header-logo" href="/">
-							<img class="f-header-logo-desktop" src="https://img1.rabota.com.ua/static/2016/11/logo.svg" alt="Rabota.UA - logo"/>
-							<img class="f-header-logo-mobile" src="https://img1.rabota.com.ua/static/2016/11/logo-symbol.svg" alt="Rabota.UA - logo"/>
-						</a>
+						
+						<Link class="f-header-logo" to="/">
+							<img class="f-header-logo-symbol" src="https://img1.rabota.com.ua/static/2016/11/logo-symbol.svg" alt="Rabota.UA - logo"/>
+							<img class="f-header-logo-text" src="https://img1.rabota.com.ua/static/2016/11/logo-text-none-padding.svg" alt="Rabota.UA - logo"/>
+						</Link>
 
 						{ this.state.isLoggedIn ? <LoggedInMenuList /> : <NotLoggedMenuList /> }
 

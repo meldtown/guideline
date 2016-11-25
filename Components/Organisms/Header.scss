@@ -82,24 +82,27 @@
 	& img {
 		vertical-align: middle;
 		height: 100%;
-		margin-right: 35px;
 	}
 }
 
 
-.f-header-logo-desktop, .f-header-logo-mobile {
+.f-header-logo-text, .f-header-logo-symbol {
 	height: 100%;
 }
 
-.f-header-logo-mobile {
-	display: none;
+.f-header-logo-text {
+	margin-right: 35px;
+}
+
+.f-header-logo-symbol {
+	margin-right: 20px;
 }
 
 @media screen and (max-width: 1420px) {
-	.f-header-logo-desktop {
+	.f-header-logo-text {
 		display: none;
 	}
-	.f-header-logo-mobile {
+	.f-header-logo-symbol {
 		display: block;
 	}
 }
@@ -110,6 +113,7 @@
 
 .f-header-menu-list {
 	li {
+		transition: all 1s ease;
 		position: relative;
 		display: inline-block;
 		position: relative;
@@ -145,8 +149,12 @@
 			height: 4px;
 			width: 0;
 			background-color: $coral;
+		}
 
-			animation: headerLinkAnimationOut 0.2s cubic-bezier(.4, .86, .4, .86);
+		&.-animationout-enabled {
+			&:after {
+				animation: headerLinkAnimationOut 0.2s cubic-bezier(.4, .86, .4, .86);
+			}
 		}
 
 		&:hover:after {
@@ -174,11 +182,11 @@
 		top: 0;
 	}
 
-	& .f-header-logo-desktop {
+	& .f-header-logo-text {
 		display: none;
 	}
 
-	& .f-header-logo-mobile {
+	& .f-header-logo-symbol {
 		display: block;
 		height: 35px;
 	}
