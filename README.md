@@ -1,6 +1,10 @@
 # Fedor
 
+http://rua-assets.s3-website.eu-central-1.amazonaws.com/fi/ 
+
 http://rua-assets.s3-website.eu-central-1.amazonaws.com/fedor/
+
+
 
 Style guide project
 
