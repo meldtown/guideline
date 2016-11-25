@@ -73,6 +73,10 @@
 
 	max-width: 1920px;
 	margin: 0 auto;
+	
+	& li, a, p {
+		line-height: 1.2;
+	}
 
 	a {
 		text-decoration: none !important;
