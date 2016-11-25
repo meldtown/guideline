@@ -178,6 +178,22 @@
 	}
 }
 
+.fd-btn-block {
+	display: block;
+}
+
+.ft-btn-block {
+	@media only screen and (max-width: $width_tablet) {
+		display: block;
+	}
+}
+
+.fm-btn-block {
+	@media only screen and (max-width: $width_mobile) {
+		display: block;
+	}
+}
+
 
 
 
