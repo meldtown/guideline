@@ -86,5 +86,25 @@ export default () => <DemoWrapper title="Buttons">
 			<span>Зарегистрироваться</span>
 			<i class="fi-small-arrow" />
 		</button>
+
+		<Title>Block level buttons</Title>
+		{/*TODO: Block level buttons with media queries*/}
+		<h3 class="fd-beefy-samurai">Block throughout all devises</h3>
+		<button class="f-btn-control-coral fd-btn-block fd-samurai">
+			<span>Создать резюме</span>
+			<i class="fi-arrows-right-big" />
+		</button>
+
+		<h3 class="fd-beefy-samurai">Block on tablets</h3>
+		<button class="f-btn-control-coral ft-btn-block fd-samurai">
+			<span>Создать резюме</span>
+			<i class="fi-arrows-right-big" />
+		</button>
+
+		<h3 class="fd-beefy-samurai">Block on mobile</h3>
+		<button class="f-btn-control-coral fm-btn-block fd-samurai">
+			<span>Создать резюме</span>
+			<i class="fi-arrows-right-big" />
+		</button>
 	</div>
 </DemoWrapper>

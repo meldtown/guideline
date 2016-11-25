@@ -1,8 +1,10 @@
-html, body {
+body.fedor,
+.f-footer,
+.f-header {
 	font-family: $font_regular;
 	font-weight: normal;
 	font-size: $text_merchant;
-	line-height: 1.35;
+	line-height: 1.2;
 }
 
 a {
@@ -27,13 +29,13 @@ a {
 }
 
 p {
-	margin: 40px 0;
+	margin: 10px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font: inherit;
 	color: inherit;
-	margin-bottom: 40px;
+	margin: 0 0 10px;
 }
 
 b, strong {font-family: $font_medium}
