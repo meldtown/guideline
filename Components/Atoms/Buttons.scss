@@ -181,12 +181,16 @@
 .fd-btn-block {
 	display: block;
 	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .ft-btn-block {
 	@media only screen and (max-width: $width_tablet) {
 		display: block;
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
@@ -194,6 +198,8 @@
 	@media only screen and (max-width: $width_mobile) {
 		display: block;
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
