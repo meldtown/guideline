@@ -1,10 +1,4 @@
-body.fedor {
-	margin: 0;
-	padding: 0;
-}
-
-.fedor {
-	/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 	/**
      * 1. Change the default font family in all browsers (opinionated).
@@ -13,30 +7,23 @@ body.fedor {
      *    IE on Windows Phone and in iOS.
      */
 
-	/* Document
-       ========================================================================== */
 
-	html {
-		font-family: sans-serif; /* 1 */
-		line-height: 1.15; /* 2 */
-		-ms-text-size-adjust: 100%; /* 3 */
-		-webkit-text-size-adjust: 100%; /* 3 */
-	}
+html.fedor {
+	font-family: sans-serif; /* 1 */
+	line-height: 1.15; /* 2 */
+	-ms-text-size-adjust: 100%; /* 3 */
+	-webkit-text-size-adjust: 100%; /* 3 */
+}
 
+body.fedor {
+	margin: 0;
+	padding: 0;
+}
+
+.fedor {
+	
 	/* Sections
        ========================================================================== */
-
-	/**
-     * Remove the margin in all browsers (opinionated).
-     */
-
-	body {
-		margin: 0;
-	}
-
-	/**
-     * Add the correct display in IE 9-.
-     */
 
 	article,
 	aside,
