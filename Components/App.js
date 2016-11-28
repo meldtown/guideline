@@ -19,6 +19,7 @@ export default () => <BrowserRouter basename={basename}>
 		<Match pattern="/grid" component={Pages.Grid}/>
 		<Match pattern="/controls" component={Pages.Controls}/>
 		<Match pattern="/papers" component={Pages.Papers}/>
+		<Match pattern="/tabs" component={Pages.Tabs}/>
 		<Miss component={Pages.NotFound}/>
 	</div>
 </BrowserRouter>

@@ -15,5 +15,6 @@ export default () => <div class="fd-merchant temp-padding" style={{ marginTop: '
 		<li><Link to="/controls" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Controls</Link></li>
 		<li><Link to="/grid" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Grid</Link></li>
 		<li><Link to="/papers" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Papers</Link></li>
+		<li><Link to="/tabs" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Tabs</Link></li>
 	</ul>
 </div>
