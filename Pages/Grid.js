@@ -126,6 +126,45 @@ export default () => <DemoWrapper title="Grids">
 			<span class="f-bg-light-gray temp-padding">top</span>
 			<span class="f-bg-light-light-gray temp-padding">bottom</span>
 		</p>
+
+		<Title>Lists</Title>
+
+		<p>There is only few possible lists e.g. 2, 3, 4 columns. Lists are kinda responsive so have fd, ft, fm prefixes. If you need you may use grid inside lists.</p>
+
+		<ul className="fd-list-4-cols ft-list-2-cols fm-list-1-cols">
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+			<li class="fd-f-between">
+				<span>title</span>
+				<span>5</span>
+			</li>
+		</ul>
 	</div>
 
 </DemoWrapper>
