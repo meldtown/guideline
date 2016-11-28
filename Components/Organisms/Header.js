@@ -171,7 +171,7 @@ export default class HeaderContainer extends Component {
 
 				<header class="f-paper">
 
-					<div ref="headerWrapper" class={ `f-header fd-f-between-middle fd-c-middle ${ this.state.scrollHeader ? 'f-header-pinned' : '' }` } >
+					<div ref="headerWrapper" class={ `f-header fd-f-between-middle ${ this.state.scrollHeader ? 'f-header-pinned' : '' }` } >
 						
 						
 						<Link class="f-header-logo" to="/">
