@@ -139,10 +139,12 @@ export default () => <DemoWrapper title="Grids">
 		<p>If you want you may use grids inside lists</p>
 
 		<ul className="fd-list-3-cols ft-list-2-cols fm-list-1-cols">
-			{range(1, 9).map(i => <li key={i} class="fd-f-between">
-				<span class="temp-padding fd-f1 f-bg-light-gray">title</span>
-				<span class="temp-padding f-bg-light-light-gray">5</span>
-			</li>)}
+			{range(1, 7).map(i => {
+				return <li key={i} class="fd-f-between">
+					<span class="temp-padding fd-f1 f-bg-light-light-gray">title</span>
+					<span class="temp-padding f-bg-light-gray">5</span>
+				</li>
+			})}
 		</ul>
 	</div>
 
