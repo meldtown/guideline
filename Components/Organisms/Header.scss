@@ -146,6 +146,10 @@
 		& a {
 			position: relative;
 			pointer-events: all;
+
+			& span {
+				pointer-events: none;				
+			}
 		}
 
 		&:after {
