@@ -85,5 +85,35 @@ export default () => <div>
 		<div class="f-input fd-merchant">
 			<a href="#" class="f-input-pseudo-link">Открыть контакт</a>
 		</div>
+
+
+		<Title>Dropdown</Title>
+		<div class="f-dropdown-block-wrapper" style={{ paddingBottom: '5px' }}>
+			<a href="#" class="f-always-blue">Dropdown Link</a>
+
+			<div class="f-dropdown-menu-wrap">
+				<ul class="f-reset-list">
+					<li><a href="#">По рубрикам</a></li>
+					<li><a href="#">По профессиям</a></li>
+					<li><a href="#">По городам</a></li>
+					<li><a href="#">По компаниям</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+
+
+
 	</div>
 </div>

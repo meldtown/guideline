@@ -61,7 +61,7 @@ export default class HeaderContainer extends Component {
 		return (
 			<div>
 				<ul class="fd-f-around fd-craftsmen fd-f-right f-header-menu-list f-reset-list">
-					<li id="test_anim" class="f-header-menu-list-link ft-hidden fm-hidden">
+					<li class="f-header-menu-list-link ft-hidden fm-hidden">
 						<a href="#find_work">Найти работу</a>
 					</li>
 					<li class="ft-hidden fm-hidden">
