@@ -215,11 +215,12 @@
 
 .f-header-chat-icon {
 	padding-bottom: 0 !important;
-	top: -2px;
 
 	a {
 		display: inline-block;
 		line-height: 1;
+		position: relative;
+		top: -2px;
 
 		& [class^="fi-"] {
 			vertical-align: top;
