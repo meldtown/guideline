@@ -34,7 +34,7 @@ export default () => <div>
 	</ul>
 
 
-	<div class="temp-padding">
+	<div class="fd-p20">
 		{/*<div class="f-input-block fd-header">
 			<select name="select" id="1">
 				<option>Value 1</option>

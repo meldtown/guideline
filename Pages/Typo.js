@@ -7,13 +7,13 @@ import Title from '../Components/Utils/Title'
 export default () => <DemoWrapper title="Typo">
 	<Title>Fonts</Title>
 	<ul class="fd-f-left">
-		<li class="temp-padding">
+		<li class="fd-p20">
 			<div class="fd-thin">Graphic LC Light</div>
 			<div>Graphic LC Regular</div>
 			<div class="fd-beefy">Graphic LC Medium</div>
 			<div class="fd-fat">Graphic LC Semibold</div>
 		</li>
-		<li class="temp-padding">
+		<li class="fd-p20">
 			<div class="fd-thin">Thin</div>
 			<div class="f-text-light-gray">Default</div>
 			<div class="fd-beefy">Beefy</div>
@@ -23,7 +23,7 @@ export default () => <DemoWrapper title="Typo">
 
 	<div class="fd-f-between fm-c-stretch">
 		<div>
-			<div class="temp-padding">
+			<div class="fd-p20">
 				<Title>Typography</Title>
 				<div class="f-emperor">Emperor</div>
 				<div class="fd-fat-shogun">Fat Shogun</div>
@@ -38,7 +38,7 @@ export default () => <DemoWrapper title="Typo">
 				<div class="fd-serf">Serf</div>
 			</div>
 		</div>
-		<div class="temp-padding">
+		<div class="fd-p20">
 			<Title>Links</Title>
 			<ul class="f-reset-list">
 				<li>
@@ -70,14 +70,14 @@ export default () => <DemoWrapper title="Typo">
 				</li>
 			</ul>
 		</div>
-		<div class="temp-padding">
+		<div class="fd-p20">
 			<Title>Icons</Title>
 			<Icons />
 		</div>
 	</div>
 
 	<Title>Multi line text</Title>
-	<div class="temp-padding">
+	<div class="fd-p20">
 		<p class="fd-section-header ft-shogun fm-merchant">
 			<Lorem/>
 		</p>
@@ -121,9 +121,9 @@ export default () => <DemoWrapper title="Typo">
 
 	<Title>Horizontal alignment</Title>
 	<ul class="fd-f">
-		<li class="fd-f1 fd-text-left f-bg-light-light-gray temp-padding">left</li>
-		<li class="fd-f1 fd-text-center f-bg-light-gray temp-padding">center</li>
-		<li class="fd-f1 fd-text-right f-bg-light-light-gray temp-padding">right</li>
+		<li class="fd-f1 fd-text-left f-bg-light-light-gray fd-p20">left</li>
+		<li class="fd-f1 fd-text-center f-bg-light-gray fd-p20">center</li>
+		<li class="fd-f1 fd-text-right f-bg-light-light-gray fd-p20">right</li>
 	</ul>
 
 	<Title>Misc</Title>

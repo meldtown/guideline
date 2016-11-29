@@ -3,7 +3,7 @@ import DemoWrapper from 'Components/DemoWrapper'
 import Title from '../Components/Utils/Title'
 
 export default () => <DemoWrapper title="Buttons">
-	<div class="temp-padding">
+	<div class="fd-p20">
 		<Title>Primary button</Title>
 
 		<button class="f-btn-primary fd-samurai">найти сейчас</button>
