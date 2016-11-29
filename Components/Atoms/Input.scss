@@ -22,6 +22,10 @@ input[type=number] {
 	-moz-appearance: textfield;
 }
 
+input:-webkit-autofill {
+	background: none;
+}
+
 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -197,14 +201,14 @@ select::-ms-expand {
 	top: 100%;
 	left: 0;
 	box-shadow: $dropdown_box_shadow;
-	
+
 	ul {
 		padding: 10px 0;
 		li {
 			padding: 7px 20px;
 			a {
 				color: $header_link_color !important;
-			} 
+			}
 		}
 	}
 }
