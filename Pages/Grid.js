@@ -128,6 +128,20 @@ export default () => <DemoWrapper title="Grids">
 			<span class="f-bg-light-light-gray fd-p20">bottom</span>
 		</p>
 
+		<Title>Paddings and gutters</Title>
+
+		<div class="fd-f-left fm-c-stretch fd-f-g20 ft-f-g10 fm-f-g0">
+			<div class="fd-p50 ft-p20 fm-p10 f-bg-light-light-gray">
+				cell
+			</div>
+			<div class="fd-p50 ft-p20 fm-p10 fd-f1 f-bg-light-gray">
+				cell
+			</div>
+			<div class="fd-p50 ft-p20 fm-p10 f-bg-light-light-gray">
+				cell
+			</div>
+		</div>
+
 		<Title>Lists</Title>
 
 		<p>There is only few possible lists e.g. 2, 3, 4 columns. Lists are kinda responsive so have fd, ft, fm prefixes.</p>
