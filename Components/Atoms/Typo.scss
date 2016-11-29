@@ -5,40 +5,40 @@ body.fedor,
 	font-weight: normal;
 	font-size: $text_merchant;
 	line-height: 1.2;
-}
 
-a {
-	text-decoration: none;
-	color: $royal_blue;
+	a {
+		text-decoration: none;
+		color: $royal_blue;
 
-	&:visited:not(.f-always-blue), &.f-visited {
-		color: $lilac;
+		&:visited:not(.f-always-blue), &.f-visited {
+			color: $lilac;
+		}
+
+		&:hover, &.f-hover {
+			opacity: .7;
+		}
+
+		&:active, &.f-active {
+			opacity: .9;
+		}
+
+		&[disabled], &.f-disabled {
+			opacity: .4;
+		}
 	}
 
-	&:hover, &.f-hover {
-		opacity: .7;
+	p {
+		margin: 10px 0;
 	}
 
-	&:active, &.f-active {
-		opacity: .9;
+	h1, h2, h3, h4, h5, h6 {
+		font: inherit;
+		color: inherit;
+		margin: 0 0 10px;
 	}
 
-	&[disabled], &.f-disabled {
-		opacity: .4;
-	}
+	b, strong {font-family: $font_medium}
 }
-
-p {
-	margin: 10px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font: inherit;
-	color: inherit;
-	margin: 0 0 10px;
-}
-
-b, strong {font-family: $font_medium}
 
 // Font Weight
 
