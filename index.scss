@@ -82,9 +82,11 @@ $font_bold: 'Graphik Semibold', sans-serif;
 
 $text_emperor: 70px;
 $text_shogun: 40px;
-$text_daimyo: 32px;
-$text_samurai: 26px;
-$text_ronin: 24px;
+$text_daimyo: 36px;
+$text_samurai: 32px;
+$text_ronin: 26px;
+$text_syoi: 22px;
+$text_gunso: 20px;
 $text_soldier: 18px;
 $text_merchant: 16px;
 $text_farmer: 15px;
@@ -100,6 +102,7 @@ $sidebar_width: 350px;
 
 
 @import "Components/Utils/Normalize";
+@import "Components/Utils/Gutters";
 @import "Components/Utils/Grid";
 @import "Components/Utils/List";
 

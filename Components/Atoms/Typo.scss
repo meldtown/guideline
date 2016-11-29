@@ -5,12 +5,18 @@ body.fedor,
 	font-weight: normal;
 	font-size: $text_merchant;
 	line-height: 1.2;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
 a {
 	text-decoration: none;
 	color: $royal_blue;
+<<<<<<< HEAD
 	transition: all 0.3s ease;
+=======
+	background-color: transparent;
+>>>>>>> f19c1f5bab60b5f4055007637a041718b09c52c0
 
 	&:visited:not(.f-always-blue), &.f-visited {
 		color: $lilac;
@@ -19,10 +25,12 @@ a {
 	&:hover, &.f-hover {
 		transition: all 0.25s ease-in;
 		opacity: .7;
+		outline-width: 0;
 	}
 
 	&:active, &.f-active {
 		opacity: .9;
+		outline-width: 0;
 	}
 
 	&[disabled], &.f-disabled {
@@ -34,6 +42,10 @@ p {
 	margin: 10px 0;
 }
 
+img {
+	border-style: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font: inherit;
 	color: inherit;
@@ -41,6 +53,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 b, strong {font-family: $font_medium}
+
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
 
 // Font Weight
 
@@ -55,6 +98,8 @@ b, strong {font-family: $font_medium}
 .fd-daimyo {font-size: $text_daimyo}
 .fd-samurai {font-size: $text_samurai}
 .fd-ronin {font-size: $text_ronin}
+.fd-syoi {font-size: $text_syoi}
+.fd-gunso {font-size: $text_gunso}
 .fd-soldier {font-size: $text_soldier}
 .fd-merchant {font-size: $text_merchant}
 .fd-farmer {font-size: $text_farmer}
@@ -69,6 +114,8 @@ b, strong {font-family: $font_medium}
 .fd-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
 .fd-thin-samurai {font-size: $text_samurai;font-family: $font_light}
 .fd-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+.fd-thin-syoi {font-size: $text_syoi; font-family: $font_light}
+.fd-thin-gunso {font-size: $text_gunso; font-family: $font_light}
 .fd-thin-soldier {font-size: $text_soldier;font-family: $font_light}
 .fd-thin-merchant {font-size: $text_merchant;font-family: $font_light}
 .fd-thin-farmer {font-size: $text_farmer;font-family: $font_light}
@@ -80,6 +127,8 @@ b, strong {font-family: $font_medium}
 .fd-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
 .fd-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
 .fd-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+.fd-beefy-syoi {font-size: $text_syoi; font-family: $font_medium}
+.fd-beefy-gunso {font-size: $text_gunso; font-family: $font_medium}
 .fd-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
 .fd-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
 .fd-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
@@ -91,6 +140,8 @@ b, strong {font-family: $font_medium}
 .fd-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
 .fd-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
 .fd-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+.fd-fat-syoi {font-size: $text_syoi; font-family: $font_semi}
+.fd-fat-gunso {font-size: $text_gunso; font-family: $font_semi}
 .fd-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
 .fd-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
 .fd-fat-farmer {font-size: $text_farmer;font-family: $font_semi}
@@ -123,6 +174,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.ft-daimyo {font-size: $text_daimyo;font-family: $font_light}
 	.ft-samurai {font-size: $text_samurai;font-family: $font_medium}
 	.ft-ronin {font-size: $text_ronin}
+	.ft-syoi {font-size: $text_syoi}
+	.ft-gunso {font-size: $text_gunso}
 	.ft-soldier {font-size: $text_soldier}
 	.ft-merchant {font-size: $text_merchant}
 	.ft-farmer {font-size: $text_farmer}
@@ -134,6 +187,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.ft-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
 	.ft-thin-samurai {font-size: $text_samurai;font-family: $font_light}
 	.ft-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+	.ft-thin-syoi {font-size: $text_syoi; font-family: $font_light}
+	.ft-thin-gunso {font-size: $text_gunso; font-family: $font_light}
 	.ft-thin-soldier {font-size: $text_soldier;font-family: $font_light}
 	.ft-thin-merchant {font-size: $text_merchant;font-family: $font_light}
 	.ft-thin-farmer {font-size: $text_farmer;font-family: $font_light}
@@ -145,6 +200,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.ft-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
 	.ft-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
 	.ft-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+	.ft-beefy-syoi {font-size: $text_syoi; font-family: $font_medium}
+	.ft-beefy-gunso {font-size: $text_gunso; font-family: $font_medium}
 	.ft-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
 	.ft-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
 	.ft-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
@@ -156,6 +213,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.ft-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
 	.ft-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
 	.ft-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+	.ft-fat-syoi {font-size: $text_syoi; font-family: $font_semi}
+	.ft-fat-gunso {font-size: $text_gunso; font-family: $font_semi}
 	.ft-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
 	.ft-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
 	.ft-fat-farmer {font-size: $text_farmer;font-family: $font_semi}
@@ -174,6 +233,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.fm-samurai {font-size: $text_samurai;font-family: $font_medium}
 	.fm-ronin {font-size: $text_ronin}
 	.fm-soldier {font-size: $text_soldier}
+	.fm-syoi {font-size: $text_syoi}
+	.fm-gunso {font-size: $text_gunso}
 	.fm-merchant {font-size: $text_merchant}
 	.fm-farmer {font-size: $text_farmer}
 	.fm-craftsmen {font-size: $text_craftsmen}
@@ -184,6 +245,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.fm-thin-daimyo {font-size: $text_daimyo;font-family: $font_light}
 	.fm-thin-samurai {font-size: $text_samurai;font-family: $font_light}
 	.fm-thin-ronin {font-size: $text_ronin;font-family: $font_light}
+	.fm-thin-syoi {font-size: $text_syoi; font-family: $font_light}
+	.fm-thin-gunso {font-size: $text_gunso; font-family: $font_light}
 	.fm-thin-soldier {font-size: $text_soldier;font-family: $font_light}
 	.fm-thin-merchant {font-size: $text_merchant;font-family: $font_light}
 	.fm-thin-farmer {font-size: $text_farmer;font-family: $font_light}
@@ -195,6 +258,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.fm-beefy-daimyo {font-size: $text_daimyo;font-family: $font_medium}
 	.fm-beefy-samurai {font-size: $text_samurai;font-family: $font_medium}
 	.fm-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+	.fm-beefy-ronin {font-size: $text_ronin;font-family: $font_medium}
+	.fm-beefy-syoi {font-size: $text_syoi; font-family: $font_medium}
 	.fm-beefy-soldier {font-size: $text_soldier;font-family: $font_medium}
 	.fm-beefy-merchant {font-size: $text_merchant;font-family: $font_medium}
 	.fm-beefy-farmer {font-size: $text_farmer;font-family: $font_medium}
@@ -206,6 +271,8 @@ a.f-link-dashed, a .f-link-dashed {
 	.fm-fat-daimyo {font-size: $text_daimyo;font-family: $font_semi}
 	.fm-fat-samurai {font-size: $text_samurai;font-family: $font_semi}
 	.fm-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+	.fm-fat-ronin {font-size: $text_ronin;font-family: $font_semi}
+	.fm-fat-syoi {font-size: $text_syoi; font-family: $font_semi}
 	.fm-fat-soldier {font-size: $text_soldier;font-family: $font_semi}
 	.fm-fat-merchant {font-size: $text_merchant;font-family: $font_semi}
 	.fm-fat-farmer {font-size: $text_farmer;font-family: $font_semi}

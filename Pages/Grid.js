@@ -20,22 +20,22 @@ export default () => <DemoWrapper title="Grids">
 		<Title>Left</Title>
 
 		<p class="fd-f-left fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">right<br/>Notice that both cells has same height</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">right<br/>Notice that both cells has same height</span>
 		</p>
 
 		<Title>Center</Title>
 
 		<p class="fd-f-center fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">right</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">right</span>
 		</p>
 
 		<Title>Right</Title>
 
 		<p class="fd-f-right fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">right</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">right</span>
 		</p>
 
 		<Title>Vertical alignment</Title>
@@ -44,9 +44,9 @@ export default () => <DemoWrapper title="Grids">
 			may have classes like <span>fd-f-center-middle</span></p>
 
 		<p class="fd-f-center-middle fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">hello<br />world</span>
-			<span class="f-bg-light-gray temp-padding">right</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">hello<br />world</span>
+			<span class="f-bg-light-gray fd-p20">right</span>
 		</p>
 
 		<Title>12 cols is dead</Title>
@@ -56,14 +56,14 @@ export default () => <DemoWrapper title="Grids">
 			class="f-text-lilac">fd-f3</strong> which may be applied to cells to make them proportional wide</p>
 
 		<p class="fd-f-left fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray fd-f1 temp-padding">If you want you may configure cells width by adding classes like <strong>fd-f1</strong></span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-f1 fd-p20">If you want you may configure cells width by adding classes like <strong>fd-f1</strong></span>
 		</p>
 
 		<p class="fd-f-left fm-c-stretch">
-			<span class="f-bg-light-gray fd-f1 temp-padding">fd-f1</span>
-			<span class="f-bg-light-light-gray fd-f2 temp-padding">fd-f2</span>
-			<span class="f-bg-light-gray fd-f1 temp-padding">fd-f1</span>
+			<span class="f-bg-light-gray fd-f1 fd-p20">fd-f1</span>
+			<span class="f-bg-light-light-gray fd-f2 fd-p20">fd-f2</span>
+			<span class="f-bg-light-gray fd-f1 fd-p20">fd-f1</span>
 		</p>
 
 		<Title>Misc</Title>
@@ -72,15 +72,15 @@ export default () => <DemoWrapper title="Grids">
 			and <strong class="f-text-lilac">fd-f-between</strong></p>
 
 		<p class="fd-f-around fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">center</span>
-			<span class="f-bg-light-gray temp-padding">right</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">center</span>
+			<span class="f-bg-light-gray fd-p20">right</span>
 		</p>
 
 		<p class="fd-f-between fm-c-stretch">
-			<span class="f-bg-light-gray temp-padding">left</span>
-			<span class="f-bg-light-light-gray temp-padding">center</span>
-			<span class="f-bg-light-gray temp-padding">right</span>
+			<span class="f-bg-light-gray fd-p20">left</span>
+			<span class="f-bg-light-light-gray fd-p20">center</span>
+			<span class="f-bg-light-gray fd-p20">right</span>
 		</p>
 
 		<Title>Greedy grids</Title>
@@ -89,18 +89,18 @@ export default () => <DemoWrapper title="Grids">
 		<p class="fd-f-center">
 			<span class="fd-f-left fm-c-center">
 				<span class="fd-f-left fm-c-center">
-					<span class="f-bg-light-gray temp-padding"><i class="fi-ok"/></span>
-					<span class="f-bg-light-light-gray temp-padding">hello world</span>
+					<span class="f-bg-light-gray fd-p20"><i class="fi-ok"/></span>
+					<span class="f-bg-light-light-gray fd-p20">hello world</span>
 				</span>
 				<span class="fd-f-left fm-c-center">
-					<span class="f-bg-light-gray temp-padding"><i class="fi-like"/></span>
-					<span class="f-bg-light-light-gray temp-padding">lorem ipsum</span>
+					<span class="f-bg-light-gray fd-p20"><i class="fi-like"/></span>
+					<span class="f-bg-light-light-gray fd-p20">lorem ipsum</span>
 				</span>
 			</span>
 		</p>
 
 		{[1, 2, 3].map(i => <div key={i} class="fd-f-left-middle ">
-			<span class="temp-padding"><i class="fi-contact f-text-dark-green"/></span>
+			<span class="fd-p20"><i class="fi-contact f-text-dark-green"/></span>
 			<span class="fd-f1 fd-f-left-middle fm-c-stretch">
 			<span>
 				<strong>User name {i}</strong>
@@ -109,7 +109,7 @@ export default () => <DemoWrapper title="Grids">
 			</span>
 			<span class="f-text-light-gray fd-peasant">2 hours ago</span>
 		</span>
-			<span class="temp-padding fm-hidden"><i class="fi-arrows-right-big f-text-coral"/></span>
+			<span class="fd-p20 fm-hidden"><i class="fi-arrows-right-big f-text-coral"/></span>
 		</div>)}
 
 		<Title>Media queries</Title>
@@ -119,14 +119,28 @@ export default () => <DemoWrapper title="Grids">
 		<p>So your classes are: <strong class="f-text-lilac">fm-c-center</strong> and <strong class="f-text-lilac">fm-c-stretch</strong></p>
 
 		<p class="fd-c-center">
-			<span class="f-bg-light-gray temp-padding">top</span>
-			<span class="f-bg-light-light-gray temp-padding">bottom</span>
+			<span class="f-bg-light-gray fd-p20">top</span>
+			<span class="f-bg-light-light-gray fd-p20">bottom</span>
 		</p>
 
 		<p class="fd-c-stretch">
-			<span class="f-bg-light-gray temp-padding">top</span>
-			<span class="f-bg-light-light-gray temp-padding">bottom</span>
+			<span class="f-bg-light-gray fd-p20">top</span>
+			<span class="f-bg-light-light-gray fd-p20">bottom</span>
 		</p>
+
+		<Title>Paddings and gutters</Title>
+
+		<div class="fd-f-left fm-c-stretch fd-f-g20 ft-f-g10 fm-f-g0">
+			<div class="fd-p50 ft-p20 fm-p10 f-bg-light-light-gray">
+				cell
+			</div>
+			<div class="fd-p50 ft-p20 fm-p10 fd-f1 f-bg-light-gray">
+				cell
+			</div>
+			<div class="fd-p50 ft-p20 fm-p10 f-bg-light-light-gray">
+				cell
+			</div>
+		</div>
 
 		<Title>Lists</Title>
 
@@ -141,8 +155,8 @@ export default () => <DemoWrapper title="Grids">
 		<ul className="fd-list-3-cols ft-list-2-cols fm-list-1-cols">
 			{range(1, 7).map(i => {
 				return <li key={i} class="fd-f-between">
-					<span class="temp-padding fd-f1 f-bg-light-light-gray">title</span>
-					<span class="temp-padding f-bg-light-gray">5</span>
+					<span class="fd-p20 fd-f1 f-bg-light-light-gray">title</span>
+					<span class="fd-p20 f-bg-light-gray">5</span>
 				</li>
 			})}
 		</ul>

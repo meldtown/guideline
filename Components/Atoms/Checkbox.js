@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Utils/Title'
 
 export default () => <div>
-	<div class="temp-padding">
+	<div class="fd-p20">
 		<Title>Checkbox</Title>
 		<div class="f-checkbox fd-text-default">
 			<label>

@@ -1,0 +1,61 @@
+// Grid gutters
+.fd-f-g0 > * {margin-left: 0; margin-right: 0}
+.fd-f-g10 > * {margin-left: 5px; margin-right: 5px}
+.fd-f-g20 > * {margin-left: 10px; margin-right: 10px}
+
+.fd-f-g0,
+.fd-f-g10,
+.fd-f-g20 {
+	& > :first-child {margin-left: 0}
+	& > :last-child {margin-right: 0}
+}
+
+// Paddings
+.fd-p0 {padding: 0}
+.fd-p20 {padding: 20px}
+.fd-p30 {padding: 30px}
+.fd-p40 {padding: 40px}
+.fd-p50 {padding: 50px}
+
+@media only screen and (max-width: $width_tablet){
+	// Grid gutters
+	.ft-f-g0 > * {margin-left: 0; margin-right: 0}
+	.ft-f-g10 > * {margin-left: 5px; margin-right: 5px}
+	.ft-f-g20 > * {margin-left: 10px; margin-right: 10px}
+
+	.ft-f-g0,
+	.ft-f-g10,
+	.ft-f-g20 {
+		& > :first-child {margin-left: 0}
+		& > :last-child {margin-right: 0}
+	}
+
+	// Paddings
+	.ft-p0 {padding: 0}
+	.ft-p20 {padding: 20px}
+	.ft-p30 {padding: 30px}
+	.ft-p40 {padding: 40px}
+	.ft-p50 {padding: 50px}
+}
+
+@media only screen and (max-width: $width_mobile){
+	// Grid gutters
+	.fm-f-g0 > * {margin-left: 0; margin-right: 0}
+	.fm-f-g10 > * {margin-left: 5px; margin-right: 5px}
+	.fm-f-g20 > * {margin-left: 10px; margin-right: 10px}
+
+	.fm-f-g0,
+	.fm-f-g10,
+	.fm-f-g20 {
+		& > :first-child {margin-left: 0}
+		& > :last-child {margin-right: 0}
+	}
+
+	// Paddings
+	.fm-p0 {padding: 0}
+	.fm-p20 {padding: 20px}
+	.fm-p30 {padding: 30px}
+	.fm-p40 {padding: 40px}
+	.fm-p50 {padding: 50px}
+}
+
