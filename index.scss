@@ -81,7 +81,7 @@ $font_bold: 'Graphik Semibold', sans-serif;
 // Text size
 
 $text_emperor: 70px;
-$text_shogun: 36px;
+$text_shogun: 40px;
 $text_daimyo: 32px;
 $text_samurai: 26px;
 $text_ronin: 24px;
@@ -98,6 +98,7 @@ $button_color: #ff0000;
 // Sidebar
 $sidebar_width: 350px;
 
+
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Grid";
 @import "Components/Utils/List";
@@ -112,6 +113,7 @@ $sidebar_width: 350px;
 
 @import "Components/Molecules/jQuery/Autocomplete";
 @import "Components/Molecules/Tabs/InnerTabs";
+@import "Components/Molecules/Tabs/OuterTabs";
 
 @import "Components/Organisms/Footer";
 @import "Components/Organisms/Header";

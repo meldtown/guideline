@@ -1,21 +1,13 @@
 import React from 'react'
-import SidebarMenu from 'Components/SidebarMenu'
+import DemoWrapper from 'Components/DemoWrapper'
+import OuterTabs from 'Molecules/Tabs/OuterTabs'
 import Header from 'Organisms/Header'
+import Footer from 'Organisms/Footer'
+
+
 
 export default () => <div>
-
-	<div class="temp-paper-page-wrap">
-
-		<Header title="Tabs" />
-		<div class=""></div>
-
-		<div class="f-paper f-main-wrapper temp-paper-lighten-wrap">
-			tabs
-		</div>
-
-		<div class="f-paper-lighten">
-			<p class="temp-paper-lighten-wrap temp-fd-block-paddings temp-ft-block-paddings temp-fm-block-paddings">Lorem ipsum dolor</p>
-		</div>
-	</div>
-
+	<Header title="Tabs" />
+	<OuterTabs />
+	<Footer />
 </div>

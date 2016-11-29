@@ -31,7 +31,7 @@ export default () => <DemoWrapper title="Typo">
 				<div class="fd-beefy-samurai">Beefy Samurai</div>
 				<div class="fd-ronin"><span class="fd-thin-ronin">Thin Ronin</span> / <span class="fd-ronin">Ronin</span> / <span class="fd-beefy-ronin">Beefy Ronin</span></div>
 				<div class="fd-soldier"><span class="fd-thin-soldier">Thin Soldier</span> / <span class="fd-soldier">Soldier</span> / <span class="fd-beefy-soldier">Beefy Soldier</span></div>
-				<div class="fd-merchant"><span class="fd-thin-marchant">Thin Merchant</span> / <span class="fd-marchant">Merchant</span> / <span class="fd-beefy-marchant">Beefy Merchant</span></div>
+				<div class="fd-merchant"><span class="fd-thin-merchant">Thin Merchant</span> / <span class="fd-merchant">Merchant</span> / <span class="fd-beefy-merchant">Beefy Merchant</span></div>
 				<div class="fd-farmer"><span class="fd-thin-farmer">Thin Farmer</span> / <span class="fd-farmer">Farmer</span></div>
 				<div class="fd-craftsmen">Craftsmen</div>
 				<div class="fd-peasant">Peasant</div>
