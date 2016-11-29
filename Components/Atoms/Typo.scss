@@ -5,10 +5,13 @@ body.fedor,
 	font-weight: normal;
 	font-size: $text_merchant;
 	line-height: 1.2;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 
 	a {
 		text-decoration: none;
 		color: $royal_blue;
+		background-color: transparent;
 
 		&:visited:not(.f-always-blue), &.f-visited {
 			color: $lilac;
@@ -16,10 +19,12 @@ body.fedor,
 
 		&:hover, &.f-hover {
 			opacity: .7;
+			outline-width: 0;
 		}
 
 		&:active, &.f-active {
 			opacity: .9;
+			outline-width: 0;
 		}
 
 		&[disabled], &.f-disabled {
@@ -31,6 +36,10 @@ body.fedor,
 		margin: 10px 0;
 	}
 
+	img {
+		border-style: none;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font: inherit;
 		color: inherit;
@@ -38,6 +47,37 @@ body.fedor,
 	}
 
 	b, strong {font-family: $font_medium}
+
+	mark {
+		background-color: #ff0;
+		color: #000;
+	}
+
+	small {
+		font-size: 80%;
+	}
+
+	sub,
+	sup {
+		font-size: 75%;
+		line-height: 0;
+		position: relative;
+		vertical-align: baseline;
+	}
+
+	sub {
+		bottom: -0.25em;
+	}
+
+	sup {
+		top: -0.5em;
+	}
+
+	hr {
+		box-sizing: content-box;
+		height: 0;
+		overflow: visible;
+	}
 }
 
 // Font Weight
