@@ -1,6 +1,7 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
 import Title from '../Components/Utils/Title'
+import range from 'lodash/utility/range'
 
 export default () => <DemoWrapper title="Grids">
 	<div class="f-main-wrapper">
@@ -126,6 +127,25 @@ export default () => <DemoWrapper title="Grids">
 			<span class="f-bg-light-gray temp-padding">top</span>
 			<span class="f-bg-light-light-gray temp-padding">bottom</span>
 		</p>
+
+		<Title>Lists</Title>
+
+		<p>There is only few possible lists e.g. 2, 3, 4 columns. Lists are kinda responsive so have fd, ft, fm prefixes.</p>
+
+		<ul className="fd-list-4-cols ft-list-2-cols fm-list-1-cols">
+			{range(1, 21).map(i => <li key={i}>item {i}</li>)}
+		</ul>
+
+		<p>If you want you may use grids inside lists</p>
+
+		<ul className="fd-list-3-cols ft-list-2-cols fm-list-1-cols">
+			{range(1, 7).map(i => {
+				return <li key={i} class="fd-f-between">
+					<span class="temp-padding fd-f1 f-bg-light-light-gray">title</span>
+					<span class="temp-padding f-bg-light-gray">5</span>
+				</li>
+			})}
+		</ul>
 	</div>
 
 </DemoWrapper>
