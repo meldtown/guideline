@@ -12,11 +12,8 @@ body.fedor,
 a {
 	text-decoration: none;
 	color: $royal_blue;
-<<<<<<< HEAD
 	transition: all 0.3s ease;
-=======
 	background-color: transparent;
->>>>>>> f19c1f5bab60b5f4055007637a041718b09c52c0
 
 	&:visited:not(.f-always-blue), &.f-visited {
 		color: $lilac;
