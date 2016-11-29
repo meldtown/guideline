@@ -82,8 +82,9 @@ export default () => <div style={{ padding: '130px 200px' }} >
 
 				<div class="f-rubrics-innerpaddings">
 
-					<h1 class="fd-fat-shogun">
+					<h1 class="f-rubrics-searchtitle fd-fat-shogun">
 						Поиск вакансий по рубрикам в Украине
+						<i class="fi-logo-symbol"></i>
 					</h1>
 
 					<div class="f-rubrics-itemsblock fd-merchant fd-list-2-cols">
