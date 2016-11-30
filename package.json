@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --progress",
     "dist": "webpack -p",
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.js",
+    "watch": "webpack -p --watch --progress"
   },
   "babel": {
     "presets": [
