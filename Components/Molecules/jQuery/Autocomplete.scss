@@ -10,7 +10,8 @@ ul.ui-autocomplete {
 
 	&.f-autocomplete-scrollable {
 		max-height: 320px;
-		overflow: auto;
+		overflow-x: hidden;
+		overflow-y: auto;
 	}
 
 	li.ui-menu-item {
@@ -23,7 +24,7 @@ ul.ui-autocomplete {
 			color: inherit;
 			cursor: pointer;
 
-			mark {
+			b {
 				color: $coral;
 				background: none;
 				font-weight: normal;
