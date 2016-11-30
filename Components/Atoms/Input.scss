@@ -179,7 +179,9 @@ select::-ms-expand {
 	top: $input_border_width;
 	bottom: $input_border_width;
 	width: $input_icon_width;
-	background-color: #fff;
+	&:not(.f-input-pseudo-link-icon) {
+		background-color: #fff;
+	}
 	border-top-right-radius: $input_border_radius;
 	border-bottom-right-radius: $input_border_radius;
 }
@@ -200,14 +202,14 @@ select::-ms-expand {
 // 	top: 100%;
 // 	left: 0;
 // 	box-shadow: $dropdown_box_shadow;
-	
+
 // 	ul {
 // 		padding: 10px 0;
 // 		li {
 // 			padding: 7px 20px;
 // 			a {
 // 				color: $header_link_color !important;
-// 			} 
+// 			}
 // 		}
 // 	}
 // }
