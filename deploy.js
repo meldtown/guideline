@@ -10,7 +10,6 @@ const branch2bucket = {
 	dev: 'rua-assets-dev'
 }
 
-
 git.branch(branch => {
 	if (branch2bucket[branch]) {
 		fs.readdir('./dist', (err, files) => {
