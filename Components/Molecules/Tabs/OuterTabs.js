@@ -41,9 +41,9 @@ const rubricsList = [
 const CountLink = (props) => {
 	return (
 			<li>
-				<a class="fd-f-between-middle" href={ `#_${props.rubricName}` }>
+				<a class="fd-thin-merchant fd-f-between-middle" href={ `#_${props.rubricName}` }>
 					{ props.rubricName }
-					<span>{ ~~(Math.random() * 10000) }</span>
+					<span class="fd-regular">{ ~~(Math.random() * 10000) }</span>
 				</a>
 			</li>
 	)
@@ -82,7 +82,7 @@ export default () => <div style={{ padding: '130px 200px' }} >
 
 				<div class="f-rubrics-innerpaddings">
 
-					<h1 class="f-rubrics-searchtitle fd-fat-shogun">
+					<h1 class="f-boldsymboltitle f-rubrics-searchtitle fd-fat-shogun">
 						Поиск вакансий по рубрикам в Украине
 						<i class="fi-logo-symbol"></i>
 					</h1>
