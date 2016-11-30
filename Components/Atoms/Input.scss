@@ -191,24 +191,23 @@ select::-ms-expand {
 	}
 }
 
+// .f-dropdown-block-wrapper {
+// 	position: relative;
+// }
 
-.f-dropdown-block-wrapper {
-	position: relative;
-}
-
-.f-dropdown-menu-wrap {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	box-shadow: $dropdown_box_shadow;
-
-	ul {
-		padding: 10px 0;
-		li {
-			padding: 7px 20px;
-			a {
-				color: $header_link_color !important;
-			}
-		}
-	}
-}
+// .f-dropdown-menu-wrap {
+// 	position: absolute;
+// 	top: 100%;
+// 	left: 0;
+// 	box-shadow: $dropdown_box_shadow;
+	
+// 	ul {
+// 		padding: 10px 0;
+// 		li {
+// 			padding: 7px 20px;
+// 			a {
+// 				color: $header_link_color !important;
+// 			} 
+// 		}
+// 	}
+// }

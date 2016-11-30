@@ -8,7 +8,7 @@ body {
 }
 
 // Primary
-$ultra_blue: #EBF3FA;
+$ultra_blue: #EBF3FA; 
 $ultra_green: #EDF5F0;
 $ultra_yellow: #F9FAEB;
 $ultra_coral: #F6EDEB;
@@ -100,6 +100,7 @@ $button_color: #ff0000;
 // Sidebar
 $sidebar_width: 350px;
 
+
 @import "Components/Utils/Normalize";
 @import "Components/Utils/Gutters";
 @import "Components/Utils/Grid";
@@ -115,6 +116,7 @@ $sidebar_width: 350px;
 
 @import "Components/Molecules/jQuery/Autocomplete";
 @import "Components/Molecules/Tabs/InnerTabs";
+@import "Components/Molecules/Tabs/Tabs";
 
 @import "Components/Organisms/Footer";
 @import "Components/Organisms/Header";
