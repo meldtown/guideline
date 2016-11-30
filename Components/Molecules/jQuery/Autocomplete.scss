@@ -8,6 +8,11 @@ ul.ui-autocomplete {
 	border-radius: $input_border_radius;
 	box-shadow: $dropdown_box_shadow;
 
+	&.f-autocomplete-scrollable {
+		max-height: 320px;
+		overflow: auto;
+	}
+
 	li.ui-menu-item {
 		padding: 0;
 		margin: 0;
@@ -18,7 +23,9 @@ ul.ui-autocomplete {
 			color: inherit;
 			cursor: pointer;
 
-			b {
+			mark {
+				color: $coral;
+				background: none;
 				font-weight: normal;
 				opacity: .54;
 			}
