@@ -18,7 +18,9 @@ ul.ui-autocomplete {
 			color: inherit;
 			cursor: pointer;
 
-			b {
+			mark {
+				color: $coral;
+				background: none;
 				font-weight: normal;
 				opacity: .54;
 			}
