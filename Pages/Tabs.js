@@ -1,6 +1,6 @@
 import React from 'react'
 import DemoWrapper from 'Components/DemoWrapper'
-import OuterTabs from 'Molecules/Tabs/OuterTabs'
+import Tabs from 'Molecules/Tabs/Tabs'
 import Header from 'Organisms/Header'
 import Footer from 'Organisms/Footer'
 
@@ -8,6 +8,6 @@ import Footer from 'Organisms/Footer'
 
 export default () => <div>
 	<Header title="Tabs" />
-	<OuterTabs />
+	<Tabs />
 	<Footer />
 </div>

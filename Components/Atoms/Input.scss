@@ -43,6 +43,7 @@ select::-ms-expand {
 
 	input, select {
 		font-family: $font-regular;
+		font-size: inherit;
 		line-height: 1;
 		display: block;
 		border: $input_border_width solid $input_border_color;
