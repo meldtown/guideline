@@ -12,6 +12,12 @@
 	&-oneletter {
 		color: rgba(0, 0, 0, 0.54);
 
+		& a {
+			&, &:hover, &:visited {
+				color: inherit;
+			}
+		}
+
 		&:not(:first-of-type) {
 			margin-top: 25px;
     		margin-bottom: 5px;	
@@ -85,6 +91,7 @@
 	}
 	&-innerpaddings {
 		padding: 20px 50px;
+		overflow: hidden;
 	}
 	&-searchtitle {
 		padding: 25px 0 10px;
@@ -122,17 +129,16 @@
 			padding: 30px 0;
 		}
 		&-list {
-			overflow: hidden;
 			position: relative;
 
 			&:after {
 				content: '';
 				position: absolute;
 				bottom: 0;
-				left: 0;
+				left: -10%;
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.12);
-				width: 100%;
+				width: 120%;
 			}
 
 			li {
