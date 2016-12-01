@@ -79,9 +79,9 @@ const CountLink = (props) => {
 	)
 } 
 
-export default () => <div style={{ padding: '130px 200px' }} >
-	<div class="f-bg-ultra-blue" style={{ padding: '150px 50px' }}>
 
+export default () => <div class="f-bg-gradient"  style={{ transition: '3s' }} >
+	<div class="f-main-wrapper" style={{ 'paddingTop': '230px' }}>
 
 
 
@@ -113,12 +113,10 @@ export default () => <div style={{ padding: '130px 200px' }} >
 				</div>
 
 				<div class="f-rubrics-innerpaddings">
-
 					<h1 class="f-boldsymboltitle f-rubrics-searchtitle fd-fat-shogun">
 						Поиск вакансий по рубрикам в Украине
 						<i class="fi-logo-symbol"></i>
 					</h1>
-
 					<div class="f-rubrics-itemsblock fd-merchant fd-list-2-cols">
 						<ul class="f-reset-list">
 						{
@@ -149,7 +147,6 @@ export default () => <div style={{ padding: '130px 200px' }} >
 
 			<div class="f-rubrics-wrap">
 				<div class="f-rubrics-innerpaddings">
-
 					<div class="f-rubrics-innertabs-wrap">
 						<ul class="fd-soldier f-reset-list f-rubrics-innertabs-list">
 							<li class="f-rubrics-innertabs-item"><a href="#">По рубрикам</a></li>
@@ -157,7 +154,279 @@ export default () => <div style={{ padding: '130px 200px' }} >
 							<li class="f-rubrics-innertabs-item"><a href="">По городам</a></li>
 						</ul>
 					</div>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-3-cols">
+						<ul class="f-reset-list">
+						{
+							profsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
 
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="f-paper">
+			<div class="f-rubrics-wrap">
+				<div class="fd-merchant f-rubrics-outertabs-wrap">
+					<div class="fd-f-between-middle">
+						<div class="f-rubrics-outertab -activetab">
+							<i class="fi-category-find"></i>
+							Поиск по рубрикам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">
+							<i class="fi-profession-find"></i>
+							Поиск по профессиям
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">	
+							<i class="fi-location-find"></i>
+							Поиск по городам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">							
+							<i class="fi-company-find"></i>
+							Поиск по компаниям
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="f-rubrics-innerpaddings">
+					<h1 class="f-boldsymboltitle f-rubrics-searchtitle fd-fat-shogun">
+						Поиск вакансий по рубрикам в Украине
+						<i class="fi-logo-symbol"></i>
+					</h1>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-2-cols">
+						<ul class="f-reset-list">
+						{
+							rubricsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="f-paper">
+
+			<div class="f-rubrics-wrap">
+				<div class="f-rubrics-innerpaddings">
+					<div class="f-rubrics-innertabs-wrap">
+						<ul class="fd-soldier f-reset-list f-rubrics-innertabs-list">
+							<li class="f-rubrics-innertabs-item"><a href="#">По рубрикам</a></li>
+							<li class="fd-fat f-rubrics-innertabs-item -activetab"><a href="#">По профессиям</a></li>
+							<li class="f-rubrics-innertabs-item"><a href="">По городам</a></li>
+						</ul>
+					</div>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-3-cols">
+						<ul class="f-reset-list">
+						{
+							profsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="f-paper">
+			<div class="f-rubrics-wrap">
+				<div class="fd-merchant f-rubrics-outertabs-wrap">
+					<div class="fd-f-between-middle">
+						<div class="f-rubrics-outertab -activetab">
+							<i class="fi-category-find"></i>
+							Поиск по рубрикам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">
+							<i class="fi-profession-find"></i>
+							Поиск по профессиям
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">	
+							<i class="fi-location-find"></i>
+							Поиск по городам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">							
+							<i class="fi-company-find"></i>
+							Поиск по компаниям
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="f-rubrics-innerpaddings">
+					<h1 class="f-boldsymboltitle f-rubrics-searchtitle fd-fat-shogun">
+						Поиск вакансий по рубрикам в Украине
+						<i class="fi-logo-symbol"></i>
+					</h1>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-2-cols">
+						<ul class="f-reset-list">
+						{
+							rubricsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+
+		<div class="f-paper">
+
+			<div class="f-rubrics-wrap">
+				<div class="f-rubrics-innerpaddings">
+					<div class="f-rubrics-innertabs-wrap">
+						<ul class="fd-soldier f-reset-list f-rubrics-innertabs-list">
+							<li class="f-rubrics-innertabs-item"><a href="#">По рубрикам</a></li>
+							<li class="fd-fat f-rubrics-innertabs-item -activetab"><a href="#">По профессиям</a></li>
+							<li class="f-rubrics-innertabs-item"><a href="">По городам</a></li>
+						</ul>
+					</div>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-3-cols">
+						<ul class="f-reset-list">
+						{
+							profsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="f-paper">
+			<div class="f-rubrics-wrap">
+				<div class="fd-merchant f-rubrics-outertabs-wrap">
+					<div class="fd-f-between-middle">
+						<div class="f-rubrics-outertab -activetab">
+							<i class="fi-category-find"></i>
+							Поиск по рубрикам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">
+							<i class="fi-profession-find"></i>
+							Поиск по профессиям
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">	
+							<i class="fi-location-find"></i>
+							Поиск по городам
+							<a href="#"></a>
+						</div>
+						<div class="f-rubrics-outertab">							
+							<i class="fi-company-find"></i>
+							Поиск по компаниям
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="f-rubrics-innerpaddings">
+					<h1 class="f-boldsymboltitle f-rubrics-searchtitle fd-fat-shogun">
+						Поиск вакансий по рубрикам в Украине
+						<i class="fi-logo-symbol"></i>
+					</h1>
+					<div class="f-rubrics-itemsblock fd-merchant fd-list-2-cols">
+						<ul class="f-reset-list">
+						{
+							rubricsList.map((rubric) => {
+								return <CountLink key={rubric} rubricName={rubric} />
+							})
+						}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="f-paper">
+
+			<div class="f-rubrics-wrap">
+				<div class="f-rubrics-innerpaddings">
+					<div class="f-rubrics-innertabs-wrap">
+						<ul class="fd-soldier f-reset-list f-rubrics-innertabs-list">
+							<li class="f-rubrics-innertabs-item"><a href="#">По рубрикам</a></li>
+							<li class="fd-fat f-rubrics-innertabs-item -activetab"><a href="#">По профессиям</a></li>
+							<li class="f-rubrics-innertabs-item"><a href="">По городам</a></li>
+						</ul>
+					</div>
 					<div class="f-rubrics-itemsblock fd-merchant fd-list-3-cols">
 						<ul class="f-reset-list">
 						{
