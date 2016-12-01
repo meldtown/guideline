@@ -55,3 +55,4 @@ export default () => ({
 		historyApiFallback: true
 	}
 })
+
