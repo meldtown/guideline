@@ -181,4 +181,17 @@
 			}
 		}
 	}
+
+	&-quicksearch {
+		&-wrap {
+			margin-bottom: 30px;
+		}
+		&-label {
+			display: inline-block;
+			margin-bottom: 3px;
+		}
+		&-input {
+			width: 265px;
+		}
+	}
 }
