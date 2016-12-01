@@ -1,7 +1,7 @@
 .f-btn {
 	display: inline-flex;
 	box-sizing: border-box;
-	padding: 14px 20px 10px;
+	padding: 10px 20px;
 	background: none;
 	outline: none;
 	cursor: pointer;
@@ -21,7 +21,8 @@
 }
 
 .f-btn-primary {
-	min-width: 270px;
+	height: 40px;
+	font-size: $text_gunso;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #fff;
