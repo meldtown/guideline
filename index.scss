@@ -7,6 +7,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+body > form {
+	transition: 3s ease; 
+}
+
 // Primary
 $ultra_blue: #EBF3FA;
 $ultra_green: #EDF5F0;
