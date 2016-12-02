@@ -8,7 +8,7 @@ body {
 }
 
 body > form {
-	transition: 3s ease; 
+	transition: background-color 3s ease; 
 }
 
 // Primary
@@ -20,10 +20,10 @@ $ultra_lilac: #F6F3FB;
 
 // Primary ultra
 
-$coral: #F06464;
+$coral: #FF5252;
 $dark_green: #4BA661;
 $green: #5FC378;
-$royal_blue: #2956AC;
+$royal_blue: #0D47A1;
 $lilac: #9B6EC3;
 $black: rgba(0, 0, 0, .87);
 $gray: rgba(0, 0, 0, .54);

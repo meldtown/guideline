@@ -4,10 +4,15 @@
 	}
 	a {
 		text-decoration: none !important;
+		line-height: 1.6;
 	}
 	.f-footer--primary {
+		background-color: rgba(0,0,0,.03);
+    	border-top: 1px solid rgba(0,0,0, .12);
+    	margin-top: 50px;
+
 		.f-main-wrapper {
-			padding: 30px 0 20px 0;
+			padding: 35px 0 20px 0;
 		}
 
 		nav {
@@ -18,6 +23,7 @@
 
 			span {
 				margin-bottom: 10px;
+				font-size: 14px;
 			}
 		}
 
