@@ -25,17 +25,17 @@ export default () => <DemoWrapper title="Typo">
 		<div>
 			<div class="fd-p20">
 				<Title>Typography</Title>
-				<div class="f-emperor">Emperor</div>
-				<div class="fd-fat-shogun">Fat Shogun</div>
-				<div class="fd-thin-daimyo">Thin Daimyo</div>
-				<div class="fd-beefy-samurai">Beefy Samurai</div>
-				<div class="fd-ronin"><span class="fd-thin-ronin">Thin Ronin</span> / <span class="fd-ronin">Ronin</span> / <span class="fd-beefy-ronin">Beefy Ronin</span></div>
-				<div class="fd-soldier"><span class="fd-thin-soldier">Thin Soldier</span> / <span class="fd-soldier">Soldier</span> / <span class="fd-beefy-soldier">Beefy Soldier</span></div>
-				<div class="fd-merchant"><span class="fd-thin-merchant">Thin Merchant</span> / <span class="fd-merchant">Merchant</span> / <span class="fd-beefy-merchant">Beefy Merchant</span></div>
-				<div class="fd-farmer"><span class="fd-thin-farmer">Thin Farmer</span> / <span class="fd-farmer">Farmer</span></div>
-				<div class="fd-craftsmen">Craftsmen</div>
-				<div class="fd-peasant">Peasant</div>
-				<div class="fd-serf">Serf</div>
+				<div class="f-emperor">Emperor [70px]</div>
+				<div class="fd-fat-shogun">Fat Shogun [40px]</div>
+				<div class="fd-thin-daimyo">Thin Daimyo [36px]</div>
+				<div class="fd-beefy-samurai">Beefy Samurai [32px]</div>
+				<div class="fd-ronin"><span class="fd-thin-ronin">Thin Ronin</span> / <span class="fd-ronin">Ronin</span> / <span class="fd-beefy-ronin">Beefy Ronin</span> [26px]</div>
+				<div class="fd-soldier"><span class="fd-thin-soldier">Thin Soldier</span> / <span class="fd-soldier">Soldier</span> / <span class="fd-beefy-soldier">Beefy Soldier</span> [18px]</div>
+				<div class="fd-merchant"><span class="fd-thin-merchant">Thin Merchant</span> / <span class="fd-merchant">Merchant</span> / <span class="fd-beefy-merchant">Beefy Merchant</span> [16px]</div>
+				<div class="fd-farmer"><span class="fd-thin-farmer">Thin Farmer</span> / <span class="fd-farmer">Farmer</span> [15px]</div>
+				<div class="fd-craftsmen">Craftsmen [14px]</div>
+				<div class="fd-peasant">Peasant [13px]</div>
+				<div class="fd-serf">Serf [12px]</div>
 			</div>
 		</div>
 		<div class="fd-p20">
