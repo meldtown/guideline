@@ -22,13 +22,14 @@ export default () => <div class="f-bg-gradient"  style={{ transition: '3s' }} >
 							<input type="password" placeholder="Password" />
 							<span>Пароль неверный</span>
 						</div>
-						<div class="f-input f-input-block">
+						<div class="f-input f-input-block error">
 							<select name="select" id="1">
 								<option>Gender</option>
 								<option>Male</option>
 								<option>Female</option>
 							</select>
 							<i class="fi-drop-down-icon"></i>
+							<span>Обязательное заполнение</span>
 						</div>
 					</div>
 					<button class="f-btn-primary fd-btn-block fd-beefy-soldier">ВХОД</button>

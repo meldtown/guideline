@@ -40,13 +40,19 @@
 	& .f-input-block.error {
 		position: relative;
 
-		& input {
+		i {
+			z-index: 2;
+		}
+
+		& input,
+		& select {
 			border: 1px solid #ff6e00;
 			position: relative;
 			z-index: 1;
 			padding-top: 8px;
     		padding-bottom: 16px;
 		}
+
 
 		& span {
 			display: inline-block;
