@@ -20,6 +20,7 @@ export default () => <BrowserRouter basename={basename}>
 		<Match pattern="/controls" component={Pages.Controls}/>
 		<Match pattern="/papers" component={Pages.Papers}/>
 		<Match pattern="/tabs" component={Pages.Tabs}/>
+		<Match pattern="/form" component={Pages.Form}/>
 		<Miss component={Pages.NotFound}/>
 	</div>
 </BrowserRouter>
