@@ -6,27 +6,58 @@
 
     & .f-input-block {
 		margin: 0;
+
+		& span {
+			display: none;
+		}
 	}
 
-	& .f-input-block input {
+	& .f-input-block input,
+	& .f-input-block select {
 	    margin-bottom: 0;
 	    border-radius: 0;
 	}
 
-	& .f-input-block:not(:first-of-type) input {
+	&-inputs .f-input-block:not(:first-of-type) input,
+	&-inputs .f-input-block:not(:first-of-type) select {
 	    margin-top: -1px;
 	}
 
-	& .f-input-block:first-of-type input {
+	&-inputs .f-input-block:first-of-type input,
+	&-inputs .f-input-block:first-of-type select {
 	    border-radius: 2px 2px 0 0;
 	}
 
-	& .f-input-block:last-of-type input {
+	&-inputs .f-input-block:last-of-type input,
+	&-inputs .f-input-block:last-of-type select {
 	    border-radius: 0 0 2px 2px;
 	}
 
 	& .fd-btn-block {
 		margin: 10px 0 0 0;
+	}
+
+	& .f-input-block.error {
+		position: relative;
+
+		& input {
+			border: 1px solid #ff6e00;
+			position: relative;
+			z-index: 1;
+			padding-top: 8px;
+    		padding-bottom: 16px;
+		}
+
+		& span {
+			display: inline-block;
+			position: absolute;
+			bottom: 3px;
+			left: 13px;
+			color: #ff6e00;
+			font-size: 10px;
+			z-index: 2;
+		}
+
 	}
 
 }
