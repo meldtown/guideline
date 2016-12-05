@@ -18,5 +18,6 @@ export default () => <div class="fd-merchant fd-p20" style={{ marginTop: '90px' 
 		<li><Link to="/grid" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Grid</Link></li>
 		<li><Link to="/papers" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Papers</Link></li>
 		<li><Link to="/tabs" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Tabs</Link></li>
+		<li><Link to="/form" class="f-always-blue f-text-black" activeClassName="f-text-royal-blue">Form</Link></li>
 	</ul>
 </div>
