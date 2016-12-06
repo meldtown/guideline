@@ -33,6 +33,7 @@ ul.fd-f-between-middle
 .fd-f-left-middle {display:flex;justify-content:flex-start;align-items:center;}
 
 .fd-f-right {display:flex;justify-content:flex-end;align-items:stretch;}
+.fd-f-right-top {display: flex;justify-content: flex-end;align-items: flex-start;}
 .fd-f-right-middle {display:flex;justify-content:flex-end;align-items:center;}
 
 .fd-f-center {display:flex;justify-content:center;align-items:stretch;}
@@ -43,6 +44,7 @@ ul.fd-f-between-middle
 
 .fd-f-between {display:flex;justify-content:space-between;align-items:stretch;}
 .fd-f-between-middle {display:flex;justify-content:space-between;align-items:center;}
+
 
 
 .fd-f0 {flex:auto}
