@@ -30,6 +30,11 @@ export default () => <DemoWrapper title="Colors">
 			<b>#F6F3FB</b>
 			<span>Ultra-lilac</span>
 		</li>
+		<li>
+			<div class="f-bg-ultra-blue-gray temp-colors-demo-square"></div>
+			<b>#ECEFF1</b>
+			<span>Ultra-bluegray</span>
+		</li>
 	</ul>
 
 	<Title>Colors</Title>
