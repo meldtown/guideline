@@ -1,6 +1,7 @@
 .f-overlay {
 	position: fixed;
 	background-color: rgba(150, 150, 150, .5);
+	z-index: 101;
 	#f-overlay-chkbx:checked ~ & {
 		top: 0;
 		bottom: 0;
@@ -11,6 +12,12 @@
 
 #f-overlay-chkbx {
 	display: none;
+}
+
+.f-header-menu-list-link-with-border label {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: inherit;
 }
 
 .f-menu-icon {
@@ -33,7 +40,10 @@
 	bottom: 0;
 
 	right: -$sidebar_width;
-	z-index: 3;
+	z-index: 150;
+	padding-top: 100px;
+	padding: 40px 25px;
+	box-sizing: border-box;
 	transition: all .2s;
 
 	#f-overlay-chkbx:checked ~ & {
@@ -41,23 +51,41 @@
 	}
 
 	.f-close-sidebar {
-		$close_box_size: 60px;
+		$close_box_size: 22px;
 
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 25px;
+		right: 25px;
 		width: $close_box_size;
 		height: $close_box_size;
 		cursor: pointer;
 		text-align:center;
-		i {
-			font-size: 50px;
-			font-style: normal;
-			line-height: $close_box_size;
+		opacity: .54;
+		transition: .5s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&:before,
+		&:after {
+			position: absolute;
+			content: '';
+			height: 22px;
+			width: 1.5px;
+			background-color: #000;
+	
+		}
+
+		&:before {
+			transform: rotate(45deg);
+		}
+
+		&:after {
+			transform: rotate(-45deg);
 		}
 	}
 }
-
 
 .f-header-fixed-wrapper {
 	position: fixed;
