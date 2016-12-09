@@ -30,6 +30,8 @@ export default () => <DemoWrapper title="Typo">
 				<div class="fd-thin-daimyo">Thin Daimyo [36px]</div>
 				<div class="fd-beefy-samurai">Beefy Samurai [32px]</div>
 				<div class="fd-ronin"><span class="fd-thin-ronin">Thin Ronin</span> / <span class="fd-ronin">Ronin</span> / <span class="fd-beefy-ronin">Beefy Ronin</span> [26px]</div>
+				<div class="fd-syoi"><span class="fd-thin-syoi">Thin Syoi</span> / <span class="fd-syoi">Syoi</span> / <span class="fd-beefy-syoi">Beefy Syoi</span> [22px]</div>
+				<div class="fd-gunso"><span class="fd-thin-gunso">Thin Gunso</span> / <span class="fd-gunso">Gunso</span> / <span class="fd-beefy-gunso">Beefy Gunso</span> [20px]</div>
 				<div class="fd-soldier"><span class="fd-thin-soldier">Thin Soldier</span> / <span class="fd-soldier">Soldier</span> / <span class="fd-beefy-soldier">Beefy Soldier</span> [18px]</div>
 				<div class="fd-merchant"><span class="fd-thin-merchant">Thin Merchant</span> / <span class="fd-merchant">Merchant</span> / <span class="fd-beefy-merchant">Beefy Merchant</span> [16px]</div>
 				<div class="fd-farmer"><span class="fd-thin-farmer">Thin Farmer</span> / <span class="fd-farmer">Farmer</span> [15px]</div>

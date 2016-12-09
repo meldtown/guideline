@@ -7,9 +7,9 @@ export default () => <div>
 		<div class="f-checkbox fd-text-default">
 			<label>
 				<input type="checkbox"/>
-				<div class="f-checkbox-control">
+				<span class="f-checkbox-control">
 					<i class="fi-check-icon" />
-				</div>
+				</span>
 				<span>Lorem ipsum dolor sit amet</span>
 			</label>
 		</div>
@@ -17,18 +17,18 @@ export default () => <div>
 			<div class="f-checkbox fd-f1 fd-text-default">
 				<label>
 					<input type="checkbox"/>
-					<div class="f-checkbox-control">
+					<span class="f-checkbox-control">
 						<i class="fi-check-icon" />
-					</div>
+					</span>
 					<span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</span>
 				</label>
 			</div>
 			<div class="f-checkbox fd-f1 fd-text-default">
 				<label>
 					<input type="checkbox"/>
-					<div class="f-checkbox-control">
+					<span class="f-checkbox-control">
 						<i class="fi-check-icon" />
-					</div>
+					</span>
 					<span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</span>
 				</label>
 			</div>
