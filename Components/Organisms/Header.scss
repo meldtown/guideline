@@ -357,6 +357,7 @@ $header_1220_bp: 1220px;
 		border-top: 1px solid rgba(0, 0, 0, 0.12); 
 		border-bottom: 1px solid rgba(0, 0, 0, 0.12); 
 		width: 100%;
+		
 
 		& .fi-arrows-right-big,
 		& span {
@@ -366,13 +367,20 @@ $header_1220_bp: 1220px;
 
 	& .f-header-menu-list-link-with-border {
 		display: inline-block;
-		color: rgba(0, 0, 0, 0.87);
+		border-bottom: 0;
+		padding-top: 6px;
+		font-size: 16px;
+		color: $royal-blue; 
 
 		&:hover,
 		&:visited {
-			color: rgba(0, 0, 0, 0.87);
+			color: $royal-blue;
 		}
 		
+	}
+
+	& .f-header-username-text {
+		max-width: 170px;
 	}
 
 	& .f-header-name-and-avatar-wrap {
@@ -382,6 +390,7 @@ $header_1220_bp: 1220px;
 	&-link {
 		position: relative;
 		margin-top: 5px;
+		transition: .3s ease;
 
 		&:after {
 			content: '';
@@ -405,6 +414,14 @@ $header_1220_bp: 1220px;
 			animation-fill-mode: forwards;
 		}
 
+		&:hover i,
+		&:hover > a {
+			transition: .3s ease;
+			color: rgba(0, 0, 0, 0.54);
+			text-decoration: none;
+
+		}
+
 		@keyframes sidebarLinkAnimationIn {
 			to {
 				height: 16px;
@@ -422,10 +439,11 @@ $header_1220_bp: 1220px;
 			display: inline-block;
 			position: relative;
 			color: rgba(0, 0, 0, 0.87);
+			transition: .3s ease;
 
-			&:hover,
+			// &:hover,
 			&:visited {
-				color: rgba(0, 0, 0, 0.87);
+				color: rgba(0, 0, 0, 0.54);
 			}
 		}
 
@@ -435,6 +453,10 @@ $header_1220_bp: 1220px;
 			& > a {
 				padding: 0 10px 0 10px;
 			}
+
+			// &:hover i {
+			// 	color: rgba(0, 0, 0, 0.87);
+			// }
 		}
 	}
 }
@@ -449,8 +471,9 @@ $header_1220_bp: 1220px;
 	}
 
 	& .f-header-menu-list-link-badge {
-		top: 0px;
+		top: 2px;
 		margin-left: 7px;
+		font-size: 12px;
 	}
 }
 
