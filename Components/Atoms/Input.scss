@@ -53,6 +53,7 @@ select::-ms-expand {
 		padding-top: 12px;
 		padding-bottom: 12px;
 		padding-left: 12px;
+		height: auto;
 		&[type=date] {
 			padding-top: 11px;
 			padding-bottom: 11px;
@@ -69,6 +70,10 @@ select::-ms-expand {
 			transition: border-color 0.3s ease;
 			border-color: $input_border_color_focus;
 			box-shadow: none;
+		}
+
+		&:hover {
+			border: $input_border_width solid $input_border_color;
 		}
 	}
 

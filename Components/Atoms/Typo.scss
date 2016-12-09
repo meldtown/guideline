@@ -14,6 +14,10 @@ a {
 	color: $royal_blue;
 	transition: opacity 0.3s ease;
 	background-color: transparent;
+	&.f-pseudo-link {
+		border-bottom: 1px dashed $royal_blue;
+		padding-bottom: 4px;
+	}
 
 	&:visited:not(.f-always-blue), &.f-visited {
 		color: $lilac;

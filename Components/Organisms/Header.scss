@@ -40,9 +40,8 @@
 	bottom: 0;
 
 	right: -$sidebar_width;
-	z-index: 150;
-	padding-top: 100px;
-	padding: 40px 25px;
+	z-index: 1050;
+	padding: 40px 0;
 	box-sizing: border-box;
 	transition: all .2s;
 
@@ -346,3 +345,135 @@ $header_1220_bp: 1220px;
 		display: none !important;
 	}
 }
+
+.f-sidebar-menu {
+	width: 270px;
+
+	& .f-sidebar-button {
+		margin: 15px 0 10px 25px;
+		padding: 10px 0;
+		display: block;
+		text-transform: uppercase;
+		border-top: 1px solid rgba(0, 0, 0, 0.12); 
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12); 
+		width: 100%;
+		
+
+		& .fi-arrows-right-big,
+		& span {
+			color: inherit;
+		}
+	}
+
+	& .f-header-menu-list-link-with-border {
+		display: inline-block;
+		border-bottom: 0;
+		padding-top: 6px;
+		font-size: 16px;
+		color: $royal-blue; 
+
+		&:hover,
+		&:visited {
+			color: $royal-blue;
+		}
+		
+	}
+
+	& .f-header-username-text {
+		max-width: 170px;
+	}
+
+	& .f-header-name-and-avatar-wrap {
+		padding-left: 25px;
+	}
+
+	&-link {
+		position: relative;
+		margin-top: 5px;
+		transition: .3s ease;
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 0;
+			top: 0;
+			height: 0;
+			width: 4px;
+			background-color: $coral;
+		}
+
+		&.-animationout-enabled {
+			&:after {
+				animation: sidebarLinkAnimationOut 0.2s cubic-bezier(.4, .86, .4, .86);
+			}
+		}
+
+		&:hover:after {
+			animation: sidebarLinkAnimationIn 0.3s cubic-bezier(.27, 1.01, .4, 1.55);
+			animation-fill-mode: forwards;
+		}
+
+		&:hover i,
+		&:hover > a {
+			transition: .3s ease;
+			color: rgba(0, 0, 0, 0.54);
+			text-decoration: none;
+
+		}
+
+		@keyframes sidebarLinkAnimationIn {
+			to {
+				height: 16px;
+			}
+		}
+
+		@keyframes sidebarLinkAnimationOut {
+			from {
+				height: 16px;
+			}
+		}
+
+		& > a {
+			padding: 0 10px 0 25px;
+			display: inline-block;
+			position: relative;
+			color: rgba(0, 0, 0, 0.87);
+			transition: .3s ease;
+
+			// &:hover,
+			&:visited {
+				color: rgba(0, 0, 0, 0.54);
+			}
+		}
+
+		&-with-icon {
+			padding: 0 0 0 25px;
+
+			& > a {
+				padding: 0 10px 0 10px;
+			}
+
+			// &:hover i {
+			// 	color: rgba(0, 0, 0, 0.87);
+			// }
+		}
+	}
+}
+
+.f-sidebar-menu-dropdown {
+	& .f-sidebar-menu-link {
+		margin-left: -25px;
+
+		& > a {
+			padding: 0 0 0 60px;
+		}
+	}
+
+	& .f-header-menu-list-link-badge {
+		top: 2px;
+		margin-left: 7px;
+		font-size: 12px;
+	}
+}
+
