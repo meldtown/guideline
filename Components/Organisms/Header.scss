@@ -441,7 +441,6 @@ $header_1220_bp: 1220px;
 			color: rgba(0, 0, 0, 0.87);
 			transition: .3s ease;
 
-			// &:hover,
 			&:visited {
 				color: rgba(0, 0, 0, 0.54);
 			}
@@ -454,9 +453,10 @@ $header_1220_bp: 1220px;
 				padding: 0 10px 0 10px;
 			}
 
-			// &:hover i {
-			// 	color: rgba(0, 0, 0, 0.87);
-			// }
+			i {
+				width: 16px;
+				display: inline-block;
+			}
 		}
 	}
 }
@@ -467,6 +467,10 @@ $header_1220_bp: 1220px;
 
 		& > a {
 			padding: 0 0 0 60px;
+		}
+
+		&:hover:after {
+			display: none;
 		}
 	}
 
