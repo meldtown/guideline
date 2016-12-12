@@ -15,12 +15,12 @@ export default () => <div class="f-bg-gradient"  style={{ transition: '3s' }} >
 
 						<div class="f-input f-input-block error">
 							<input type="text" placeholder="Email" />
-							<span>Неправильный формат ввода</span>
+							<span class="error-message">Неправильный формат ввода</span>
 						</div>
-						
+
 						<div class="f-input f-input-block">
 							<input type="password" placeholder="Password" />
-							<span>Пароль неверный</span>
+							<span class="error-message">Пароль неверный</span>
 						</div>
 						<div class="f-input f-input-block error">
 							<select name="select" id="1">
@@ -28,19 +28,19 @@ export default () => <div class="f-bg-gradient"  style={{ transition: '3s' }} >
 								<option>Male</option>
 								<option>Female</option>
 							</select>
-							<i class="fi-drop-down-icon"></i>
-							<span>Обязательное заполнение</span>
+							<i class="fi-drop-down-icon" />
+							<span class="error-message">Обязательное заполнение</span>
 						</div>
 					</div>
 					<button class="f-btn-primary fd-btn-block fd-beefy-soldier">ВХОД</button>
 					<p class="f-text-divider"><span>или</span></p>
 					<p>Войти с помощью</p>
 				</div>
-				
+
 			</div>
-			
+
 		</div>
-		
+
 
 
 
