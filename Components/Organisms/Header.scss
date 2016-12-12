@@ -347,21 +347,30 @@ $header_1220_bp: 1220px;
 }
 
 .f-sidebar-menu {
-	width: 270px;
 
 	& .f-sidebar-button {
 		margin: 15px 0 10px 25px;
 		padding: 10px 0;
 		display: block;
-		text-transform: uppercase;
 		border-top: 1px solid rgba(0, 0, 0, 0.12); 
 		border-bottom: 1px solid rgba(0, 0, 0, 0.12); 
-		width: 100%;
+		width: 270px;
 		
 
-		& .fi-arrows-right-big,
-		& span {
-			color: inherit;
+		&-feedback {
+			border-bottom: 0; 
+			margin-bottom: 0;
+			color: rgba(0, 0, 0, 0.87);
+			transition: .3s ease;
+
+			&:visited,
+			&:hover {
+				color: rgba(0, 0, 0, 0.54);
+			}
+
+			& i:before {
+				transform: rotate(-90deg);
+			}
 		}
 	}
 
