@@ -1,0 +1,39 @@
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+div.ui-widget-overlay.ui-front {
+	background: rgba(0, 0, 0, 0.05);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.f-modal {
+	outline: 0;
+	overflow: hidden;
+}
+
+.f-modal .ui-dialog-titlebar-close {
+	border: none;
+	background: none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	opacity: .5;
+	cursor: pointer;
+	appearance: none;
+}
+
+.f-modal .ui-dialog-titlebar-close .ui-button-text,
+.f-modal--without-title .ui-dialog-title {
+	display: none
+}
+
+.f-modal--without-title .ui-dialog-titlebar {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}

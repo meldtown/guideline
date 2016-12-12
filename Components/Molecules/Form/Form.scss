@@ -1,12 +1,11 @@
 .f-form {
-    padding: 30px 40px;
     box-sizing: border-box;
     position: relative;
 
     & .f-input-block {
 		margin: 0;
 
-		& span {
+		& span.error-message {
 			display: none;
 		}
 	}
@@ -53,7 +52,7 @@
 		}
 
 
-		& span {
+		& span.error-message {
 			display: inline-block;
 			position: absolute;
 			bottom: 3px;
