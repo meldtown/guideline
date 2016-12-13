@@ -19,7 +19,9 @@ a {
 		padding-bottom: 4px;
 	}
 
-	&:visited:not(.f-always-blue), &.f-visited {
+	// &:visited:not(.f-always-blue), &.f-visited {}
+
+	&.f-visited-enable:visited {
 		color: $lilac;
 	}
 
