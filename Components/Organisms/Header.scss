@@ -349,7 +349,7 @@ $header_1220_bp: 1220px;
 .f-sidebar-menu {
 
 	& .f-sidebar-button {
-		margin: 15px 0 10px 25px;
+		margin: 10px 0 10px 25px;
 		padding: 10px 0;
 		display: block;
 		border-top: 1px solid rgba(0, 0, 0, 0.12); 
@@ -490,3 +490,7 @@ $header_1220_bp: 1220px;
 	}
 }
 
+.f-not-active-link {
+	pointer-events: none;
+	cursor: default;
+}

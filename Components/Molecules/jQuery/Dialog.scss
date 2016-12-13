@@ -14,6 +14,10 @@ div.ui-widget-overlay.ui-front {
 .f-modal {
 	outline: 0;
 	overflow: hidden;
+
+	.f-rubrics-innertabs-wrap {
+		padding-top: 0;
+	}
 }
 
 .f-modal .ui-dialog-titlebar-close {
