@@ -23,12 +23,12 @@ ul.ui-autocomplete {
 			padding: 5px 20px;
 			color: inherit;
 			cursor: pointer;
+			font-family: $font_medium;
 
 			b {
-				color: $coral;
 				background: none;
 				font-weight: normal;
-				opacity: .54;
+				font-family: $font_regular;
 			}
 		}
 
