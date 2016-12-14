@@ -60,7 +60,7 @@ select::-ms-expand {
 		}
 
 		transition: border-color 0.2s ease-in;
-		
+
 		&, &:hover {
 			border: $input_border_width solid;
 			border-color: $input_border_color;
@@ -77,9 +77,12 @@ select::-ms-expand {
 		}
 	}
 
+	input, textarea {
+		@include placeholder-color($input_placeholder_color);
+	}
+
 	input {
 		padding-right: 11px;
-		@include placeholder-color($input_placeholder_color);
 	}
 
 	select {
@@ -95,6 +98,10 @@ select::-ms-expand {
 	[class^="fi-"] {
 		padding-left: 8px;
 		padding-right: 8px;
+	}
+
+	.fi-drop-down-icon {
+		pointer-events: none;
 	}
 
 	.f-input-pseudo-select, .f-input-pseudo-link {

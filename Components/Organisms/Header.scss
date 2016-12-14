@@ -32,6 +32,8 @@
 	}
 }
 
+
+
 .f-sidebar {
 	position: fixed;
 	width: $sidebar_width;
@@ -277,7 +279,7 @@
 
 .f-header-menu-list-link-with-border {
 	border-bottom: 1px dashed $header_link_color;
-	padding-bottom: 5px;
+	display: inline-block;
 
 	& label {
 		cursor: pointer;
@@ -303,6 +305,21 @@
 	position: relative;
 }
 
+.f-header {
+	& .f-header-name-and-avatar-wrap {
+		position: relative;
+
+		& label {
+			cursor: pointer;
+		}
+
+		&:hover .f-header-username-text {
+			color: rgba(0,0,0,.54);
+			transition: .5s ease;
+		}
+	}
+}
+
 .f-header-useravatar {
 	width: 32px;
 	height: 32px;
@@ -325,17 +342,19 @@
 	text-transform: uppercase;
 }
 
-.f-header-username-text
-{
+.f-header-username-text {
 	display: inline-block;
 	vertical-align: top;
     max-width: 120px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    transition: 2s ease;
 }
 
-
+.f-sidebar .f-header-username-text {
+	padding-top: 3px;
+}
 
 // breakpoints for header
 $header_1220_bp: 1220px;
@@ -377,7 +396,7 @@ $header_1220_bp: 1220px;
 	& .f-header-menu-list-link-with-border {
 		display: inline-block;
 		border-bottom: 0;
-		padding-top: 6px;
+		// padding-top: 6px;
 		font-size: 16px;
 		color: $royal-blue; 
 
