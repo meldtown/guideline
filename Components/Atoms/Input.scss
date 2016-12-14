@@ -100,6 +100,10 @@ select::-ms-expand {
 		padding-right: 8px;
 	}
 
+	.fi-drop-down-icon {
+		pointer-events: none;
+	}
+
 	.f-input-pseudo-select, .f-input-pseudo-link {
 		&.pseudo-select-focus ~ .f-input-pseudo-link-icon::before {
 			transform: rotate(180deg);
