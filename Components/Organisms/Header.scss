@@ -1,7 +1,7 @@
 .f-overlay {
 	position: fixed;
 	background-color: rgba(150, 150, 150, .5);
-	z-index: 101;
+	z-index: 1010;
 	#f-overlay-chkbx:checked ~ & {
 		top: 0;
 		bottom: 0;
@@ -36,19 +36,20 @@
 
 .f-sidebar {
 	position: fixed;
-	width: $sidebar_width;
+	width: 340px;
 	background-color: #fff;
 	top: 0;
 	bottom: 0;
 
-	right: -$sidebar_width;
+	right: -360px;
 	z-index: 1050;
 	padding: 40px 0;
 	box-sizing: border-box;
 	transition: all .2s;
+	overflow-y: scroll;
 
 	#f-overlay-chkbx:checked ~ & {
-		transform: translateX(-$sidebar_width);
+		transform: translateX(-340px);
 	}
 
 	.f-close-sidebar {
@@ -97,10 +98,10 @@
 }
 
 .f-header {
-	padding-left: 53px;
-	padding-right: 53px;
+	padding-left: 20px;
+	padding-right: 20px;
 
-	max-width: 1920px;
+	max-width: 1260px;
 	margin: 0 auto;
 
 	& li, a, p {
@@ -275,6 +276,7 @@
 	border-radius: 2px;
 	border: 1px solid $header_link_color;
 	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .f-header-menu-list-link-with-border {
@@ -417,7 +419,7 @@ $header_1220_bp: 1220px;
 
 	&-link {
 		position: relative;
-		margin-top: 5px;
+		margin-top: 8px;
 		transition: .3s ease;
 
 		&:after {
@@ -487,6 +489,10 @@ $header_1220_bp: 1220px;
 			}
 		}
 	}
+}
+
+.jobsearcher .f-sidebar-menu .f-sidebar-button {
+    margin-top: 18px;
 }
 
 .f-sidebar-menu-dropdown {

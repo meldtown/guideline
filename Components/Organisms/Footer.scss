@@ -5,7 +5,10 @@
 	a {
 		text-decoration: none !important;
 		line-height: 1.6;
+		position: relative;
 	}
+
+
 	.f-footer--primary {
 		background-color: rgba(0,0,0,.03);
     	border-top: 1px solid rgba(0,0,0, .12);
@@ -50,7 +53,7 @@
 
 		.fd-f-left-middle {
 			img, i, span {
-				margin: 0 20px
+				margin: 0 25px
 			}
 
 			a:first-child img {
@@ -60,6 +63,19 @@
 			span span {
 				margin: 0;
 				display: block;
+			}
+		}
+
+		.f-footer-link-descr {
+			position: absolute;
+			top: 100%;
+			color: rgba(0,0,0,.87);
+			font-size: 9px;
+			width: 100%;
+			text-align: center;
+
+			&-fir {
+				padding-top: 2px;
 			}
 		}
 	}

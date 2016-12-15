@@ -2,12 +2,20 @@
 	box-sizing: border-box;
 	position: relative;
 
-	& .f-input-block {
+	.f-input, .f-input-block {
 		margin: 0;
+	}
 
-		& span.error-message {
-			display: none;
-		}
+	input:focus:invalid:focus, 
+	textarea:focus:invalid:focus, 
+	select:focus:invalid:focus {
+		border-color: rgba(0,0,0,.87);
+		box-shadow: none;
+	}
+
+	input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+		color: rgba(0,0,0,.87);
+		border: 1px solid rgba(0,0,0,.87);
 	}
 
 	& .f-input-block input,
@@ -33,6 +41,12 @@
 
 	& .fd-btn-block {
 		margin: 10px 0 0 0;
+	}
+}
+
+.f-input, .f-input-block {
+	span.error-message {
+		display: none;
 	}
 }
 
