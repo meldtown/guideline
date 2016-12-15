@@ -21,15 +21,18 @@ ul.ui-autocomplete {
 
 		a.ui-corner-all {
 			display: block;
-			padding: 5px 20px;
+			padding: 6px 20px;
 			color: inherit;
 			cursor: pointer;
-			font-family: $font_medium;
 
 			b {
 				background: none;
 				font-weight: normal;
-				font-family: $font_regular;
+				font-family: $font_semi;
+			}
+
+			&.ui-state-focus {
+				background-color: $ultra_gray;
 			}
 		}
 
