@@ -6,6 +6,18 @@
 		margin: 0;
 	}
 
+	input:focus:invalid:focus, 
+	textarea:focus:invalid:focus, 
+	select:focus:invalid:focus {
+		border-color: rgba(0,0,0,.87);
+		box-shadow: none;
+	}
+
+	input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+		color: rgba(0,0,0,.87);
+		border: 1px solid rgba(0,0,0,.87);
+	}
+
 	& .f-input-block input,
 	& .f-input-block select {
 		margin-bottom: 0;
