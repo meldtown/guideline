@@ -200,7 +200,7 @@ select::-ms-expand {
 	bottom: $input_border_width;
 	width: $input_icon_width;
 	&:not(.f-input-pseudo-link-icon) {
-		background-color: #fff;
+		background-color: $input_background_color;
 	}
 	border-top-right-radius: $input_border_radius;
 	border-bottom-right-radius: $input_border_radius;
