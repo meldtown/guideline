@@ -1,7 +1,7 @@
 .f-overlay {
 	position: fixed;
 	background-color: rgba(150, 150, 150, .5);
-	z-index: 101;
+	z-index: 1010;
 	#f-overlay-chkbx:checked ~ & {
 		top: 0;
 		bottom: 0;
