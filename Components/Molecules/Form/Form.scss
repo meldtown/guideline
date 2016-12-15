@@ -2,12 +2,8 @@
 	box-sizing: border-box;
 	position: relative;
 
-	& .f-input-block {
+	.f-input, .f-input-block {
 		margin: 0;
-
-		& span.error-message {
-			display: none;
-		}
 	}
 
 	& .f-input-block input,
@@ -33,6 +29,12 @@
 
 	& .fd-btn-block {
 		margin: 10px 0 0 0;
+	}
+}
+
+.f-input, .f-input-block {
+	span.error-message {
+		display: none;
 	}
 }
 
