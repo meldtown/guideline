@@ -361,6 +361,39 @@
 // breakpoints for header
 $header_1220_bp: 1220px;
 
+
+.f-header .f-additional-links-holder {
+	position: absolute;
+	top: 96%;
+	min-width: 153px;
+	box-sizing: border-box;
+	display: none;
+
+	a {
+		display: block;
+		padding: 15px 20px 0;
+		display: block;
+
+		&:last-child {
+			padding-bottom: 15px;
+		}
+	}
+}
+
+.f-header .f-additional-links {
+	position: relative;
+	padding: 45px 0 0;
+
+	& > a {
+		padding: 0px 0 24px;
+	}
+
+	&:hover .f-additional-links-holder {
+		display: block;
+	}
+}
+
+
 .f-header-1220-hide {
 	@media screen and(max-width: $header_1220_bp) {
 		display: none !important;
