@@ -76,7 +76,7 @@
 			height: 22px;
 			width: 1.5px;
 			background-color: #000;
-	
+
 		}
 
 		&:before {
@@ -137,7 +137,7 @@
 	margin-right: 20px;
 }
 
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1280px) {
 	.f-header-logo-text {
 		display: none;
 	}
@@ -373,13 +373,13 @@ $header_1220_bp: 1220px;
 		margin: 10px 0 10px 25px;
 		padding: 10px 0;
 		display: block;
-		border-top: 1px solid rgba(0, 0, 0, 0.12); 
-		border-bottom: 1px solid rgba(0, 0, 0, 0.12); 
+		border-top: 1px solid rgba(0, 0, 0, 0.12);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 		width: 270px;
-		
+
 
 		&-feedback {
-			border-bottom: 0; 
+			border-bottom: 0;
 			margin-bottom: 0;
 			color: rgba(0, 0, 0, 0.87);
 			transition: .3s ease;
@@ -400,13 +400,13 @@ $header_1220_bp: 1220px;
 		border-bottom: 0;
 		// padding-top: 6px;
 		font-size: 16px;
-		color: $royal-blue; 
+		color: $royal-blue;
 
 		&:hover,
 		&:visited {
 			color: $royal-blue;
 		}
-		
+
 	}
 
 	& .f-header-username-text {
