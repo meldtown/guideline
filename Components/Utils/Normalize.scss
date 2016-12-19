@@ -5,6 +5,13 @@ body.fedor {
 	& > form {
 		padding-top: 110px;
 	}
+
+	label {
+		font-size: inherit;
+		line-height: inherit;
+		margin: 0;
+		padding: 0;
+	}
 }
 
 article,
@@ -37,9 +44,3 @@ table {
     border-spacing: 0;
 }
 
-label {
-	font-size: inherit;
-	line-height: inherit;
-	margin: 0;
-	padding: 0;
-}
