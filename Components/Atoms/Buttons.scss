@@ -51,6 +51,7 @@
 		position: relative;
 		left: 0;
 		margin-left: 8px;
+		top: -1px;
 	}
 	&-coral, &-royal-blue, &-dark-green {
 		@extend .f-btn-control;
