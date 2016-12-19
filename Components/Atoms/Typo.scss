@@ -50,10 +50,12 @@ img {
 	border-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font: inherit;
-	color: inherit;
-	margin: 0 0 10px;
+body.fedor {
+	h1, h2, h3, h4, h5, h6 {
+		font: inherit;
+		color: inherit;
+		margin: 0 0 10px;
+	}
 }
 
 b, strong {font-family: $font_medium}
