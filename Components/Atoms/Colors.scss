@@ -38,6 +38,7 @@
 .f-bg-lilac {background-color:$lilac}
 .f-bg-black {background-color:$black}
 .f-bg-gray {background-color:$gray}
+.f-bg-error {background-color:$error}
 
 // Primary background ultra
 
@@ -65,9 +66,14 @@
 .f-bg-light-blue {background-color: $light_blue}
 .f-bg-light-purple {background-color: $light_purple}
 .f-bg-light-lilac {background-color: $light-lilac}
+.f-bg-status-green {background-color: $status_green}
+.f-bg-status-light-green {background-color: $status_light_green}
+.f-bg-egg-yellow {background-color: $egg_yellow}
+.f-bg-dark-bluegray {background-color: $dark_bluegray}
 
 // Adjective text
 
+.f-text-error {color: $error}
 .f-text-orange {color: $orange}
 .f-text-yellow {color: $yellow}
 .f-text-blue {color: $blue}
@@ -82,5 +88,9 @@
 .f-text-light-blue {color: $light_blue}
 .f-text-light-purple {color: $light_purple}
 .f-text-light-lilac {color: $light-lilac}
+.f-text-status-green {color: $status_green}
+.f-text-status-light-green {color: $status_light_green}
+.f-text-egg-yellow {color: $egg_yellow}
+.f-text-dark-bluegray {color: $dark_bluegray}
 
 
