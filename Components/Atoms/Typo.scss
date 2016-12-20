@@ -1,7 +1,8 @@
 body.fedor,
 .f-footer,
 .f-header,
-.f-sidebar {
+.f-sidebar,
+body.fedor .d_content {
 	font-family: $font_regular;
 	font-weight: normal;
 	font-size: $text_merchant;
