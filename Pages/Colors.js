@@ -74,6 +74,11 @@ export default () => <DemoWrapper title="Colors">
 			<b>(0, 0, 0, 0.54)</b>
 			<span>Gray</span>
 		</li>
+		<li>
+			<div class="f-bg-error temp-colors-demo-square"></div>
+			<b>#FF6E00</b>
+			<span>Error</span>
+		</li>
 	</ul>
 
 	<Title>Adjective colors</Title>
@@ -113,6 +118,16 @@ export default () => <DemoWrapper title="Colors">
 			<b>(0, 0, 0, .05)</b>
 			<span>Ultra Gray</span>
 		</li>
+		<li>
+			<div class="f-bg-status-green temp-colors-demo-square"></div>
+			<b>#81C784</b>
+			<span>Status Green</span>
+		</li>
+		<li>
+			<div class="f-bg-status-light-green temp-colors-demo-square"></div>
+			<b>#A5D6A7</b>
+			<span>Status Light Green</span>
+		</li>
 	</ul>
 
 	<ul class="fd-f-left fm-c-center fd-serf fd-text-center temp-colors-demo-wrapper">
@@ -150,6 +165,16 @@ export default () => <DemoWrapper title="Colors">
 			<div class="f-bg-light-lilac temp-colors-demo-square"></div>
 			<b>#C8AFDC</b>
 			<span>Light lilac</span>
+		</li>
+		<li>
+			<div class="f-bg-egg-yellow temp-colors-demo-square"></div>
+			<b>#FFB300</b>
+			<span>Egg Yellow</span>
+		</li>
+		<li>
+			<div class="f-bg-dark-bluegray temp-colors-demo-square"></div>
+			<b>#78909C</b>
+			<span>Dark Bluegray</span>
 		</li>
 	</ul>
 </DemoWrapper>

@@ -6,7 +6,7 @@
 	outline: none;
 	cursor: pointer;
 	border-radius: 2px;
-	margin: 5px;
+	margin: 5px 0;
 	border: none;
 	&:hover {
 		opacity: .7;
@@ -30,6 +30,13 @@
 	transition: .2s ease;
 	&:hover {
 		transition: .2s ease;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	&:visited {
+		text-decoration: none;
+		color: #fff;
 	}
 }
 

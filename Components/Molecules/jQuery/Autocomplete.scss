@@ -19,6 +19,10 @@ ul.ui-autocomplete {
 		padding: 0;
 		margin: 0;
 
+		&:hover a {
+			opacity: 1;
+		}
+
 		a.ui-corner-all {
 			display: block;
 			padding: 6px 20px;
@@ -34,6 +38,8 @@ ul.ui-autocomplete {
 			&.ui-state-focus {
 				background-color: $ultra_gray;
 			}
+
+
 		}
 
 		&:first-child a.ui-corner-all {
