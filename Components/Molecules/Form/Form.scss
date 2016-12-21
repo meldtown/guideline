@@ -13,6 +13,16 @@
 		box-shadow: none;
 	}
 
+	input:focus,
+	textarea:focus,
+	select:focus {
+		border-color: $royal_blue;
+		box-shadow: none;
+		background-color: #fff;
+		position: relative;
+		z-index: 1;
+	}
+
 	input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
 		color: rgba(0,0,0,.87);
 		border: 1px solid rgba(0,0,0,.87);

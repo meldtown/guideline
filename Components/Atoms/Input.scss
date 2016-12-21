@@ -67,14 +67,16 @@ select::-ms-expand {
 		}
 
 		&:focus {
-			transition: border-color 0.3s ease;
-			border-color: $input_border_color_focus;
+			// transition: border-color 0.2s ease;
+			// border-color: $input_border_color_focus;
 			box-shadow: none;
+			background: #fff;
+			border-color: $royal_blue;
 		}
 
-		&:hover {
-			border: $input_border_width solid $input_border_color;
-		}
+		// &:hover {
+			// border: $input_border_width solid $input_border_color;
+		// }
 	}
 
 	input, textarea {
