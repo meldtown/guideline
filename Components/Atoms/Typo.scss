@@ -30,12 +30,12 @@ a {
 	&:hover, &.f-hover {
 		transition: opacity 0.3s ease;
 		opacity: .7;
-		outline-width: 0;
+		outline: none;
 	}
 
 	&:active, &.f-active {
 		opacity: .9;
-		outline-width: 0;
+		outline: none;
 	}
 
 	&[disabled], &.f-disabled {
