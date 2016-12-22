@@ -613,3 +613,9 @@ $header_1220_bp: 1220px;
 .f-manager-card-contact-phone i {
 	color: #000;
 }
+
+@media print {
+	header {
+		display: none;
+	}
+}
