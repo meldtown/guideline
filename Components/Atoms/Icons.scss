@@ -2,5 +2,11 @@
 [class*=" fi-"] {
 	font-size: 16px;
 	line-height: 1;
+	position: relative;
+	top: -1px;
+}
+
+.fi-check-icon {
+	top: 0.5px;
 }
 
