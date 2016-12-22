@@ -245,7 +245,8 @@
 		}
 
 		& .f-header-menu-list-topbtn {
-			display: none;
+			top: -20px;
+			transition: top 0.3s ease-out;
 		}
 	}
 }
@@ -310,6 +311,7 @@
 	color: $royal_blue !important;
 	min-width: 0;
 	margin: 0;
+	transition: top 0.3s ease-in;
 }
 
 .f-header-name-and-avatar-wrap {
