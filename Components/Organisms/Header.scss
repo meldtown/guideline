@@ -159,7 +159,7 @@
 		margin-right: 27px;
 
 		@media screen and (max-width: 1280px) {
-			margin-right: 25px;			
+			margin-right: 25px;
 		}
 
 		&:last-child {
@@ -559,4 +559,63 @@ $header_1220_bp: 1220px;
 .f-not-active-link {
 	pointer-events: none;
 	cursor: default;
+}
+
+.f-manager-card {
+	background-color: rgba(207, 216, 220, 0.7);
+	padding: 15px 25px;
+}
+
+.f-manager-card-photo {
+	width: 70px;
+	height: 70px;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.f-manager-card-name {
+	margin-bottom: 10px;
+}
+
+.f-manager-card-contact {
+	margin-bottom: 5px;
+}
+
+.f-manager-card-contact a {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 160px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.f-manager-card-contact a:hover {
+	text-decoration: none;
+}
+
+.f-manager-card-contact i {
+	display: inline-block;
+	margin-right: 3px;
+	color: #0d47a1;
+}
+
+.f-manager-card-contact:hover i {
+	transition: opacity .3s ease;
+	opacity: .7;
+}
+
+.f-manager-card-contact-phone a,
+.f-manager-card-contact-phone i {
+	color: #000;
+}
+
+@media print {
+	header {
+		display: none;
+	}
 }

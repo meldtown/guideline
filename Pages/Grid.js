@@ -130,7 +130,7 @@ export default () => <DemoWrapper title="Grids">
 
 		<Title>Paddings and gutters</Title>
 
-		<div class="fd-f-left fm-c-stretch fd-f-g20 ft-f-g10 fm-f-g0">
+		<div class="fd-f-left fm-c-stretch fd-f-g20 ft-f-g10 fm-f-g10">
 			<div class="fd-p50 ft-p20 fm-p10 f-bg-light-light-gray">
 				cell
 			</div>
