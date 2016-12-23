@@ -37,6 +37,13 @@
 	&:visited {
 		text-decoration: none;
 		color: #fff;
+		outline: 0;
+	}
+	
+	&:focus {
+		text-decoration: none;
+		color: #fff;
+		outline: 0;
 	}
 }
 
