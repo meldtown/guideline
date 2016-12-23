@@ -297,13 +297,31 @@ a.f-link-dashed, a .f-link-dashed {
 }
 
 
+
 .f-boldsymboltitle {
 	display: inline-block;
+	position: relative;
 
 	& i {
-		display: inline-block;
-		vertical-align: top;
+		opacity: 0;
 		font-size: 24px;
-		margin-top: -15px;
+		position: absolute;
+	    top: 10px;
+
+	    &.-citypage {
+	    	margin-left: 5px;
+    		margin-top: -15px;
+	    }
+
+	    &.-citytabs {
+	    	margin-left: 5px;
+    		margin-top: -15px;
+	    }
+
+	    &.-show {
+	    	opacity: 1;
+	    	transition-delay: 1s;
+	    	transition: opacity 0.4s ease;
+	    }
 	}
 }
