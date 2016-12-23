@@ -199,7 +199,7 @@
 }
 
 .fd-btn-block {
-	display: block;
+	display: flex;
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
@@ -207,7 +207,7 @@
 
 .ft-btn-block {
 	@media only screen and (max-width: $width_tablet) {
-		display: block;
+		display: flex;
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
@@ -216,7 +216,7 @@
 
 .fm-btn-block {
 	@media only screen and (max-width: $width_mobile) {
-		display: block;
+		display: flex;
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
