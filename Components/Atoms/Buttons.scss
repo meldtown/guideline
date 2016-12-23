@@ -1,6 +1,5 @@
 .f-btn {
 	display: inline-flex;
-	justify-content: center;
 	box-sizing: border-box;
 	padding: 11px 20px;
 	background: none;
@@ -200,15 +199,16 @@
 }
 
 .fd-btn-block {
-	display: flex;
+	display: block;
 	width: 100%;
+	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
 }
 
 .ft-btn-block {
 	@media only screen and (max-width: $width_tablet) {
-		display: flex;
+		display: block;
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
@@ -217,7 +217,7 @@
 
 .fm-btn-block {
 	@media only screen and (max-width: $width_mobile) {
-		display: flex;
+		display: block;
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
