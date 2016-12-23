@@ -159,7 +159,7 @@
 		margin-right: 27px;
 
 		@media screen and (max-width: 1280px) {
-			margin-right: 25px;			
+			margin-right: 25px;
 		}
 
 		&:last-child {
@@ -532,6 +532,7 @@ $header_1220_bp: 1220px;
 	}
 }
 
+
 .jobsearcher .f-sidebar-menu .f-sidebar-button {
     margin-top: 18px;
 }
@@ -559,4 +560,36 @@ $header_1220_bp: 1220px;
 .f-not-active-link {
 	pointer-events: none;
 	cursor: default;
+}
+
+.f-manager-card, .f-manager-callback {
+	padding-left: 25px;
+}
+
+.f-manager-card {
+	margin-top: 30px;
+	.f-manager-card-contact {
+		i {
+			margin-right: 5px;
+		}
+	}
+}
+
+.f-manager-callback {
+	margin-top: 20px;
+	h3 {
+		margin-bottom: 0;
+	}
+	p {
+		margin-top: 5px;
+	}
+	.f-btn-control-dark-green {
+		i.fi-phone {
+			transform: rotate(180deg) translateY(-2px);
+		}
+		&:hover, &:visited {
+			color: #4ba661;
+			text-decoration: none;
+		}
+	}
 }
