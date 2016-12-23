@@ -245,7 +245,8 @@
 		}
 
 		& .f-header-menu-list-topbtn {
-			display: none;
+			top: -20px;
+			transition: top 0.3s ease-out;
 		}
 	}
 }
@@ -310,6 +311,7 @@
 	color: $royal_blue !important;
 	min-width: 0;
 	margin: 0;
+	transition: top 0.3s ease-in;
 }
 
 .f-header-name-and-avatar-wrap {
@@ -532,7 +534,6 @@ $header_1220_bp: 1220px;
 	}
 }
 
-
 .jobsearcher .f-sidebar-menu .f-sidebar-button {
     margin-top: 18px;
 }
@@ -562,21 +563,68 @@ $header_1220_bp: 1220px;
 	cursor: default;
 }
 
-.f-manager-card, .f-manager-callback {
-	padding-left: 25px;
+.f-manager-card {
+	background-color: rgba(207, 216, 220, 0.7);
+	padding: 15px 25px;
 }
 
-.f-manager-card {
-	margin-top: 30px;
-	.f-manager-card-contact {
-		i {
-			margin-right: 5px;
-		}
+.f-manager-card-photo {
+	width: 70px;
+	height: 70px;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.f-manager-card-name {
+	margin-bottom: 10px;
+}
+
+.f-manager-card-contact {
+	margin-bottom: 5px;
+}
+
+.f-manager-card-contact a {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 160px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.f-manager-card-contact a:hover {
+	text-decoration: none;
+}
+
+.f-manager-card-contact i {
+	display: inline-block;
+	margin-right: 3px;
+	color: #0d47a1;
+}
+
+.f-manager-card-contact:hover i {
+	transition: opacity .3s ease;
+	opacity: .7;
+}
+
+.f-manager-card-contact-phone a,
+.f-manager-card-contact-phone i {
+	color: #000;
+}
+
+@media print {
+	header {
+		display: none;
 	}
 }
 
 .f-manager-callback {
 	margin-top: 20px;
+	padding-left: 25px;
 	h3 {
 		margin-bottom: 0;
 	}
