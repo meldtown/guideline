@@ -1,0 +1,113 @@
+.f-form {
+	box-sizing: border-box;
+	position: relative;
+
+	.f-input, .f-input-block {
+		margin: 0;
+	}
+
+	input:focus:invalid:focus,
+	textarea:focus:invalid:focus,
+	select:focus:invalid:focus {
+		border-color: rgba(0,0,0,.87);
+		box-shadow: none;
+	}
+
+	input:focus,
+	textarea:focus,
+	select:focus {
+		border-color: $royal_blue;
+		box-shadow: none;
+		background-color: #fff;
+		position: relative;
+		z-index: 1;
+	}
+
+	input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+		color: rgba(0,0,0,.87);
+		border: 1px solid rgba(0,0,0,.87);
+	}
+
+	& .f-input-block input,
+	& .f-input-block select {
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+
+	&-inputs .f-input-block:not(:first-of-type) input,
+	&-inputs .f-input-block:not(:first-of-type) select {
+		margin-top: -1px;
+	}
+
+	&-inputs .f-input-block:first-of-type input,
+	&-inputs .f-input-block:first-of-type select {
+		border-radius: 2px 2px 0 0;
+	}
+
+	&-inputs .f-input-block:last-of-type input,
+	&-inputs .f-input-block:last-of-type select {
+		border-radius: 0 0 2px 2px;
+	}
+
+	& .fd-btn-block {
+		margin: 10px 0 0 0;
+	}
+}
+
+.f-input, .f-input-block {
+	span.error-message {
+		display: none;
+	}
+}
+
+.f-input.error, .f-input-block.error {
+	position: relative;
+
+	i {
+		z-index: 2;
+	}
+
+	& input,
+	& select {
+		border: 1px solid #ff6e00;
+		position: relative;
+		z-index: 1;
+		padding-top: 8px;
+		padding-bottom: 16px;
+	}
+
+	& span.error-message {
+		display: inline-block;
+		position: absolute;
+		bottom: 3px;
+		left: 13px;
+		color: $error;
+		font-size: 10px;
+		z-index: 2;
+	}
+
+}
+
+.f-text-divider {
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		width: 100%;
+		display: block;
+		height: 1px;
+		background-color: rgba(0, 0, 0, 0.12);
+	}
+
+	& span {
+		background-color: #fff;
+		position: relative;
+		z-index: 1;
+		padding: 0 10px;
+	}
+}

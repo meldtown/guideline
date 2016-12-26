@@ -188,7 +188,7 @@ export default class HeaderContainer extends Component {
 				<label class="f-overlay" htmlFor="f-overlay-chkbx" />
 
 				<aside class="f-sidebar">
-					<label class="f-close-sidebar" htmlFor="f-overlay-chkbx"><i>&times;</i></label>
+					<label class="f-close-sidebar" htmlFor="f-overlay-chkbx"></label>
 					<SidebarMenu />
 				</aside>
 			</div>

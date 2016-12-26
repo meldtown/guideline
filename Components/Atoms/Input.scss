@@ -46,7 +46,6 @@ select::-ms-expand {
 		font-size: inherit;
 		line-height: 1;
 		display: block;
-		border: $input_border_width solid $input_border_color;
 		background-color: $input_background_color;
 		border-radius: $input_border_radius;
 		vertical-align: bottom;
@@ -54,6 +53,7 @@ select::-ms-expand {
 		padding-top: 12px;
 		padding-bottom: 12px;
 		padding-left: 12px;
+		height: auto;
 		&[type=date] {
 			padding-top: 11px;
 			padding-bottom: 11px;
@@ -61,16 +61,30 @@ select::-ms-expand {
 
 		transition: border-color 0.2s ease-in;
 
-		&:focus {
-			transition: border-color 0.3s ease;
-			border-color: $input_border_color_focus;
-			box-shadow: none;
+		&, &:hover {
+			border: $input_border_width solid;
+			border-color: $input_border_color;
 		}
+
+		&:focus {
+			// transition: border-color 0.2s ease;
+			// border-color: $input_border_color_focus;
+			box-shadow: none;
+			background: #fff;
+			border-color: $royal_blue;
+		}
+
+		// &:hover {
+			// border: $input_border_width solid $input_border_color;
+		// }
+	}
+
+	input, textarea {
+		@include placeholder-color($input_placeholder_color);
 	}
 
 	input {
 		padding-right: 11px;
-		@include placeholder-color($input_placeholder_color);
 	}
 
 	select {
@@ -86,6 +100,15 @@ select::-ms-expand {
 	[class^="fi-"] {
 		padding-left: 8px;
 		padding-right: 8px;
+	}
+
+	.fi-drop-down-icon {
+		pointer-events: none;
+
+		&.up::before {
+			transform: rotate(-180deg);
+			transition: all .3s ease;
+		}
 	}
 
 	.f-input-pseudo-select, .f-input-pseudo-link {
@@ -184,7 +207,7 @@ select::-ms-expand {
 	bottom: $input_border_width;
 	width: $input_icon_width;
 	&:not(.f-input-pseudo-link-icon) {
-		background-color: #fff;
+		background-color: $input_background_color;
 	}
 	border-top-right-radius: $input_border_radius;
 	border-bottom-right-radius: $input_border_radius;
