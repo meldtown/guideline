@@ -10,11 +10,13 @@ div.ui-widget-overlay.ui-front {
 	right: 0;
 	top: 0;
 	bottom: 0;
+	z-index: 1000;
 }
 
 .f-modal {
 	outline: 0;
 	overflow: hidden;
+	z-index: 1001;
 
 	.f-rubrics-innertabs-wrap {
 		padding-top: 0;
