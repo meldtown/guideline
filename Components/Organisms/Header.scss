@@ -124,6 +124,11 @@
 	}
 }
 
+form[class^=cvwelcome-step] {
+	.f-header-fixed-wrapper, .f-header {
+		display: none;
+	}
+}
 
 .f-header-logo-text, .f-header-logo-symbol {
 	height: 100%;
