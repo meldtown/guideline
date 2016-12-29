@@ -1,14 +1,12 @@
 # Fedor
 
-## master
-
-http://rua-assets-frankfurt.s3-website.eu-central-1.amazonaws.com/fi/ 
+http://rua-assets-frankfurt.s3-website.eu-central-1.amazonaws.com/fi/
 
 http://rua-assets-frankfurt.s3-website.eu-central-1.amazonaws.com/fedor/
 
 ## dev
 
-http://rua-assets-dev.s3-website.eu-central-1.amazonaws.com/fi/ 
+http://rua-assets-dev.s3-website.eu-central-1.amazonaws.com/fi/
 
 http://rua-assets-dev.s3-website.eu-central-1.amazonaws.com/fedor/
 
